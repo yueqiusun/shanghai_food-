@@ -1,0 +1,352 @@
+[
+  {
+    "id": "bund",
+    "name": "外滩",
+    "short_name": "外滩",
+    "district": "黄浦区",
+    "type": "景点商圈",
+    "lat": 31.2397,
+    "lng": 121.4908,
+    "aliases": ["外滩风景区", "中山东一路", "The Bund"]
+  },
+  {
+    "id": "peoples_square",
+    "name": "人民广场",
+    "short_name": "人广",
+    "district": "黄浦区",
+    "type": "地铁枢纽",
+    "lat": 31.2328,
+    "lng": 121.4754,
+    "aliases": ["人广", "来福士", "人民公园"]
+  },
+  {
+    "id": "nanjing_east_road",
+    "name": "南京东路",
+    "short_name": "南京东路",
+    "district": "黄浦区",
+    "type": "商圈",
+    "lat": 31.2381,
+    "lng": 121.4846,
+    "aliases": ["南京路步行街", "大丸百货"]
+  },
+  {
+    "id": "xintiandi",
+    "name": "新天地",
+    "short_name": "新天地",
+    "district": "黄浦区",
+    "type": "商圈",
+    "lat": 31.2194,
+    "lng": 121.4748,
+    "aliases": ["太仓路", "马当路", "新天地时尚"]
+  },
+  {
+    "id": "yuyuan",
+    "name": "豫园/城隍庙",
+    "short_name": "豫园",
+    "district": "黄浦区",
+    "type": "景点商圈",
+    "lat": 31.2272,
+    "lng": 121.4922,
+    "aliases": ["豫园", "城隍庙", "老城厢"]
+  },
+  {
+    "id": "dapuqiao",
+    "name": "打浦桥/田子坊",
+    "short_name": "打浦桥",
+    "district": "黄浦区",
+    "type": "商圈",
+    "lat": 31.2078,
+    "lng": 121.4697,
+    "aliases": ["日月光", "田子坊", "泰康路"]
+  },
+  {
+    "id": "huaihai_middle_road",
+    "name": "淮海中路",
+    "short_name": "淮海路",
+    "district": "黄浦区",
+    "type": "商圈",
+    "lat": 31.2216,
+    "lng": 121.4673,
+    "aliases": ["环贸iapm", "TX淮海", "陕西南路"]
+  },
+  {
+    "id": "laoximen",
+    "name": "老西门",
+    "short_name": "老西门",
+    "district": "黄浦区",
+    "type": "地铁枢纽",
+    "lat": 31.2188,
+    "lng": 121.4842,
+    "aliases": ["复兴东路", "中华路", "梦花街"]
+  },
+  {
+    "id": "jingan_temple",
+    "name": "静安寺",
+    "short_name": "静安寺",
+    "district": "静安区",
+    "type": "商圈",
+    "lat": 31.2238,
+    "lng": 121.4459,
+    "aliases": ["久光百货", "芮欧百货", "静安嘉里中心"]
+  },
+  {
+    "id": "nanjing_west_road",
+    "name": "南京西路",
+    "short_name": "南西",
+    "district": "静安区",
+    "type": "商圈",
+    "lat": 31.2297,
+    "lng": 121.4598,
+    "aliases": ["兴业太古汇", "恒隆广场", "吴江路", "丰盛里"]
+  },
+  {
+    "id": "jufuchang",
+    "name": "巨富长街区",
+    "short_name": "巨富长",
+    "district": "静安区",
+    "type": "特色街区",
+    "lat": 31.2191,
+    "lng": 121.4547,
+    "aliases": ["巨鹿路", "富民路", "长乐路", "Found158"]
+  },
+  {
+    "id": "daning",
+    "name": "大宁国际",
+    "short_name": "大宁",
+    "district": "静安区",
+    "type": "商圈",
+    "lat": 31.2782,
+    "lng": 121.4525,
+    "aliases": ["大宁久光", "大宁音乐广场", "上海马戏城"]
+  },
+  {
+    "id": "xujiahui",
+    "name": "徐家汇",
+    "short_name": "徐家汇",
+    "district": "徐汇区",
+    "type": "商圈",
+    "lat": 31.1951,
+    "lng": 121.4375,
+    "aliases": ["港汇恒隆", "美罗城", "太平洋百货"]
+  },
+  {
+    "id": "wukang_road",
+    "name": "武康路/安福路",
+    "short_name": "武康路",
+    "district": "徐汇区",
+    "type": "景点商圈",
+    "lat": 31.2121,
+    "lng": 121.4426,
+    "aliases": ["武康大楼", "安福路", "五原路", "乌鲁木齐中路"]
+  },
+  {
+    "id": "hengshan_road",
+    "name": "衡山路",
+    "short_name": "衡山路",
+    "district": "徐汇区",
+    "type": "特色街区",
+    "lat": 31.2039,
+    "lng": 121.4465,
+    "aliases": ["永嘉路", "建国西路", "嘉善路"]
+  },
+  {
+    "id": "xuhui_riverside",
+    "name": "徐汇滨江",
+    "short_name": "西岸",
+    "district": "徐汇区",
+    "type": "景点商圈",
+    "lat": 31.1753,
+    "lng": 121.4589,
+    "aliases": ["西岸美术馆", "Gate M西岸梦中心", "龙腾大道"]
+  },
+  {
+    "id": "caohejing",
+    "name": "漕河泾",
+    "short_name": "漕河泾",
+    "district": "徐汇区",
+    "type": "商圈",
+    "lat": 31.1695,
+    "lng": 121.4048,
+    "aliases": ["桂林路", "漕宝路", "宜山路"]
+  },
+  {
+    "id": "zhongshan_park",
+    "name": "中山公园",
+    "short_name": "中山公园",
+    "district": "长宁区",
+    "type": "地铁枢纽",
+    "lat": 31.2185,
+    "lng": 121.4165,
+    "aliases": ["龙之梦", "长宁来福士", "愚园路西段"]
+  },
+  {
+    "id": "dingxi_road",
+    "name": "定西路美食街",
+    "short_name": "定西路",
+    "district": "长宁区",
+    "type": "美食街",
+    "lat": 31.2072,
+    "lng": 121.4257,
+    "aliases": ["定西路", "延安西路", "番禺路"]
+  },
+  {
+    "id": "yuyuan_road",
+    "name": "愚园路",
+    "short_name": "愚园路",
+    "district": "长宁区",
+    "type": "特色街区",
+    "lat": 31.2206,
+    "lng": 121.4285,
+    "aliases": ["江苏路", "愚园路历史风貌区"]
+  },
+  {
+    "id": "gubei",
+    "name": "古北/仙霞路",
+    "short_name": "古北",
+    "district": "长宁区",
+    "type": "商圈",
+    "lat": 31.2036,
+    "lng": 121.3963,
+    "aliases": ["仙霞路", "高岛屋", "黄金城道", "娄山关路"]
+  },
+  {
+    "id": "lujiazui",
+    "name": "陆家嘴",
+    "short_name": "陆家嘴",
+    "district": "浦东新区",
+    "type": "商圈",
+    "lat": 31.2389,
+    "lng": 121.5015,
+    "aliases": ["国金中心ifc", "正大广场", "东方明珠", "小陆家嘴"]
+  },
+  {
+    "id": "century_avenue",
+    "name": "世纪大道/八佰伴",
+    "short_name": "世纪大道",
+    "district": "浦东新区",
+    "type": "地铁枢纽",
+    "lat": 31.2286,
+    "lng": 121.5221,
+    "aliases": ["第一八佰伴", "世纪汇", "96广场", "商城路"]
+  },
+  {
+    "id": "qianshuiwan_qiantan",
+    "name": "前滩",
+    "short_name": "前滩",
+    "district": "浦东新区",
+    "type": "商圈",
+    "lat": 31.1538,
+    "lng": 121.4754,
+    "aliases": ["前滩太古里", "东方体育中心", "晶耀前滩"]
+  },
+  {
+    "id": "zhangjiang",
+    "name": "张江",
+    "short_name": "张江",
+    "district": "浦东新区",
+    "type": "商圈",
+    "lat": 31.2054,
+    "lng": 121.5924,
+    "aliases": ["长泰广场", "张江高科", "汇智国际"]
+  },
+  {
+    "id": "biyun",
+    "name": "碧云/金桥",
+    "short_name": "金桥",
+    "district": "浦东新区",
+    "type": "商圈",
+    "lat": 31.2452,
+    "lng": 121.5861,
+    "aliases": ["金桥国际", "碧云国际社区", "红枫路"]
+  },
+  {
+    "id": "wujiaochang",
+    "name": "五角场",
+    "short_name": "五角场",
+    "district": "杨浦区",
+    "type": "商圈",
+    "lat": 31.3005,
+    "lng": 121.5142,
+    "aliases": ["合生汇", "万达广场", "百联又一城"]
+  },
+  {
+    "id": "daxue_road",
+    "name": "大学路",
+    "short_name": "大学路",
+    "district": "杨浦区",
+    "type": "特色街区",
+    "lat": 31.3046,
+    "lng": 121.5082,
+    "aliases": ["江湾体育场", "创智天地", "复旦大学"]
+  },
+  {
+    "id": "north_bund",
+    "name": "北外滩",
+    "short_name": "北外滩",
+    "district": "虹口区",
+    "type": "商圈",
+    "lat": 31.2504,
+    "lng": 121.4981,
+    "aliases": ["白玉兰广场", "来福士广场北外滩", "国际客运中心"]
+  },
+  {
+    "id": "hongkou_football_stadium",
+    "name": "虹口足球场/四川北路",
+    "short_name": "虹口足球场",
+    "district": "虹口区",
+    "type": "地铁枢纽",
+    "lat": 31.2715,
+    "lng": 121.4796,
+    "aliases": ["凯德虹口", "鲁迅公园", "甜爱路", "瑞虹天地"]
+  },
+  {
+    "id": "global_harbor",
+    "name": "环球港",
+    "short_name": "环球港",
+    "district": "普陀区",
+    "type": "商圈",
+    "lat": 31.2325,
+    "lng": 121.4126,
+    "aliases": ["金沙江路", "曹杨路", "华师大"]
+  },
+  {
+    "id": "qibao",
+    "name": "七宝",
+    "short_name": "七宝",
+    "district": "闵行区",
+    "type": "景点商圈",
+    "lat": 31.1539,
+    "lng": 121.3489,
+    "aliases": ["七宝老街", "七宝万科广场", "七宝领展广场"]
+  },
+  {
+    "id": "hongqiao_hub",
+    "name": "虹桥枢纽/虹桥天地",
+    "short_name": "虹桥",
+    "district": "闵行区",
+    "type": "地铁枢纽",
+    "lat": 31.1942,
+    "lng": 121.3186,
+    "aliases": ["虹桥火车站", "虹桥机场", "虹桥天地", "龙湖虹桥天街"]
+  },
+  {
+    "id": "laowaijie",
+    "name": "老外街/龙柏",
+    "short_name": "老外街",
+    "district": "闵行区",
+    "type": "美食街",
+    "lat": 31.1869,
+    "lng": 121.3834,
+    "aliases": ["虹梅路老外街", "韩国街", "井亭天地", "紫藤路"]
+  },
+  {
+    "id": "xinzhuang",
+    "name": "莘庄",
+    "short_name": "莘庄",
+    "district": "闵行区",
+    "type": "地铁枢纽",
+    "lat": 31.1112,
+    "lng": 121.3853,
+    "aliases": ["仲盛世界商城", "凯德闵行", "莘庄龙之梦"]
+  }
+]
