@@ -70,6 +70,7 @@ def render_prerendered_card(r: dict, is_black: bool = False) -> str:
         dishes_html = f'<div class="dish-row">{pills}</div>'
 
     branch_html = f' <span class="card-branch">({branch})</span>' if branch else ""
+    res_badge_html = '<span class="res-badge">📅 需预约</span>' if r.get("reservation_required") else ""
 
     return f"""<article class="rest-card {'is-black-card' if is_black else 'is-red-card'}" data-eid="{eid}">
   <div class="card-head">
@@ -77,6 +78,7 @@ def render_prerendered_card(r: dict, is_black: bool = False) -> str:
       <h4 class="card-title">{name}{branch_html}</h4>
       <div class="card-meta">
         <span class="tier-badge {badge_cls}">{badge_txt}</span>
+        {res_badge_html}
         <span class="price-pill">{price_str}</span>
         <span class="meta-dot">{district} · {area}</span>
         <span class="meta-dot">{cuisine}</span>
@@ -831,6 +833,39 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       font-size: 11.5px;
     }
 
+    .res-badge {
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: rgba(59, 130, 246, 0.16);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      font-weight: 700;
+      font-size: 11px;
+    }
+    [data-theme="light"] .res-badge,
+    [data-theme="sunlight"] .res-badge {
+      background: #dbeafe;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+
+    .res-alert-box {
+      border: 1px solid rgba(59, 130, 246, 0.45);
+      background: rgba(59, 130, 246, 0.12);
+      color: #93c5fd;
+      border-radius: 12px;
+      padding: 9px 12px;
+      margin-bottom: 12px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    [data-theme="light"] .res-alert-box,
+    [data-theme="sunlight"] .res-alert-box {
+      background: #eff6ff;
+      color: #1e40af;
+      border-color: #93c5fd;
+    }
+
     .price-pill {
       font-weight: 700;
       color: var(--text-main);
@@ -1385,8 +1420,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             </select>
           </div>
 
-          <!-- Tier / Series / Cuisine / District Capsule Filters -->
+          <!-- Tier / Reservation / Series / Cuisine / District Capsule Filters -->
           <div class="chip-strip" id="tierChips" aria-label="评级筛选"></div>
+          <div class="chip-strip" id="reservationChips" aria-label="预约要求筛选"></div>
           <div class="chip-strip" id="seriesChips" aria-label="系列筛选"></div>
           <div class="chip-strip" id="cuisineChips" aria-label="菜系筛选"></div>
           <div class="chip-strip" id="districtChips" aria-label="行政区筛选"></div>
@@ -1538,6 +1574,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         query: '',
         sortBy: 'smart',
         tierFilter: 'ALL',
+        reservationFilter: 'ALL',
         seriesFilter: 'ALL',
         cuisineFilter: 'ALL',
         districtFilter: 'ALL',
@@ -1753,6 +1790,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         ['严重踩雷', '💣 严重踩雷']
       ], 'tierFilter');
 
+      buildChipRow('reservationChips', [
+        ['ALL', '全部预约状态'],
+        ['REQUIRED', '📅 需预约'],
+        ['WALKIN', '🚶 免预约随到随吃']
+      ], 'reservationFilter');
+
       buildChipRow('seriesChips', [
         ['ALL', '全部系列'],
         ['怎么这么值', '💰 怎么这么值'],
@@ -1928,11 +1971,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         state.sortBy = 'smart';
         sortSelect.value = 'smart';
         state.tierFilter = 'ALL';
+        state.reservationFilter = 'ALL';
         state.seriesFilter = 'ALL';
         state.cuisineFilter = 'ALL';
         state.districtFilter = 'ALL';
         setRadius(state.userLoc ? 1500 : 0);
-        ['tierChips', 'seriesChips', 'cuisineChips', 'districtChips'].forEach(id => {
+        ['tierChips', 'reservationChips', 'seriesChips', 'cuisineChips', 'districtChips'].forEach(id => {
           Array.from(document.getElementById(id).children).forEach((c, idx) => c.classList.toggle('active', idx === 0));
         });
         state.visibleCount = PAGE_SIZE;
@@ -1952,6 +1996,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           : '';
         const priceStr = r.price_per_person ? `¥${r.price_per_person}/人` : '时价';
         const branchHtml = r.branch_name ? ` <span class="card-branch">(${escapeHtml(r.branch_name)})</span>` : '';
+        const resBadgeHtml = r.reservation_required ? `<span class="res-badge" title="${escapeHtml(r.reservation_note || '建议提前预约')}">📅 需预约</span>` : '';
 
         const recPills = (r.recommended_dishes || []).slice(0, 4)
           .map(d => `<span class="dish-tag good">👍 ${escapeHtml(d)}</span>`).join('');
@@ -1970,6 +2015,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
               <div class="card-meta">
                 ${walkHtml}
                 <span class="tier-badge ${tm.cls}">${tm.icon} ${escapeHtml(r.verdict_tier)}</span>
+                ${resBadgeHtml}
                 <span class="price-pill">${priceStr}</span>
                 <span class="meta-dot">${escapeHtml(r.district)} · ${escapeHtml(r.commercial_area)}</span>
                 <span class="meta-dot">${escapeHtml(r.cuisine_category)}</span>
@@ -2020,6 +2066,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             continue;
           }
 
+          if (state.reservationFilter === 'REQUIRED' && !r.reservation_required) continue;
+          if (state.reservationFilter === 'WALKIN' && r.reservation_required) continue;
           if (state.seriesFilter !== 'ALL' && r.series_name !== state.seriesFilter) continue;
           if (state.cuisineFilter !== 'ALL' && r.cuisine_group !== state.cuisineFilter) continue;
           if (state.districtFilter !== 'ALL' && r.district !== state.districtFilter) continue;
@@ -2311,6 +2359,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         const appleUrl = `https://maps.apple.com/?q=${qShop}&ll=${r.lat},${r.lng}`;
         const amapUrl = `https://uri.amap.com/search?keyword=${encodeURIComponent(r.name)}&center=${r.lng},${r.lat}&city=310000&src=shanghai_food_radar`;
         const walk = r._walkText ? `<span class="walk-badge">${escapeHtml(r._walkText)}</span>` : '';
+        const resBadge = r.reservation_required ? `<span class="res-badge">📅 需预约</span>` : '';
 
         mapPreviewDrawer.innerHTML = `
           <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
@@ -2319,6 +2368,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
               <div class="card-meta" style="margin-top:4px;">
                 ${walk}
                 <span class="tier-badge ${tm.cls}">${tm.icon} ${escapeHtml(r.verdict_tier)}</span>
+                ${resBadge}
                 <span class="price-pill">${r.price_per_person ? '¥' + r.price_per_person + '/人' : '时价'}</span>
                 <span class="meta-dot">${escapeHtml(r.district)} · ${escapeHtml(r.commercial_area)}</span>
               </div>
@@ -2555,6 +2605,9 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         const avoidHtml = avoidList.length > 0
           ? `<div class="avoid-alert-box">⚠️ 避雷菜品警告：${avoidList.map(escapeHtml).join('、')}</div>`
           : '';
+        const resAlertHtml = r.reservation_required
+          ? `<div class="res-alert-box">📅 需提前预约：${escapeHtml(r.reservation_note || '建议提前预订座位后再前往')}</div>`
+          : '';
 
         const selectedSummary = Object.entries(state.modalOrderQty)
           .filter(([, q]) => q > 0)
@@ -2574,6 +2627,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             </div>
           </div>
 
+          ${resAlertHtml}
           ${avoidHtml}
 
           <div class="order-list-box">
@@ -2730,6 +2784,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           r.name, r.branch_name, (r.aliases || []).join(' '),
           r.district, r.commercial_area, r.address,
           r.cuisine_category, r.cuisine_group, r.series_name,
+          r.reservation_required ? '需预约 预约 预订' : '免预约',
+          r.reservation_note || '',
           (r.recommended_dishes || []).join(' '),
           (r.avoid_dishes || []).join(' '),
           r.overall_review_summary, r.wang_shifu_review, r.xiao_maomao_review, r.video_title

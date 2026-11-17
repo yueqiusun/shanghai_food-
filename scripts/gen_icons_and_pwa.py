@@ -230,7 +230,7 @@ MANIFEST = {
     ]
 }
 
-SW_JS = """const CACHE_NAME = 'shanghai-food-radar-v1.0.2';
+SW_JS = """const CACHE_NAME = 'shanghai-food-radar-v1.0.3';
 const PRECACHE_URLS = [
   './',
   './index.html',

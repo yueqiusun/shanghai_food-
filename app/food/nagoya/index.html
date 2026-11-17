@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>名古屋全景美食地图 | 小红书 × Tabelog 百名店</title>
+  <meta name="description" content="名古屋10大区域150家实测美食雷达：小红书共识 × Tabelog百名店，支持iPhone离线PWA、周边步行距离计算、触控地铁地图与日文点单卡。" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="名古屋美食" />
+  <meta name="theme-color" content="#A51C1C" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+  <style>
+    :root {
+      --bg: #FFF9F2;
+      --surface: #FFFFFF;
+      --surface-2: #F7EFE5;
+      --text: #1F1712;
+      --text-muted: #6B5B50;
+      --border: #E8DDD0;
+      --accent: #A51C1C;
+      --accent-soft: #FDE8E8;
+      --gold: #C27803;
+      --gold-soft: #FEF3C7;
+      --green: #047857;
+      --green-soft: #D1FAE5;
+      --blue: #1D4ED8;
+      --blue-soft: #DBEAFE;
+      --purple: #6D28D9;
+      --purple-soft: #EDE9FE;
+      --shadow: 0 2px 10px rgba(31, 23, 18, 0.07);
+      --radius: 14px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html[data-theme="auto"] {
+        --bg: #000000;
+        --surface: #121212;
+        --surface-2: #1E1E1E;
+        --text: #F5F2EE;
+        --text-muted: #A89F96;
+        --border: #2C2C2E;
+        --accent: #EF4444;
+        --accent-soft: #3B1212;
+        --gold: #FBBF24;
+        --gold-soft: #362807;
+        --green: #34D399;
+        --green-soft: #092E22;
+        --blue: #60A5FA;
+        --blue-soft: #102547;
+        --purple: #A78BFA;
+        --purple-soft: #26174A;
+        --shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    html[data-theme="oled"] {
+      --bg: #000000;
+      --surface: #121212;
+      --surface-2: #1E1E1E;
+      --text: #F5F2EE;
+      --text-muted: #A89F96;
+      --border: #2C2C2E;
+      --accent: #EF4444;
+      --accent-soft: #3B1212;
+      --gold: #FBBF24;
+      --gold-soft: #362807;
+      --green: #34D399;
+      --green-soft: #092E22;
+      --blue: #60A5FA;
+      --blue-soft: #102547;
+      --purple: #A78BFA;
+      --purple-soft: #26174A;
+      --shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    html[data-theme="sunlight"] {
+      --bg: #FFFFFF;
+      --surface: #FFFFFF;
+      --surface-2: #F3F4F6;
+      --text: #000000;
+      --text-muted: #374151;
+      --border: #9CA3AF;
+      --accent: #991B1B;
+      --accent-soft: #FEE2E2;
+      --gold: #92400E;
+      --gold-soft: #FEF3C7;
+      --green: #065F46;
+      --green-soft: #D1FAE5;
+      --blue: #1E40AF;
+      --blue-soft: #DBEAFE;
+      --purple: #5B21B6;
+      --purple-soft: #EDE9FE;
+      --shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      overscroll-behavior: none;
+    }
+
+    input, select, textarea, button {
+      font-family: inherit;
+    }
+
+    /* Prevent iOS Safari input auto-zoom */
+    input, select, textarea {
+      font-size: 16px !important;
+    }
+
+    .app-shell {
+      position: fixed;
+      inset: 0;
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    .top-bar {
+      flex-shrink: 0;
+      padding: calc(env(safe-area-inset-top, 0px) + 8px) 14px 8px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      z-index: 20;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .brand-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #A51C1C, #6E1216);
+      color: #FCD34D;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      border: 1.5px solid #F5C442;
+    }
+
+    .brand-title {
+      font-size: 16px;
+      font-weight: 800;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .icon-btn {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 0 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    #mainScroller {
+      flex: 1 1 0%;
+      min-height: 0;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-y: contain;
+      padding: 12px 14px 20px;
+    }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* Desktop wide layout */
+    @media (min-width: 960px) {
+      .desktop-wrap {
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+    }
+
+    /* Location Bar */
+    .loc-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px;
+      box-shadow: var(--shadow);
+      margin-bottom: 12px;
+    }
+
+    .loc-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn-primary {
+      min-height: 44px;
+      padding: 0 14px;
+      border-radius: 11px;
+      border: none;
+      background: var(--accent);
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .btn-secondary {
+      min-height: 44px;
+      padding: 0 12px;
+      border-radius: 11px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 180px;
+      min-height: 44px;
+      padding: 8px 12px;
+      border-radius: 11px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      outline: none;
+    }
+
+    .loc-status {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    /* Horizontal Scroll Chips */
+    .chips-scroll {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding: 4px 0 8px;
+    }
+    .chips-scroll::-webkit-scrollbar { display: none; }
+
+    .chip {
+      min-height: 40px;
+      padding: 6px 13px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+    .chip.active {
+      background: var(--accent);
+      color: #FFFFFF;
+      border-color: var(--accent);
+    }
+
+    .stats-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin: 4px 0 10px;
+    }
+
+    /* Restaurant Card */
+    .cards-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .rest-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .rest-name-zh {
+      font-size: 17px;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    .rest-name-ja {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .fav-actions {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .mini-toggle {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 0 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .mini-toggle.want-on {
+      background: var(--gold-soft);
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+    .mini-toggle.done-on {
+      background: var(--green-soft);
+      color: var(--green);
+      border-color: var(--green);
+    }
+
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 8px;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .tier-god { background: var(--accent-soft); color: var(--accent); }
+    .tier-rec { background: var(--gold-soft); color: var(--gold); }
+    .tier-ok { background: var(--blue-soft); color: var(--blue); }
+    .tier-pol { background: var(--purple-soft); color: var(--purple); }
+    .tier-warn { background: #374151; color: #F9FAFB; }
+    .badge-hyaku { background: #78350F; color: #FDE68A; }
+    .badge-res-req { background: #991B1B; color: #FEF2F2; }
+    .badge-res-opt { background: var(--green-soft); color: var(--green); }
+    .badge-cat { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
+
+    .dist-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--green);
+      margin-bottom: 6px;
+    }
+
+    .meta-line {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .must-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0;
+    }
+
+    .must-pill {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 12px;
+    }
+
+    .drawer-toggle {
+      width: 100%;
+      min-height: 44px;
+      margin-top: 6px;
+      border-radius: 10px;
+      border: 1px dashed var(--border);
+      background: transparent;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .drawer-body {
+      display: none;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+    }
+    .drawer-body.open { display: block; }
+
+    .drawer-block { margin-bottom: 8px; }
+    .drawer-label { font-weight: 800; color: var(--text); }
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .act-btn {
+      min-height: 44px;
+      padding: 6px 4px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .act-btn.waiter {
+      background: var(--accent);
+      color: #FFFFFF;
+      border-color: var(--accent);
+    }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      flex-shrink: 0;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      z-index: 25;
+    }
+
+    .nav-btn {
+      min-height: 54px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      cursor: pointer;
+    }
+    .nav-btn .nav-ico { font-size: 18px; }
+    .nav-btn.active { color: var(--accent); }
+
+    /* Interactive Map Tab */
+    .map-container {
+      position: relative;
+      height: calc(100dvh - 175px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+      min-height: 380px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      overflow: hidden;
+      touch-action: none;
+    }
+
+    .map-toolbar {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+      z-index: 10;
+    }
+    .map-toolbar > * { pointer-events: auto; }
+
+    .map-controls {
+      display: flex;
+      gap: 6px;
+    }
+
+    .map-peek {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      z-index: 15;
+      display: none;
+    }
+    .map-peek.open { display: block; }
+
+    /* Cheat Sheets Tab */
+    .cheat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
+    }
+    .cheat-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      color: var(--accent);
+    }
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    table.cmp-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      min-width: 540px;
+    }
+    table.cmp-table th, table.cmp-table td {
+      border: 1px solid var(--border);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    table.cmp-table th {
+      background: var(--surface-2);
+      font-weight: 800;
+    }
+
+    /* Modals (Landmark Picker & Waiter Card) */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      z-index: 100;
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .modal-backdrop.open { display: flex; }
+
+    .modal-sheet {
+      width: 100%;
+      max-width: 680px;
+      max-height: 92dvh;
+      background: var(--surface);
+      color: var(--text);
+      border-radius: 20px 20px 0 0;
+      padding: 16px 16px calc(env(safe-area-inset-bottom, 0px) + 18px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    @media (min-width: 720px) {
+      .modal-backdrop { align-items: center; }
+      .modal-sheet { border-radius: 20px; max-height: 88dvh; }
+    }
+
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      gap: 8px;
+    }
+
+    .taxi-box {
+      background: #111827;
+      color: #F9FAFB;
+      padding: 14px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+    }
+    .taxi-ja {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 6px 0;
+      line-height: 1.35;
+    }
+
+    .qty-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      gap: 10px;
+    }
+    .qty-ctrl {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .qty-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .qty-num {
+      min-width: 24px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .phrase-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .phrase-btn {
+      min-height: 48px;
+      padding: 10px 12px;
+      border-radius: 11px;
+      border: 1.5px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+    }
+    .phrase-btn.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+    .phrase-ja { font-size: 17px; font-weight: 800; display: block; }
+    .phrase-zh { font-size: 12px; color: var(--text-muted); }
+
+    .lm-item {
+      width: 100%;
+      min-height: 48px;
+      padding: 10px 12px;
+      margin-bottom: 6px;
+      border-radius: 11px;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+<div class="app-shell">
+  <header class="top-bar">
+    <div class="brand">
+      <div class="brand-badge">🏯</div>
+      <div>
+        <div class="brand-title">名古屋全景美食地图</div>
+        <div class="brand-sub" id="headerSub">加载数据中…</div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" title="切换显示模式">🎨 自动</button>
+    </div>
+  </header>
+
+  <main id="mainScroller">
+    <div class="desktop-wrap">
+      <!-- TAB 1: NEARBY RADAR -->
+      <section class="tab-panel active" id="tab-nearby">
+        <div class="loc-card">
+          <div class="loc-row">
+            <button class="btn-primary" id="gpsBtn">📡 实时GPS定位</button>
+            <button class="btn-secondary" id="landmarkBtn">📍 选地标/酒店</button>
+            <input type="search" class="search-input" id="searchInput" placeholder="搜店名 / 菜品 / 地铁站 / 区域…" />
+          </div>
+          <div class="loc-status">
+            <span id="locLabel">当前基准：名古屋站（JR樱通口）</span>
+            <span id="offlineBadge">⚡ 支持离线</span>
+          </div>
+          <div class="chips-scroll" id="radiusChips">
+            <button class="chip" data-radius="600">600m 内</button>
+            <button class="chip active" data-radius="1000">1km 内</button>
+            <button class="chip" data-radius="1800">1.8km 内</button>
+            <button class="chip" data-radius="999999">全城全部</button>
+          </div>
+        </div>
+
+        <div class="chips-scroll" id="quickFilterChips">
+          <button class="chip active" data-q="all">全部口碑</button>
+          <button class="chip" data-q="god">🌟 必吃封神</button>
+          <button class="chip" data-q="hyaku">🏆 百名店</button>
+          <button class="chip" data-q="res_req">📅 需预约</button>
+          <button class="chip" data-q="res_any">🗓️ 可提前预约</button>
+          <button class="chip" data-q="warn">⚖️ 口味两极/避坑</button>
+        </div>
+
+        <div class="chips-scroll" id="zoneChips"></div>
+        <div class="chips-scroll" id="catChips"></div>
+
+        <div class="stats-bar">
+          <span id="resultCount">正在载入餐厅…</span>
+          <span>按步行距离由近到远排序</span>
+        </div>
+
+        <div class="cards-grid" id="cardsList"></div>
+      </section>
+
+      <!-- TAB 2: TOUCH MAP -->
+      <section class="tab-panel" id="tab-map">
+        <div class="loc-card" style="margin-bottom:8px; padding:10px 12px;">
+          <div class="loc-row" style="justify-content:space-between;">
+            <span style="font-size:13px;font-weight:700;">单指拖动 · 双指缩放 · 点击图钉看详情</span>
+            <button class="btn-secondary" id="tapSetLocBtn" style="min-height:40px;font-size:13px;">🎯 点地图设定位</button>
+          </div>
+        </div>
+        <div class="map-container" id="mapContainer">
+          <div class="map-toolbar">
+            <div class="map-controls">
+              <button class="icon-btn" id="zoomInBtn">＋</button>
+              <button class="icon-btn" id="zoomOutBtn">－</button>
+              <button class="icon-btn" id="zoomResetBtn">重置</button>
+            </div>
+            <button class="icon-btn" id="mapGpsBtn">📡 我在哪</button>
+          </div>
+          <svg id="mapSvg" width="100%" height="100%" style="display:block; touch-action:none;"></svg>
+          <div class="map-peek" id="mapPeek"></div>
+        </div>
+      </section>
+
+      <!-- TAB 3: CHEAT SHEETS -->
+      <section class="tab-panel" id="tab-cheats">
+        <div class="cheat-card">
+          <h3>⚠️ 名古屋美食 6 大避坑 & 2026 必知情报</h3>
+          <ol style="padding-left:18px; margin:0; font-size:14px;">
+            <li style="margin-bottom:8px;"><strong>2026年2月28日名铁百货本店永久闭店！</strong> 原名铁百货店内的老店已迁出或停业。吃鳗鱼饭「まるや本店」请改去<strong>名驿MEICHIKA店 / JR名古屋站 / 中部机场</strong>；吃「矢场猪排」请去<strong>ESCA地下街 / LACHIC / 矢场町本店</strong>；买「Konparu」请去<strong>Sun Road地下街 / 大须本店</strong>。</li>
+            <li style="margin-bottom:8px;"><strong>山本屋总本家 / 山本屋本店「硬心味噌乌冬」：</strong> 名古屋流八丁味噌乌冬面芯刻意保留硬韧口感，常被游客误以为「没煮熟」。怕硬请在点单卡亮出 <code>麺やわらかめでお願いします</code>（煮软一点）。</li>
+            <li style="margin-bottom:8px;"><strong>世界的山ちゃん「幻之手羽先」重黑胡椒预警：</strong> 椒盐与黑胡椒极重、偏干咸，适合配生啤；不吃辣/带小孩建议点 <code>コショウ少なめ</code>（少胡椒），或改吃甜咸酱汁派的「风来坊」。</li>
+            <li style="margin-bottom:8px;"><strong>味仙「台湾拉面」辣度爆表：</strong> 标准版即中大辣且蒜香极浓；怕辣务必点 <code>アメリカン</code>（美式微辣）或直接点招牌「青菜炒め」「コブクロ」。</li>
+            <li style="margin-bottom:8px;"><strong>蓬莱轩 1–2 小时排队破解术：</strong> 热田本店/神宫店周末取号常等90分钟以上；<strong>松坂屋南馆10F</strong>翻台更快，若不想等，直接去<strong>松坂屋B1外带专柜</strong>买热乎便当几乎免排队！</li>
+            <li><strong>HARBS 蛋糕店强制低消规则：</strong> 堂食规定<strong>每人必须点1杯饮料</strong>（约¥700+），不能只点蛋糕；想省钱或多人分食，直接柜台外带切片回酒店吃！</li>
+          </ol>
+        </div>
+
+        <div class="cheat-card">
+          <h3>🍱 名古屋 Top 7 鳗鱼饭三吃（ひつまぶし）横向对比</h3>
+          <div class="table-scroll">
+            <table class="cmp-table">
+              <thead>
+                <tr>
+                  <th>品牌</th>
+                  <th>烤制流派与口感</th>
+                  <th>人均(JPY)</th>
+                  <th>排队与预约建议</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>蓬莱轩</strong></td><td>备长炭直烤，皮脆肉嫩、酱汁偏甜厚，百年祖师爷</td><td>¥4,600</td><td>不可预约；松坂屋B1外带免等</td></tr>
+                <tr><td><strong>炭烧 うな富士</strong></td><td>超厚切青鳗，外焦里糯油脂丰沛，Tabelog常年第一梯队</td><td>¥5,200</td><td>本店排队狠，名站/白壁分店可官网预约</td></tr>
+                <tr><td><strong>まるや本店</strong></td><td>皮极脆、酱汁清爽带炭香，性价比与稳定性极高</td><td>¥4,300</td><td>名站MEICHIKA / 中部机场店最顺路</td></tr>
+                <tr><td><strong>名古屋 备长</strong></td><td>完全关西风地烤（不蒸），焦香脆皮派代表</td><td>¥4,500</td><td>LACHIC / ESCA / 金鯱横丁均有分店</td></tr>
+                <tr><td><strong>ひつまぶし 稻生</strong></td><td>名站ESCA老字号，价格亲民、出餐快</td><td>¥3,600</td><td>ESCA地下街排队相对温和</td></tr>
+                <tr><td><strong>うなぎ四代目菊川</strong></td><td>招牌「整条一本鳗」，视觉震撼、中日大厦新地标</td><td>¥5,000</td><td>中日大厦/名站店可在线预约</td></tr>
+                <tr><td><strong>うなぎのしろむら</strong></td><td>三河一色产活鳗+白烧吃法惊艳，环境雅致</td><td>¥4,800</td><td>名站店适合商务/约会提前订位</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="cheat-card">
+          <h3>🗓️ 3 天不走回头路美食动线</h3>
+          <ul style="padding-left:18px; margin:0; font-size:14px;">
+            <li style="margin-bottom:8px;"><strong>Day 1（名站核心 × 四间道 × 荣夜宵）：</strong> 早：名站 Sun Road <code>Konparu炸虾三明治</code> → 午：ESCA <code>稻生鳗鱼饭</code> 或 <code>矢场猪排</code> → 下午：则武之森TSUTAYA + 四间道 <code>喫茶ゾウメシ</code> → 晚：荣中日大厦/马喰一代飞驒牛 → 夜宵：锦三 <code>世界的山ちゃん</code> / <code>味仙</code>。</li>
+            <li style="margin-bottom:8px;"><strong>Day 2（名古屋城 × 大须扫街 × 热田神宫）：</strong> 早：高岳 <code>ボンボン</code> 复古喫茶 → 午：名古屋城金鯱横丁 → 下午：大须商店街扫街（<code>CESARI世界冠军披萨</code> + <code>李桑炸鸡</code> + <code>KANNON COFFEE</code>）→ 晚：热田神宫 <code>あつたnagAya</code> 或 <code>蓬莱轩本店/松坂屋</code>。</li>
+            <li><strong>Day 3（百名店朝圣 or 近郊一日游）：</strong> 市区线：<code>紫阳花拉面</code> / <code>人生饺子</code> + 觉王山 <code>吉芋</code> & <code>Chez Shibata</code>；近郊线：<code>犬山城下町</code>（恋小町团子+飞驒牛寿司）或 <code>吉卜力公园</code>，返程在 <code>中部机场T1 4F提灯横丁</code> 收尾。</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- TAB 4: FAVORITES -->
+      <section class="tab-panel" id="tab-favs">
+        <div class="loc-card">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+            <div>
+              <strong id="favSummary">想去 0 家 · 已吃 0 家</strong>
+              <div style="font-size:12px; color:var(--text-muted);">自动按当前位置由近到远排序，数据本地永久保存</div>
+            </div>
+            <button class="btn-secondary" id="clearFavsBtn" style="min-height:40px;font-size:13px;">清空记录</button>
+          </div>
+        </div>
+        <div class="cards-grid" id="favsList"></div>
+      </section>
+    </div>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-tab="nearby"><span class="nav-ico">📍</span><span>周边探店</span></button>
+    <button class="nav-btn" data-tab="map"><span class="nav-ico">🗺️</span><span>触控地图</span></button>
+    <button class="nav-btn" data-tab="cheats"><span class="nav-ico">⚡</span><span>避坑速查</span></button>
+    <button class="nav-btn" data-tab="favs"><span class="nav-ico">⭐</span><span>收藏夹</span></button>
+  </nav>
+</div>
+
+<!-- LANDMARK PICKER MODAL -->
+<div class="modal-backdrop" id="landmarkModal">
+  <div class="modal-sheet">
+    <div class="modal-head">
+      <strong style="font-size:17px;">📍 选择你的位置（地铁站/商场/酒店/景点）</strong>
+      <button class="icon-btn" id="closeLandmarkModal">✕</button>
+    </div>
+    <input type="search" class="search-input" id="lmSearchInput" placeholder="输入地标，如：松坂屋、希尔顿、大须、机场…" style="width:100%; margin-bottom:10px;" />
+    <div id="lmList"></div>
+  </div>
+</div>
+
+<!-- WAITER & TAXI CARD MODAL -->
+<div class="modal-backdrop" id="waiterModal">
+  <div class="modal-sheet">
+    <div class="modal-head">
+      <strong style="font-size:17px;">🗣️ 日文点单 & 打车展示卡</strong>
+      <button class="icon-btn" id="closeWaiterModal">✕</button>
+    </div>
+    <div id="waiterContent"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const ZONES = [
+    { id: 0, label: "全部区域" },
+    { id: 1, label: "1.名站东口" },
+    { id: 2, label: "2.名站西/则武" },
+    { id: 3, label: "3.荣·久屋·中日" },
+    { id: 4, label: "4.荣·松坂屋/LACHIC" },
+    { id: 5, label: "5.伏见·四间道" },
+    { id: 6, label: "6.大须·矢场町" },
+    { id: 7, label: "7.热田·金山" },
+    { id: 8, label: "8.名古屋城·高岳" },
+    { id: 9, label: "9.鹤舞·觉王山百名店" },
+    { id: 10, label: "10.机场·乐高·犬山·吉卜力" }
+  ];
+
+  const CATEGORIES = [
+    "全部品类",
+    "鳗鱼饭三吃 (ひつまぶし)",
+    "味噌猪排与炸物 (味噌カツ)",
+    "手羽先与交趾鸡 (手羽先・鶏料理)",
+    "味噌乌冬与棊子面 (うどん・きしめん)",
+    "台湾拉面与人气拉面 (ラーメン・担々麺)",
+    "飞驒牛与和牛烧肉 (飛騨牛・焼肉)",
+    "名古屋早餐与复古喫茶 (モーニング・純喫茶)",
+    "甜品蛋糕与伴手礼 (スイーツ・カフェ)",
+    "海鲜寿司与特大炸虾 (寿司・海鮮・エビフライ)",
+    "居酒屋与烧鸟夜宵 (居酒屋・焼鳥)",
+    "洋食披萨与精致料理 (洋食・ピッツァ・フレンチ)",
+    "市井扫街小吃 (食べ歩き・屋台)"
+  ];
+
+  const PHRASES = [
+    { ja: "コショウ少なめでお願いします", zh: "请少放点胡椒（山ちゃん手羽先必备）" },
+    { ja: "麺やわらかめでお願いします", zh: "请把面煮软一点（山本屋味噌乌冬必备）" },
+    { ja: "アメリカン（辛さ控えめ）でお願いします", zh: "请做美式微辣（味仙台湾拉面必备）" },
+    { ja: "テイクアウトでお願いします", zh: "请帮我外带打包" },
+    { ja: "お水をお願いします", zh: "请给我冰水" },
+    { ja: "お会計お願いします", zh: "麻烦买单" }
+  ];
+
+  let RESTAURANTS = [];
+  let LANDMARKS = [];
+  let userLoc = { lat: 35.170915, lng: 136.881537, label: "名古屋站（JR樱通口）" };
+  let state = {
+    radius: 1000,
+    quick: "all",
+    zone: 0,
+    category: "全部品类",
+    search: "",
+    want: new Set(JSON.parse(localStorage.getItem("nagoya_want") || "[]")),
+    done: new Set(JSON.parse(localStorage.getItem("nagoya_done") || "[]")),
+    theme: localStorage.getItem("nagoya_theme") || "auto",
+    tapSetLoc: false
+  };
+
+  // Map pan/zoom state
+  let mapView = { cx: 136.902, cy: 35.166, scale: 1.0 };
+  let activeMapRest = null;
+
+  function saveFavs() {
+    localStorage.setItem("nagoya_want", JSON.stringify([...state.want]));
+    localStorage.setItem("nagoya_done", JSON.stringify([...state.done]));
+  }
+
+  function applyTheme(t) {
+    state.theme = t;
+    localStorage.setItem("nagoya_theme", t);
+    document.documentElement.setAttribute("data-theme", t);
+    const btn = document.getElementById("themeBtn");
+    btn.textContent = t === "auto" ? "🎨 自动" : (t === "sunlight" ? "☀️ 高亮" : "🖤 OLED");
+  }
+  applyTheme(state.theme);
+
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    const order = ["auto", "sunlight", "oled"];
+    applyTheme(order[(order.indexOf(state.theme) + 1) % order.length]);
+  });
+
+  function haversine(lat1, lng1, lat2, lng2) {
+    const R = 6371000;
+    const p1 = lat1 * Math.PI / 180, p2 = lat2 * Math.PI / 180;
+    const dp = (lat2 - lat1) * Math.PI / 180, dl = (lng2 - lng1) * Math.PI / 180;
+    const a = Math.sin(dp/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+    return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
+
+  function compass(lat1, lng1, lat2, lng2) {
+    const dl = (lng2 - lng1) * Math.PI / 180;
+    const p1 = lat1 * Math.PI / 180, p2 = lat2 * Math.PI / 180;
+    const y = Math.sin(dl) * Math.cos(p2);
+    const x = Math.cos(p1) * Math.sin(p2) - Math.sin(p1) * Math.cos(p2) * Math.cos(dl);
+    const deg = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
+    return ["↑正北","↗东北","→正东","↘东南","↓正南","↙西南","←正西","↖西北"][Math.floor((deg + 22.5) / 45) % 8];
+  }
+
+  function tierClass(t) {
+    if (t === "必吃封神") return "tier-god";
+    if (t === "强烈推荐") return "tier-rec";
+    if (t === "顺路优选") return "tier-ok";
+    if (t === "口味两极") return "tier-pol";
+    return "tier-warn";
+  }
+
+  function tierColor(t) {
+    if (t === "必吃封神") return "#DC2626";
+    if (t === "强烈推荐") return "#D97706";
+    if (t === "顺路优选") return "#2563EB";
+    if (t === "口味两极") return "#7C3AED";
+    return "#374151";
+  }
+
+  function esc(s) {
+    return String(s || "").replace(/[&<>"']/g, m => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]));
+  }
+
+  function renderChips() {
+    const zEl = document.getElementById("zoneChips");
+    zEl.innerHTML = ZONES.map(z => `<button class="chip ${state.zone === z.id ? 'active' : ''}" data-zone="${z.id}">${esc(z.label)}</button>`).join("");
+    zEl.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+      state.zone = Number(b.dataset.zone);
+      if (state.zone !== 0 && state.radius < 999999) {
+        // When selecting a specific zone, show all in that zone unless user explicitly wants tight radius
+        state.radius = 999999;
+        syncRadiusChips();
+      }
+      renderChips();
+      renderList();
+    }));
+
+    const cEl = document.getElementById("catChips");
+    cEl.innerHTML = CATEGORIES.map(c => `<button class="chip ${state.category === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(c.split(" (")[0])}</button>`).join("");
+    cEl.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+      state.category = b.dataset.cat;
+      renderChips();
+      renderList();
+    }));
+  }
+
+  function syncRadiusChips() {
+    document.querySelectorAll("#radiusChips .chip").forEach(c => {
+      c.classList.toggle("active", Number(c.dataset.radius) === state.radius);
+    });
+  }
+
+  function getFiltered() {
+    const q = state.search.trim().toLowerCase();
+    return RESTAURANTS
+      .map(r => ({ ...r, _dist: haversine(userLoc.lat, userLoc.lng, r.lat, r.lng) }))
+      .filter(r => {
+        if (r._dist > state.radius) return false;
+        if (state.zone !== 0 && r.zone_id !== state.zone) return false;
+        if (state.category !== "全部品类" && r.category !== state.category) return false;
+        if (state.quick === "god" && r.tier !== "必吃封神") return false;
+        if (state.quick === "hyaku" && !r.hyakumeiten) return false;
+        if (state.quick === "res_req" && r.reservation_status !== "需预约") return false;
+        if (state.quick === "res_any" && !r.reservation_status) return false;
+        if (state.quick === "warn" && r.tier !== "口味两极" && r.tier !== "避坑提醒") return false;
+        if (q) {
+          const hay = `${r.name_zh} ${r.name_ja} ${r.branch} ${r.zone} ${r.micro_hub} ${r.category} ${r.station_exit} ${r.xhs_consensus} ${(r.must_order||[]).map(m=>m.zh+m.ja).join(" ")}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      })
+      .sort((a, b) => a._dist - b._dist);
+  }
+
+  function cardHTML(r) {
+    const distStr = r._dist < 1000 ? `${Math.round(r._dist)}m` : `${(r._dist/1000).toFixed(2)}km`;
+    const walkMin = Math.max(1, Math.round(r._dist / 75));
+    const dir = compass(userLoc.lat, userLoc.lng, r.lat, r.lng);
+    const wantOn = state.want.has(r.id);
+    const doneOn = state.done.has(r.id);
+    const tb = r.tabelog_score ? `Tabelog ${r.tabelog_score}` : "Tabelog 暂无";
+    const mustHtml = (r.must_order || []).map(m => `<span class="must-pill"><strong>${esc(m.zh)}</strong> <span style="color:var(--text-muted)">${esc(m.ja)}</span></span>`).join("");
+
+    return `
+      <article class="rest-card" data-id="${esc(r.id)}">
+        <div class="card-top">
+          <div>
+            <div class="rest-name-zh">${esc(r.name_zh)}</div>
+            <div class="rest-name-ja">${esc(r.name_ja)}</div>
+          </div>
+          <div class="fav-actions">
+            <button class="mini-toggle ${wantOn ? 'want-on' : ''}" data-act="want" data-id="${esc(r.id)}">${wantOn ? '★ 想去' : '☆ 想去'}</button>
+            <button class="mini-toggle ${doneOn ? 'done-on' : ''}" data-act="done" data-id="${esc(r.id)}">${doneOn ? '✓ 已吃' : '打卡'}</button>
+          </div>
+        </div>
+        <div class="badges-row">
+          <span class="badge ${tierClass(r.tier)}">${esc(r.tier)}</span>
+          ${r.reservation_status === "需预约" ? `<span class="badge badge-res-req">📅 需预约</span>` : (r.reservation_status === "可预约" ? `<span class="badge badge-res-opt">🗓️ 可预约</span>` : "")}
+          ${r.hyakumeiten ? `<span class="badge badge-hyaku">🏆 ${esc(r.hyakumeiten)}</span>` : ""}
+          <span class="badge badge-cat">${esc(r.category.split(" (")[0])}</span>
+          <span class="badge badge-cat">${esc(tb)} · ${esc(r.price_display)}</span>
+        </div>
+        <div class="dist-row">
+          <span>📏 ${distStr} (${dir})</span>
+          <span>🚶 步行约 ${walkMin} 分钟</span>
+        </div>
+        <div class="meta-line">🚇 ${esc(r.station_exit)} · ${esc(r.hours)}（休: ${esc(r.closed_days)}）</div>
+        <div class="must-pills">${mustHtml}</div>
+        <button class="drawer-toggle" data-act="drawer">查看小红书共识 · 避坑排队 · 详细攻略 ▾</button>
+        <div class="drawer-body">
+          <div class="drawer-block"><span class="drawer-label">💬 小红书共识：</span>${esc(r.xhs_consensus)}</div>
+          <div class="drawer-block"><span class="drawer-label">🎯 本地吃法：</span>${esc(r.local_tip)}</div>
+          <div class="drawer-block"><span class="drawer-label">⏳ 排队/预约：</span>${esc(r.queue_strategy)}</div>
+          <div class="drawer-block"><span class="drawer-label">⚠️ 避坑提醒：</span>${esc(r.avoid_or_caution)}</div>
+          <div class="drawer-block"><span class="drawer-label">📍 日文地址：</span>${esc(r.address_ja)}</div>
+        </div>
+        <div class="action-grid">
+          <a class="act-btn" href="${esc(r.gmaps_url)}" target="_blank" rel="noopener">🗺️ Google地图</a>
+          <a class="act-btn" href="${esc(r.apple_maps_url)}" target="_blank" rel="noopener">🍎 Apple地图</a>
+          <button class="act-btn waiter" data-act="waiter" data-id="${esc(r.id)}">🗣️ 点单卡</button>
+          <a class="act-btn" href="${esc(r.tabelog_url)}" target="_blank" rel="noopener">📊 Tabelog</a>
+          <a class="act-btn" href="${esc(r.xhs_url)}" target="_blank" rel="noopener">📕 小红书</a>
+          ${r.official_url ? `<a class="act-btn" href="${esc(r.official_url)}" target="_blank" rel="noopener">🌐 官网/预约</a>` : `<span class="act-btn" style="opacity:0.45">无官网</span>`}
+        </div>
+      </article>
+    `;
+  }
+
+  function bindCardEvents(container) {
+    container.querySelectorAll("[data-act='drawer']").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const body = btn.nextElementSibling;
+        const open = body.classList.toggle("open");
+        btn.textContent = open ? "收起详情 ▴" : "查看小红书共识 · 避坑排队 · 详细攻略 ▾";
+      });
+    });
+    container.querySelectorAll("[data-act='want']").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.id;
+        if (state.want.has(id)) state.want.delete(id); else state.want.add(id);
+        saveFavs();
+        renderList();
+        renderFavs();
+      });
+    });
+    container.querySelectorAll("[data-act='done']").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.id;
+        if (state.done.has(id)) state.done.delete(id); else state.done.add(id);
+        saveFavs();
+        renderList();
+        renderFavs();
+      });
+    });
+    container.querySelectorAll("[data-act='waiter']").forEach(btn => {
+      btn.addEventListener("click", () => openWaiterModal(btn.dataset.id));
+    });
+  }
+
+  function renderList() {
+    const list = getFiltered();
+    document.getElementById("resultCount").textContent = `共找到 ${list.length} 家认证餐厅`;
+    const el = document.getElementById("cardsList");
+    if (!list.length) {
+      el.innerHTML = `<div class="loc-card" style="text-align:center; padding:24px;">该半径或筛选条件下暂无餐厅，试试点「1.8km 内」或「全城全部」🔍</div>`;
+      return;
+    }
+    el.innerHTML = list.map(cardHTML).join("");
+    bindCardEvents(el);
+  }
+
+  function renderFavs() {
+    const favRests = RESTAURANTS
+      .filter(r => state.want.has(r.id) || state.done.has(r.id))
+      .map(r => ({ ...r, _dist: haversine(userLoc.lat, userLoc.lng, r.lat, r.lng) }))
+      .sort((a, b) => a._dist - b._dist);
+
+    document.getElementById("favSummary").textContent = `想去 ${state.want.size} 家 · 已吃 ${state.done.size} 家`;
+    const el = document.getElementById("favsList");
+    if (!favRests.length) {
+      el.innerHTML = `<div class="loc-card" style="text-align:center; padding:24px;">还没有收藏餐厅，在「周边探店」卡片右上角点 ☆ 想去 或 打卡 即可加入清单！</div>`;
+      return;
+    }
+    el.innerHTML = favRests.map(cardHTML).join("");
+    bindCardEvents(el);
+  }
+
+  // Waiter & Taxi Card Modal
+  function openWaiterModal(id) {
+    const r = RESTAURANTS.find(x => x.id === id);
+    if (!r) return;
+    const qtys = {};
+    (r.must_order || []).forEach((_, i) => qtys[i] = i === 0 ? 1 : 0);
+
+    const html = `
+      <div class="taxi-box">
+        <div style="font-size:12px; color:#9CA3AF;">🚕 出租车司机 / 问路展示（点击可复制）</div>
+        <div class="taxi-ja" id="taxiCopyText">${esc(r.name_ja)}<br><span style="font-size:15px;font-weight:500;">${esc(r.address_ja)}</span></div>
+        <button class="btn-secondary" id="copyJaBtn" style="min-height:40px;font-size:13px;">📋 复制日文店名与地址</button>
+      </div>
+      <div style="font-size:15px; font-weight:800; margin-bottom:4px;">すみません、注文をお願いします（点单数量）：</div>
+      <div id="qtyList">
+        ${(r.must_order || []).map((m, i) => `
+          <div class="qty-row">
+            <div>
+              <div style="font-size:17px; font-weight:800;">${esc(m.ja)}</div>
+              <div style="font-size:12px; color:var(--text-muted);">${esc(m.zh)}${m.note ? ' · ' + esc(m.note) : ''}</div>
+            </div>
+            <div class="qty-ctrl">
+              <button class="qty-btn" data-qidx="${i}" data-delta="-1">－</button>
+              <span class="qty-num" id="qnum-${i}">${qtys[i]}</span>
+              <button class="qty-btn" data-qidx="${i}" data-delta="1">＋</button>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+      <div style="font-size:15px; font-weight:800; margin-top:14px;">名古屋特色定制暗号（点击高亮给店员看）：</div>
+      <div class="phrase-grid">
+        ${PHRASES.map(p => `
+          <button class="phrase-btn" type="button">
+            <span class="phrase-ja">${esc(p.ja)}</span>
+            <span class="phrase-zh">${esc(p.zh)}</span>
+          </button>
+        `).join("")}
+      </div>
+    `;
+    const box = document.getElementById("waiterContent");
+    box.innerHTML = html;
+    box.querySelectorAll(".qty-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        const i = b.dataset.qidx;
+        qtys[i] = Math.max(0, (qtys[i] || 0) + Number(b.dataset.delta));
+        document.getElementById(`qnum-${i}`).textContent = qtys[i];
+      });
+    });
+    box.querySelectorAll(".phrase-btn").forEach(b => {
+      b.addEventListener("click", () => b.classList.toggle("active"));
+    });
+    document.getElementById("copyJaBtn").addEventListener("click", () => {
+      const txt = `${r.name_ja} ${r.address_ja}`;
+      if (navigator.clipboard) navigator.clipboard.writeText(txt);
+      document.getElementById("copyJaBtn").textContent = "✅ 已复制日文地址";
+    });
+    document.getElementById("waiterModal").classList.add("open");
+  }
+
+  document.getElementById("closeWaiterModal").addEventListener("click", () => {
+    document.getElementById("waiterModal").classList.remove("open");
+  });
+
+  // Landmark Picker
+  function renderLandmarkList(filter = "") {
+    const q = filter.trim().toLowerCase();
+    const list = LANDMARKS.filter(l => {
+      if (!q) return true;
+      return `${l.name_zh} ${l.name_ja} ${(l.aliases||[]).join(" ")} ${l.type}`.toLowerCase().includes(q);
+    });
+    const el = document.getElementById("lmList");
+    el.innerHTML = list.map(l => `
+      <button class="lm-item" data-id="${esc(l.id)}">
+        <div>
+          <div style="font-weight:700;">${esc(l.name_zh)}</div>
+          <div style="font-size:12px; color:var(--text-muted);">${esc(l.name_ja)}</div>
+        </div>
+        <span class="badge badge-cat">${esc(l.type)}</span>
+      </button>
+    `).join("");
+    el.querySelectorAll(".lm-item").forEach(b => {
+      b.addEventListener("click", () => {
+        const lm = LANDMARKS.find(x => x.id === b.dataset.id);
+        if (lm) {
+          setUserLocation(lm.lat, lm.lng, lm.name_zh);
+          document.getElementById("landmarkModal").classList.remove("open");
+        }
+      });
+    });
+  }
+
+  function setUserLocation(lat, lng, label) {
+    userLoc = { lat, lng, label };
+    document.getElementById("locLabel").textContent = `当前基准：${label}`;
+    mapView.cx = lng;
+    mapView.cy = lat;
+    renderList();
+    renderFavs();
+    renderMap();
+  }
+
+  document.getElementById("landmarkBtn").addEventListener("click", () => {
+    renderLandmarkList("");
+    document.getElementById("lmSearchInput").value = "";
+    document.getElementById("landmarkModal").classList.add("open");
+  });
+  document.getElementById("closeLandmarkModal").addEventListener("click", () => {
+    document.getElementById("landmarkModal").classList.remove("open");
+  });
+  document.getElementById("lmSearchInput").addEventListener("input", e => renderLandmarkList(e.target.value));
+
+  function requestGPS() {
+    if (!navigator.geolocation) {
+      alert("当前浏览器不支持 GPS 定位，请使用「选地标/酒店」。");
+      return;
+    }
+    const btn = document.getElementById("gpsBtn");
+    btn.textContent = "📡 定位中…";
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        btn.textContent = "📡 实时GPS定位";
+        setUserLocation(pos.coords.latitude, pos.coords.longitude, "iPhone 实时 GPS 位置");
+      },
+      err => {
+        btn.textContent = "📡 实时GPS定位";
+        alert("无法获取 GPS（请确认在 HTTPS 页面允许定位权限，或使用「选地标/酒店」）。");
+      },
+      { enableHighAccuracy: true, timeout: 8000 }
+    );
+  }
+  document.getElementById("gpsBtn").addEventListener("click", requestGPS);
+  document.getElementById("mapGpsBtn").addEventListener("click", requestGPS);
+
+  // Filters
+  document.querySelectorAll("#radiusChips .chip").forEach(c => {
+    c.addEventListener("click", () => {
+      state.radius = Number(c.dataset.radius);
+      syncRadiusChips();
+      renderList();
+    });
+  });
+
+  document.querySelectorAll("#quickFilterChips .chip").forEach(c => {
+    c.addEventListener("click", () => {
+      state.quick = c.dataset.q;
+      document.querySelectorAll("#quickFilterChips .chip").forEach(x => x.classList.toggle("active", x === c));
+      renderList();
+    });
+  });
+
+  document.getElementById("searchInput").addEventListener("input", e => {
+    state.search = e.target.value;
+    if (state.search.trim() && state.radius < 999999) {
+      state.radius = 999999;
+      syncRadiusChips();
+    }
+    renderList();
+  });
+
+  document.getElementById("clearFavsBtn").addEventListener("click", () => {
+    if (confirm("确定清空所有「想去」和「已吃」记录吗？")) {
+      state.want.clear();
+      state.done.clear();
+      saveFavs();
+      renderList();
+      renderFavs();
+    }
+  });
+
+  // Tab Navigation
+  document.querySelectorAll(".nav-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const target = btn.dataset.tab;
+      document.querySelectorAll(".nav-btn").forEach(b => b.classList.toggle("active", b === btn));
+      document.querySelectorAll(".tab-panel").forEach(p => p.classList.toggle("active", p.id === `tab-${target}`));
+      document.getElementById("mainScroller").scrollTop = 0;
+      if (target === "map") renderMap();
+      if (target === "favs") renderFavs();
+    });
+  });
+
+  // Interactive Touch SVG Map
+  const SUBWAY_LINES = [
+    { name: "东山线", color: "#F59E0B", pts: [[136.879,35.170],[136.895,35.169],[136.909,35.170],[136.937,35.169],[136.955,35.167],[136.979,35.158]] },
+    { name: "名城线", color: "#8B5CF6", pts: [[136.899,35.185],[136.909,35.170],[136.908,35.164],[136.906,35.157],[136.901,35.143],[136.911,35.128]] },
+    { name: "樱通线", color: "#EF4444", pts: [[136.882,35.171],[136.891,35.174],[136.897,35.172],[136.909,35.172],[136.933,35.170]] },
+    { name: "鹤舞线", color: "#3B82F6", pts: [[136.891,35.174],[136.896,35.168],[136.900,35.160],[136.906,35.157],[136.918,35.156]] }
+  ];
+
+  function project(lat, lng, w, h) {
+    const pxPerDegLng = 7200 * mapView.scale;
+    const pxPerDegLat = 8800 * mapView.scale;
+    const x = w / 2 + (lng - mapView.cx) * pxPerDegLng;
+    const y = h / 2 - (lat - mapView.cy) * pxPerDegLat;
+    return [x, y];
+  }
+
+  function unproject(x, y, w, h) {
+    const pxPerDegLng = 7200 * mapView.scale;
+    const pxPerDegLat = 8800 * mapView.scale;
+    const lng = mapView.cx + (x - w / 2) / pxPerDegLng;
+    const lat = mapView.cy - (y - h / 2) / pxPerDegLat;
+    return [lat, lng];
+  }
+
+  function renderMap() {
+    const svg = document.getElementById("mapSvg");
+    const box = document.getElementById("mapContainer").getBoundingClientRect();
+    const w = box.width || 360, h = box.height || 460;
+    svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+
+    let out = "";
+    // Grid / Subway lines
+    SUBWAY_LINES.forEach(line => {
+      const d = line.pts.map((p, i) => {
+        const [x, y] = project(p[1], p[0], w, h);
+        return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`;
+      }).join(" ");
+      out += `<path d="${d}" fill="none" stroke="${line.color}" stroke-width="4" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round"/>`;
+    });
+
+    // User radius ring (1km) & pulsing dot
+    const [ux, uy] = project(userLoc.lat, userLoc.lng, w, h);
+    const rPx = (1000 / 111000) * 8800 * mapView.scale;
+    out += `<circle cx="${ux.toFixed(1)}" cy="${uy.toFixed(1)}" r="${rPx.toFixed(1)}" fill="rgba(220,38,38,0.08)" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="5,5"/>`;
+    out += `<circle cx="${ux.toFixed(1)}" cy="${uy.toFixed(1)}" r="8" fill="#2563EB" stroke="#FFFFFF" stroke-width="2.5"/>`;
+
+    // Landmark labels
+    LANDMARKS.forEach(lm => {
+      const [lx, ly] = project(lm.lat, lm.lng, w, h);
+      if (lx < -80 || lx > w + 80 || ly < -40 || ly > h + 40) return;
+      out += `<text x="${lx.toFixed(1)}" y="${(ly - 8).toFixed(1)}" text-anchor="middle" font-size="11" font-weight="700" fill="var(--text-muted)" opacity="0.85">${esc(lm.name_zh.split("（")[0].split(" / ")[0])}</text>`;
+    });
+
+    // Restaurant pins
+    RESTAURANTS.forEach(r => {
+      const [rx, ry] = project(r.lat, r.lng, w, h);
+      if (rx < -20 || rx > w + 20 || ry < -20 || ry > h + 20) return;
+      const isSel = activeMapRest && activeMapRest.id === r.id;
+      out += `<circle class="map-pin" data-id="${esc(r.id)}" cx="${rx.toFixed(1)}" cy="${ry.toFixed(1)}" r="${isSel ? 10 : 7}" fill="${tierColor(r.tier)}" stroke="#FFFFFF" stroke-width="2" style="cursor:pointer;"/>`;
+    });
+
+    svg.innerHTML = out;
+    svg.querySelectorAll(".map-pin").forEach(pin => {
+      pin.addEventListener("click", e => {
+        e.stopPropagation();
+        const r = RESTAURANTS.find(x => x.id === pin.dataset.id);
+        if (r) showMapPeek(r);
+      });
+    });
+  }
+
+  function showMapPeek(r) {
+    activeMapRest = r;
+    renderMap();
+    const dist = Math.round(haversine(userLoc.lat, userLoc.lng, r.lat, r.lng));
+    const walkMin = Math.max(1, Math.round(dist / 75));
+    const peek = document.getElementById("mapPeek");
+    peek.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+        <div>
+          <strong style="font-size:15px;">${esc(r.name_zh)}</strong>
+          <div style="font-size:12px; color:var(--text-muted);">${esc(r.tier)} · ${esc(r.category.split(" (")[0])} · 📏 ${dist}m（步行约${walkMin}分）</div>
+          <div style="font-size:12px; margin-top:4px;">🍽️ ${(r.must_order||[]).slice(0,2).map(m=>esc(m.zh)).join("、")}</div>
+        </div>
+        <button class="icon-btn" id="closePeekBtn" style="min-width:36px; min-height:36px;">✕</button>
+      </div>
+      <div class="action-grid" style="margin-top:8px;">
+        <a class="act-btn" href="${esc(r.gmaps_url)}" target="_blank" rel="noopener">🗺️ Google</a>
+        <a class="act-btn" href="${esc(r.apple_maps_url)}" target="_blank" rel="noopener">🍎 Apple</a>
+        <button class="act-btn waiter" id="peekWaiterBtn">🗣️ 点单卡</button>
+      </div>
+    `;
+    peek.classList.add("open");
+    document.getElementById("closePeekBtn").addEventListener("click", () => {
+      peek.classList.remove("open");
+      activeMapRest = null;
+      renderMap();
+    });
+    document.getElementById("peekWaiterBtn").addEventListener("click", () => openWaiterModal(r.id));
+  }
+
+  // Map Pan & Pinch Zoom
+  (function initMapGestures() {
+    const svg = document.getElementById("mapSvg");
+    let pointers = new Map();
+    let lastDist = null;
+    let moved = false;
+
+    svg.addEventListener("pointerdown", e => {
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      moved = false;
+      svg.setPointerCapture(e.pointerId);
+    });
+
+    svg.addEventListener("pointermove", e => {
+      if (!pointers.has(e.pointerId)) return;
+      const prev = pointers.get(e.pointerId);
+      const dx = e.clientX - prev.x, dy = e.clientY - prev.y;
+      if (Math.hypot(dx, dy) > 4) moved = true;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+      if (pointers.size === 1) {
+        mapView.cx -= dx / (7200 * mapView.scale);
+        mapView.cy += dy / (8800 * mapView.scale);
+        renderMap();
+      } else if (pointers.size === 2) {
+        const pts = [...pointers.values()];
+        const d = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+        if (lastDist) {
+          mapView.scale = Math.max(0.15, Math.min(8.0, mapView.scale * (d / lastDist)));
+          renderMap();
+        }
+        lastDist = d;
+      }
+    });
+
+    const endPtr = e => {
+      if (!moved && pointers.size === 1 && state.tapSetLoc && e.target === svg) {
+        const rect = svg.getBoundingClientRect();
+        const [lat, lng] = unproject(e.clientX - rect.left, e.clientY - rect.top, rect.width, rect.height);
+        state.tapSetLoc = false;
+        document.getElementById("tapSetLocBtn").textContent = "🎯 点地图设定位";
+        setUserLocation(lat, lng, "地图自选位置");
+      }
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) lastDist = null;
+    };
+    svg.addEventListener("pointerup", endPtr);
+    svg.addEventListener("pointercancel", endPtr);
+
+    document.getElementById("zoomInBtn").addEventListener("click", () => { mapView.scale = Math.min(8, mapView.scale * 1.4); renderMap(); });
+    document.getElementById("zoomOutBtn").addEventListener("click", () => { mapView.scale = Math.max(0.15, mapView.scale / 1.4); renderMap(); });
+    document.getElementById("zoomResetBtn").addEventListener("click", () => { mapView.cx = userLoc.lng; mapView.cy = userLoc.lat; mapView.scale = 1.0; renderMap(); });
+    document.getElementById("tapSetLocBtn").addEventListener("click", () => {
+      state.tapSetLoc = !state.tapSetLoc;
+      document.getElementById("tapSetLocBtn").textContent = state.tapSetLoc ? "👆 请轻触地图…" : "🎯 点地图设定位";
+    });
+  })();
+
+  // Boot: load data & register SW
+  async function boot() {
+    try {
+      const [rRes, lRes] = await Promise.all([
+        fetch("./data/restaurants.json"),
+        fetch("./data/landmarks.json")
+      ]);
+      RESTAURANTS = await rRes.json();
+      LANDMARKS = await lRes.json();
+      document.getElementById("headerSub").textContent = `${RESTAURANTS.length} 家实测认证 · ${LANDMARKS.length} 大地标 · 离线可用`;
+      renderChips();
+      renderList();
+      renderFavs();
+    } catch (err) {
+      document.getElementById("headerSub").textContent = "数据加载失败，请通过 HTTP/HTTPS 服务打开";
+      console.error(err);
+    }
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+  }
+  boot();
+})();
+</script>
+</body>
+</html>

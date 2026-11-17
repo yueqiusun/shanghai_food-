@@ -103,6 +103,7 @@ def main():
     parser.add_argument("--red-only", action="store_true", help="仅显示红榜餐厅（强烈推荐 + 值得一试）")
     parser.add_argument("--top-only", action="store_true", help="仅显示【强烈推荐】餐厅")
     parser.add_argument("--black-only", action="store_true", help="仅显示黑榜【严重踩雷】餐厅")
+    parser.add_argument("--reservable", action="store_true", help="仅显示【需预约】餐厅")
     parser.add_argument("--cuisine", type=str, default="", help="按菜系关键词筛选（如：火锅、本帮、粤菜、牛排）")
     parser.add_argument("--max-price", type=int, default=0, help="最高人均价格限制（元）")
     parser.add_argument("-n", "--limit", type=int, default=20, help="最多返回条数（默认：20）")
@@ -139,6 +140,8 @@ def main():
         if args.red_only and tier not in ("强烈推荐", "值得一试"):
             continue
         if args.black_only and tier != "严重踩雷":
+            continue
+        if args.reservable and not r.get("reservation_required"):
             continue
         if args.cuisine:
             blob = f"{r.get('cuisine_category','')} {r.get('name','')} {' '.join(r.get('recommended_dishes') or [])}"
@@ -179,7 +182,8 @@ def main():
         branch_s = f" ({r['branch_name']})" if r.get("branch_name") else ""
         rec_s = "、".join((r.get("recommended_dishes") or [])[:4])
         avd_s = "、".join((r.get("avoid_dishes") or [])[:3])
-        print(f"\n[{idx}] {r['name']}{branch_s}  {ico} {r['verdict_tier']} ｜ {price_s} ｜ {r['walk_info']}")
+        res_s = " [📅 需预约]" if r.get("reservation_required") else ""
+        print(f"\n[{idx}] {r['name']}{branch_s}  {ico} {r['verdict_tier']}{res_s} ｜ {price_s} ｜ {r['walk_info']}")
         print(f"    📍 {r['district']}·{r['commercial_area']} ｜ {r['address']} ｜ {r['cuisine_category']}")
         if rec_s:
             print(f"    👍 推荐菜：{rec_s}")

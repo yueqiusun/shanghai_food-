@@ -295,13 +295,21 @@ def main():
           document.querySelector('.tab-btn[data-tab="redblack"]').click();
           const rbSections = document.querySelectorAll('#panelRedBlack .rb-section').length;
 
-          return { modalOpen, taxiTitle, favCount, pinsCount, rbSections };
+          // Switch back to Nearby and test reservation filter chip
+          document.querySelector('.tab-btn[data-tab="nearby"]').click();
+          const resChip = document.querySelector('#reservationChips .chip[data-val="REQUIRED"]');
+          resChip.click();
+          const resCountText = document.getElementById('resultCountText').textContent;
+          const resBadges = document.querySelectorAll('#nearbyList .res-badge').length;
+
+          return { modalOpen, taxiTitle, favCount, pinsCount, rbSections, resCountText, resBadges };
         })()""")
         print(f"[CHECK 4] Interactive Tabs & Modal: {ui_check}")
         assert ui_check["modalOpen"] is True and bool(ui_check["taxiTitle"])
         assert ui_check["favCount"] == "1"
         assert ui_check["pinsCount"] > 0
         assert ui_check["rbSections"] == 5
+        assert ui_check["resBadges"] > 0, "Expected .res-badge tags when filtering by 需预约"
 
         ws.drain_events(0.8)
 

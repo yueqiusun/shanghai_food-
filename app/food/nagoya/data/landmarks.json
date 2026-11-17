@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lm-nagoya-sta",
+    "name_zh": "名古屋站（JR樱通口/东口）",
+    "name_ja": "名古屋駅（桜通口）",
+    "aliases": ["名古屋站", "名站", "名古屋驿", "樱通口", "Nagoya Station"],
+    "type": "交通枢纽",
+    "zone_id": 1,
+    "lat": 35.170915,
+    "lng": 136.881537
+  },
+  {
+    "id": "lm-takashimaya",
+    "name_zh": "JR名古屋高岛屋 / Gate Tower",
+    "name_ja": "JR名古屋タカシマヤ・ゲートタワー",
+    "aliases": ["高岛屋", "JR高岛屋", "Gate Tower", "JR门楼"],
+    "type": "商圈商场",
+    "zone_id": 1,
+    "lat": 35.171650,
+    "lng": 136.882550
+  },
+  {
+    "id": "lm-midland",
+    "name_zh": "Midland Square（名铁/JR对面）",
+    "name_ja": "ミッドランドスクエア",
+    "aliases": ["Midland Square", "中部地方广场", "名铁百货原址对面"],
+    "type": "商圈商场",
+    "zone_id": 1,
+    "lat": 35.169694,
+    "lng": 136.884806
+  },
+  {
+    "id": "lm-dainagoya",
+    "name_zh": "大名古屋大厦（Dai Nagoya Building）",
+    "name_ja": "大名古屋ビルヂング",
+    "aliases": ["大名古屋大厦", "Dai Nagoya", "大名古屋"],
+    "type": "商圈商场",
+    "zone_id": 1,
+    "lat": 35.171944,
+    "lng": 136.884500
+  },
+  {
+    "id": "lm-marriott-associa",
+    "name_zh": "名古屋万豪酒店（Marriott Associa）",
+    "name_ja": "名古屋マリオットアソシアホテル",
+    "aliases": ["万豪酒店", "名古屋万豪", "Marriott Associa"],
+    "type": "热门酒店",
+    "zone_id": 1,
+    "lat": 35.170660,
+    "lng": 136.882650
+  },
+  {
+    "id": "lm-gate-tower-hotel",
+    "name_zh": "名古屋JR门楼酒店（Gate Tower Hotel）",
+    "name_ja": "名古屋JRゲートタワーホテル",
+    "aliases": ["JR门楼酒店", "Gate Tower Hotel"],
+    "type": "热门酒店",
+    "zone_id": 1,
+    "lat": 35.171850,
+    "lng": 136.882400
+  },
+  {
+    "id": "lm-mitsui-premier",
+    "name_zh": "三井花园酒店名古屋普米尔",
+    "name_ja": "三井ガーデンホテル名古屋プレミア",
+    "aliases": ["三井花园", "三井普米尔", "Mitsui Garden Premier"],
+    "type": "热门酒店",
+    "zone_id": 1,
+    "lat": 35.169580,
+    "lng": 136.886620
+  },
+  {
+    "id": "lm-taikodori-esca",
+    "name_zh": "名古屋站太阁通口 / ESCA地下街",
+    "name_ja": "名古屋駅太閤通口・エスカ地下街",
+    "aliases": ["太阁通口", "名站西口", "ESCA", "ESCA地下街"],
+    "type": "交通枢纽",
+    "zone_id": 2,
+    "lat": 35.170350,
+    "lng": 136.879650
+  },
+  {
+    "id": "lm-yanagibashi",
+    "name_zh": "柳桥中央市场",
+    "name_ja": "柳橋中央市場",
+    "aliases": ["柳桥市场", "柳桥中央市场"],
+    "type": "景点地标",
+    "zone_id": 2,
+    "lat": 35.168450,
+    "lng": 136.888850
+  },
+  {
+    "id": "lm-noritake",
+    "name_zh": "则武之森 / 永旺梦乐城（TSUTAYA）",
+    "name_ja": "ノリタケの森・イオンモール Nagoya Noritake Garden",
+    "aliases": ["则武之森", "永旺梦乐城则武", "TSUTAYA书店", "龟岛"],
+    "type": "景点地标",
+    "zone_id": 2,
+    "lat": 35.179580,
+    "lng": 136.881120
+  },
+  {
+    "id": "lm-toyota-museum",
+    "name_zh": "丰田产业技术纪念馆",
+    "name_ja": "トヨタ産業技術記念館",
+    "aliases": ["丰田纪念馆", "丰田产业技术纪念馆", "荣生"],
+    "type": "景点地标",
+    "zone_id": 2,
+    "lat": 35.182380,
+    "lng": 136.875860
+  },
+  {
+    "id": "lm-sakae-oasis21",
+    "name_zh": "荣站 / 绿洲21（Oasis 21）",
+    "name_ja": "栄駅・オアシス21",
+    "aliases": ["荣站", "荣", "绿洲21", "Oasis 21"],
+    "type": "交通枢纽",
+    "zone_id": 3,
+    "lat": 35.170660,
+    "lng": 136.909650
+  },
+  {
+    "id": "lm-hisaya-odori",
+    "name_zh": "久屋大通公园 / 中部电力MIRAI TOWER",
+    "name_ja": "久屋大通公園・中部電力 MIRAI TOWER",
+    "aliases": ["久屋大通", "名古屋电视塔", "MIRAI TOWER"],
+    "type": "景点地标",
+    "zone_id": 3,
+    "lat": 35.172360,
+    "lng": 136.908330
+  },
+  {
+    "id": "lm-chunichi-bldg",
+    "name_zh": "中日大厦（Chunichi Building）",
+    "name_ja": "中日ビル",
+    "aliases": ["中日大厦", "中日ビル", "Chunichi Building"],
+    "type": "商圈商场",
+    "zone_id": 3,
+    "lat": 35.168430,
+    "lng": 136.909660
+  },
+  {
+    "id": "lm-nishiki3",
+    "name_zh": "锦三丁目（Nishiki 3-chome）",
+    "name_ja": "錦三丁目",
+    "aliases": ["锦三", "锦三丁目", "锦"],
+    "type": "商圈商场",
+    "zone_id": 3,
+    "lat": 35.170800,
+    "lng": 136.904500
+  },
+  {
+    "id": "lm-matsuzakaya",
+    "name_zh": "松坂屋名古屋店 / 矢场町站",
+    "name_ja": "松坂屋名古屋店・矢場町駅",
+    "aliases": ["松坂屋", "荣松坂屋", "矢场町"],
+    "type": "商圈商场",
+    "zone_id": 4,
+    "lat": 35.164720,
+    "lng": 136.908190
+  },
+  {
+    "id": "lm-lachic-mitsukoshi",
+    "name_zh": "LACHIC / 名古屋三越荣店",
+    "name_ja": "ラシック・名古屋栄三越",
+    "aliases": ["LACHIC", "三越", "名古屋三越"],
+    "type": "商圈商场",
+    "zone_id": 4,
+    "lat": 35.167250,
+    "lng": 136.907850
+  },
+  {
+    "id": "lm-parco",
+    "name_zh": "名古屋PARCO",
+    "name_ja": "名古屋PARCO",
+    "aliases": ["PARCO", "名古屋PARCO"],
+    "type": "商圈商场",
+    "zone_id": 4,
+    "lat": 35.163620,
+    "lng": 136.907600
+  },
+  {
+    "id": "lm-tiad-hotel",
+    "name_zh": "TIAD 傲途格精选酒店（矢场町）",
+    "name_ja": "TIAD, Autograph Collection",
+    "aliases": ["TIAD", "傲途格", "TIAD酒店"],
+    "type": "热门酒店",
+    "zone_id": 4,
+    "lat": 35.163750,
+    "lng": 136.909650
+  },
+  {
+    "id": "lm-tokyu-hotel",
+    "name_zh": "名古屋东急酒店（Nagoya Tokyu Hotel）",
+    "name_ja": "名古屋東急ホテル",
+    "aliases": ["东急酒店", "名古屋东急"],
+    "type": "热门酒店",
+    "zone_id": 4,
+    "lat": 35.168380,
+    "lng": 136.915420
+  },
+  {
+    "id": "lm-fushimi-hilton",
+    "name_zh": "伏见站 / 名古屋希尔顿酒店（Hilton）",
+    "name_ja": "伏見駅・ヒルトン名古屋",
+    "aliases": ["伏见", "伏见站", "希尔顿", "名古屋希尔顿", "Hilton"],
+    "type": "热门酒店",
+    "zone_id": 5,
+    "lat": 35.168420,
+    "lng": 136.895520
+  },
+  {
+    "id": "lm-courtyard",
+    "name_zh": "名古屋万怡酒店（Courtyard Marriott）",
+    "name_ja": "コートヤード・バイ・マリオット名古屋",
+    "aliases": ["万怡", "万怡酒店", "Courtyard"],
+    "type": "热门酒店",
+    "zone_id": 5,
+    "lat": 35.167120,
+    "lng": 136.893550
+  },
+  {
+    "id": "lm-nikko-style",
+    "name_zh": "名古屋日航尚格酒店（Nikko Style）",
+    "name_ja": "ニッコースタイル名古屋",
+    "aliases": ["日航尚格", "Nikko Style"],
+    "type": "热门酒店",
+    "zone_id": 5,
+    "lat": 35.170450,
+    "lng": 136.891950
+  },
+  {
+    "id": "lm-kanko-hotel",
+    "name_zh": "名古屋观光酒店（Nagoya Kanko Hotel）",
+    "name_ja": "名古屋観光ホテル",
+    "aliases": ["观光酒店", "名古屋观光酒店"],
+    "type": "热门酒店",
+    "zone_id": 5,
+    "lat": 35.168350,
+    "lng": 136.899750
+  },
+  {
+    "id": "lm-shikemichi-endoji",
+    "name_zh": "四间道 / 圆顿寺商店街（国际中心站）",
+    "name_ja": "四間道・円頓寺商店街（国際センター駅）",
+    "aliases": ["四间道", "圆顿寺", "国际中心", "那古野"],
+    "type": "景点地标",
+    "zone_id": 5,
+    "lat": 35.174350,
+    "lng": 136.890680
+  },
+  {
+    "id": "lm-osu-kannon",
+    "name_zh": "大须观音寺 / 大须商店街",
+    "name_ja": "大須観音・大須商店街",
+    "aliases": ["大须观音", "大须", "大须商店街"],
+    "type": "景点地标",
+    "zone_id": 6,
+    "lat": 35.159720,
+    "lng": 136.899720
+  },
+  {
+    "id": "lm-kamimaezu",
+    "name_zh": "上前津站（大须东口）",
+    "name_ja": "上前津駅",
+    "aliases": ["上前津", "上前津站"],
+    "type": "交通枢纽",
+    "zone_id": 6,
+    "lat": 35.157300,
+    "lng": 136.906350
+  },
+  {
+    "id": "lm-kanayama",
+    "name_zh": "金山综合站（Kanayama Station）",
+    "name_ja": "金山駅",
+    "aliases": ["金山", "金山站"],
+    "type": "交通枢纽",
+    "zone_id": 7,
+    "lat": 35.143060,
+    "lng": 136.900970
+  },
+  {
+    "id": "lm-atsuta-nagaya",
+    "name_zh": "热田神宫 / 神宫前站 / あつたnagAya",
+    "name_ja": "熱田神宮・神宮前駅・あつたnagAya",
+    "aliases": ["热田神宫", "神宫前", "nagAya", "あつたnagAya"],
+    "type": "景点地标",
+    "zone_id": 7,
+    "lat": 35.127750,
+    "lng": 136.911450
+  },
+  {
+    "id": "lm-nagoya-castle",
+    "name_zh": "名古屋城 / 金鯱横丁",
+    "name_ja": "名古屋城・金シャチ横丁",
+    "aliases": ["名古屋城", "金鯱横丁", "名城公园"],
+    "type": "景点地标",
+    "zone_id": 8,
+    "lat": 35.184720,
+    "lng": 136.899720
+  },
+  {
+    "id": "lm-tokugawa-garden",
+    "name_zh": "德川园 / 白壁·高岳",
+    "name_ja": "徳川園・白壁・高岳",
+    "aliases": ["德川园", "白壁", "高岳"],
+    "type": "景点地标",
+    "zone_id": 8,
+    "lat": 35.183920,
+    "lng": 136.932850
+  },
+  {
+    "id": "lm-tsuruma",
+    "name_zh": "鹤舞公园 / TSURUMA GARDEN",
+    "name_ja": "鶴舞公園・TSURUMA GARDEN",
+    "aliases": ["鹤舞", "鹤舞公园", "TSURUMA GARDEN"],
+    "type": "景点地标",
+    "zone_id": 9,
+    "lat": 35.156350,
+    "lng": 136.917850
+  },
+  {
+    "id": "lm-imaike",
+    "name_zh": "今池·池下·千种",
+    "name_ja": "今池・池下・千種",
+    "aliases": ["今池", "池下", "千种"],
+    "type": "交通枢纽",
+    "zone_id": 9,
+    "lat": 35.169550,
+    "lng": 136.937150
+  },
+  {
+    "id": "lm-kakuozan",
+    "name_zh": "觉王山 / 日泰寺",
+    "name_ja": "覚王山・日泰寺",
+    "aliases": ["觉王山", "日泰寺"],
+    "type": "景点地标",
+    "zone_id": 9,
+    "lat": 35.166750,
+    "lng": 136.954720
+  },
+  {
+    "id": "lm-higashiyama",
+    "name_zh": "东山动植物园 / 星之丘Terrace",
+    "name_ja": "東山動植物園・星が丘テラス",
+    "aliases": ["东山动植物园", "星之丘", "东山公园"],
+    "type": "景点地标",
+    "zone_id": 9,
+    "lat": 35.158350,
+    "lng": 136.979450
+  },
+  {
+    "id": "lm-centrair",
+    "name_zh": "中部国际机场（Centrair T1 4F 提灯横丁）",
+    "name_ja": "中部国際空港 セントレア 第1ターミナル 4F",
+    "aliases": ["中部国际机场", "机场", "Centrair", "NGO", "提灯横丁"],
+    "type": "交通枢纽",
+    "zone_id": 10,
+    "lat": 34.858410,
+    "lng": 136.812490
+  },
+  {
+    "id": "lm-nagoya-port",
+    "name_zh": "名古屋港水族馆 / 筑地口",
+    "name_ja": "名古屋港水族館・築地口",
+    "aliases": ["名古屋港", "名古屋港水族馆", "筑地口"],
+    "type": "景点地标",
+    "zone_id": 10,
+    "lat": 35.090850,
+    "lng": 136.878150
+  },
+  {
+    "id": "lm-legoland",
+    "name_zh": "乐高乐园 / Maker's Pier（金城埠头）",
+    "name_ja": "レゴランド・ジャパン・メイカーズピア",
+    "aliases": ["乐高乐园", "LEGOLAND", "Makers Pier", "金城埠头"],
+    "type": "景点地标",
+    "zone_id": 10,
+    "lat": 35.050750,
+    "lng": 136.843950
+  },
+  {
+    "id": "lm-inuyama",
+    "name_zh": "犬山城下町（犬山站/犬山游园）",
+    "name_ja": "犬山城下町",
+    "aliases": ["犬山", "犬山城", "犬山城下町"],
+    "type": "景点地标",
+    "zone_id": 10,
+    "lat": 35.384950,
+    "lng": 136.939450
+  },
+  {
+    "id": "lm-ghibli-park",
+    "name_zh": "吉卜力公园（爱·地球博纪念公园站）",
+    "name_ja": "ジブリパーク（愛・地球博記念公園）",
+    "aliases": ["吉卜力", "吉卜力公园", "Ghibli Park", "长久手"],
+    "type": "景点地标",
+    "zone_id": 10,
+    "lat": 35.176350,
+    "lng": 137.088650
+  }
+]

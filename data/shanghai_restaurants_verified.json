@@ -31,7 +31,9 @@
     "overall_review_summary": "虽定价偏高（如328元一只虾），但以中国辛香料结合西餐技法呈现出色，口碑超出预期。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%8A%B1%E6%A4%92%E6%A0%91%E8%A5%BF%E5%BC%8F%E5%B7%9D%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A5%84%E9%98%B3%E5%8C%97%E8%B7%AF%E5%98%89%E5%8D%8E%E4%B8%AD%E5%BF%83%E8%A3%99%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E6%A4%92%E6%A0%91%E8%A5%BF%E5%BC%8F%E5%B7%9D%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A5%84%E9%98%B3%E5%8C%97%E8%B7%AF%E5%98%89%E5%8D%8E%E4%B8%AD%E5%BF%83%E8%A3%99%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8A%B1%E6%A4%92%E6%A0%91%E8%A5%BF%E5%BC%8F%E5%B7%9D%E8%8F%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8A%B1%E6%A4%92%E6%A0%91%E8%A5%BF%E5%BC%8F%E5%B7%9D%E8%8F%9C",
+    "reservation_required": true,
+    "reservation_note": "创意融合川菜Fine Dining，建议提前预约"
   },
   {
     "entry_id": "BV1ndwEzyEQk_01",
@@ -65,7 +67,9 @@
     "overall_review_summary": "日本物语集团旗下人气排队汉堡肉专门店，价格略高但出品稳定、现煎互动感强。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%82%89%E8%82%89%E5%A4%A7%E7%B1%B3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%82%87%E5%98%89%E6%B5%9C%E8%B7%AF1111%E5%8F%B7%E7%BE%8E%E7%BD%97%E5%9F%8EB1%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E8%82%89%E5%A4%A7%E7%B1%B3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%82%87%E5%98%89%E6%B5%9C%E8%B7%AF1111%E5%8F%B7%E7%BE%8E%E7%BD%97%E5%9F%8EB1%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%82%89%E8%82%89%E5%A4%A7%E7%B1%B3"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%82%89%E8%82%89%E5%A4%A7%E7%B1%B3",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV19hs7zHEv5_01",
@@ -99,7 +103,9 @@
     "overall_review_summary": "上海老牌中东菜馆，环境异域风情浓，但定价偏高、服务略显生疏。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20MAKAN%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%BC%95%E6%BA%AA%E5%8C%97%E8%B7%AF45%E5%8F%B72%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=MAKAN%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%BC%95%E6%BA%AA%E5%8C%97%E8%B7%AF45%E5%8F%B72%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_MAKAN"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_MAKAN",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1MyHHzEEY1_01",
@@ -132,7 +138,9 @@
     "overall_review_summary": "原知名法餐厅转型的高端素食仿膳，仪式感强但口味与饱腹感性价比偏低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%B7%A1%E7%9B%90salt-less%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E8%83%B6%E5%B7%9E%E8%B7%AF149%E5%BC%842%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B7%A1%E7%9B%90salt-less%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E8%83%B6%E5%B7%9E%E8%B7%AF149%E5%BC%842%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B7%A1%E7%9B%90salt-less"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B7%A1%E7%9B%90salt-less",
+    "reservation_required": true,
+    "reservation_note": "创意素食套餐制，建议提前预约"
   },
   {
     "entry_id": "BV1ApK6zHExY_01",
@@ -166,7 +174,9 @@
     "overall_review_summary": "顺德名店上海直营首店，庭院环境气派、火候在线，但上海门店菜价偏贵，性价比不高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8C%AA%E8%82%89%E5%A9%86%C2%B7%E9%A1%BA%E5%BE%B7%E7%A7%81%E6%88%BF%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%87%91%E6%B1%87%E5%8D%97%E8%B7%AF29%E5%8F%B7%E5%85%A8%E6%A0%8B",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8C%AA%E8%82%89%E5%A9%86%C2%B7%E9%A1%BA%E5%BE%B7%E7%A7%81%E6%88%BF%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%87%91%E6%B1%87%E5%8D%97%E8%B7%AF29%E5%8F%B7%E5%85%A8%E6%A0%8B%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8C%AA%E8%82%89%E5%A9%86%C2%B7%E9%A1%BA%E5%BE%B7%E7%A7%81%E6%88%BF%E8%8F%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8C%AA%E8%82%89%E5%A9%86%C2%B7%E9%A1%BA%E5%BE%B7%E7%A7%81%E6%88%BF%E8%8F%9C",
+    "reservation_required": true,
+    "reservation_note": "顺德庭院私房菜人气极高，建议提前预约"
   },
   {
     "entry_id": "BV1LvF3eUEJn_01",
@@ -199,7 +209,9 @@
     "overall_review_summary": "外滩高价概念Fine Dining，过度强调形式与阶级感，菜品体验与价格严重不匹配。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%88%90%E5%9B%A0%E7%BB%95%E6%A2%81%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF27%E5%8F%B7%E7%BD%97%E6%96%AF%E7%A6%8F%E5%85%AC%E9%A6%862%E6%A5%BC202%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E5%9B%A0%E7%BB%95%E6%A2%81%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF27%E5%8F%B7%E7%BD%97%E6%96%AF%E7%A6%8F%E5%85%AC%E9%A6%862%E6%A5%BC202%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%88%90%E5%9B%A0%E7%BB%95%E6%A2%81"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%88%90%E5%9B%A0%E7%BB%95%E6%A2%81",
+    "reservation_required": true,
+    "reservation_note": "外滩罗斯福公馆概念Fine Dining，需提前预约"
   },
   {
     "entry_id": "BV1GefGYLEEo_01",
@@ -233,7 +245,9 @@
     "overall_review_summary": "老牌网红意式餐厅，氛围与打卡属性强，但高价松露/鱼子酱加价菜品溢价过高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%A3%9F%E5%85%89%E8%A5%BF%E9%A4%90%E5%8E%85Scarpetta%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%92%99%E8%87%AA%E8%B7%AF33%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%85%89%E8%A5%BF%E9%A4%90%E5%8E%85Scarpetta%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%92%99%E8%87%AA%E8%B7%AF33%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A3%9F%E5%85%89%E8%A5%BF%E9%A4%90%E5%8E%85Scarpetta"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A3%9F%E5%85%89%E8%A5%BF%E9%A4%90%E5%8E%85Scarpetta",
+    "reservation_required": true,
+    "reservation_note": "热门意式约会餐厅，晚餐建议提前预约"
   },
   {
     "entry_id": "BV1ukiBYxE94_01",
@@ -268,7 +282,9 @@
     "overall_review_summary": "兼顾高颜值与美味的新中式融合餐厅，菜量精致单价累加不低，但整体出品令人满意。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%85%83%E5%8F%A4%E9%9B%B2%E5%A2%83%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF245%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E5%8F%A4%E9%9B%B2%E5%A2%83%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF245%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%83%E5%8F%A4%E9%9B%B2%E5%A2%83"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%83%E5%8F%A4%E9%9B%B2%E5%A2%83",
+    "reservation_required": true,
+    "reservation_note": "热门新中式餐厅，周末及晚餐建议提前预约"
   },
   {
     "entry_id": "BV1CoBrY8EQx_01",
@@ -301,7 +317,9 @@
     "overall_review_summary": "极具争议的高价中式板前料理，噱头远大于实际口味价值，属于典型高价踩雷体验。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%AD%E5%9B%BD%E8%8F%9C%C2%B7%E5%A4%B4%E7%81%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1376%E5%8F%B7%E4%B8%8A%E6%B5%B7%E5%95%86%E5%9F%8E%E4%B8%9C%E5%B3%B0211%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%9B%BD%E8%8F%9C%C2%B7%E5%A4%B4%E7%81%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1376%E5%8F%B7%E4%B8%8A%E6%B5%B7%E5%95%86%E5%9F%8E%E4%B8%9C%E5%B3%B0211%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%AD%E5%9B%BD%E8%8F%9C%C2%B7%E5%A4%B4%E7%81%B6"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%AD%E5%9B%BD%E8%8F%9C%C2%B7%E5%A4%B4%E7%81%B6",
+    "reservation_required": true,
+    "reservation_note": "全预约制中式Omakase，席位极少常需提前数周至数月预约"
   },
   {
     "entry_id": "BV1Acsve4EqK_01",
@@ -335,7 +353,9 @@
     "overall_review_summary": "高端洗浴汤泉海鲜自助，食材规格高但门票昂贵，适合纯享休闲而非追求回本。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%B2%90%E5%B1%BF%E6%96%B0%E9%9B%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%90%8C%E4%B8%B0%E8%B7%AF727%E5%8F%B7103-105%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E5%B1%BF%E6%96%B0%E9%9B%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%90%8C%E4%B8%B0%E8%B7%AF727%E5%8F%B7103-105%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%90%E5%B1%BF%E6%96%B0%E9%9B%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%90%E5%B1%BF%E6%96%B0%E9%9B%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1ey4ze8EnD_01",
@@ -368,7 +388,9 @@
     "overall_review_summary": "全预约制高端私房重庆火锅，帮涮服务与食材新鲜，但高昂定价令性价比偏低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%9D%92%E5%B7%9D%C2%B7%E5%B1%B1%E5%9F%8E%E8%80%81%E7%81%AB%E9%94%85%E5%B7%A5%E4%BD%9C%E5%AE%A4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E6%94%AF%E8%B7%AF10%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E5%B7%9D%C2%B7%E5%B1%B1%E5%9F%8E%E8%80%81%E7%81%AB%E9%94%85%E5%B7%A5%E4%BD%9C%E5%AE%A4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E6%94%AF%E8%B7%AF10%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%9D%92%E5%B7%9D%C2%B7%E5%B1%B1%E5%9F%8E%E8%80%81%E7%81%AB%E9%94%85%E5%B7%A5%E4%BD%9C%E5%AE%A4"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%9D%92%E5%B7%9D%C2%B7%E5%B1%B1%E5%9F%8E%E8%80%81%E7%81%AB%E9%94%85%E5%B7%A5%E4%BD%9C%E5%AE%A4",
+    "reservation_required": true,
+    "reservation_note": "全预约制私房火锅工作室，仅接受提前预订"
   },
   {
     "entry_id": "BV1CC41157yb_01",
@@ -401,7 +423,9 @@
     "overall_review_summary": "典型高价沪币火锅，天价锅底叠加时价与服务费，实际饱腹感与口味严重不符。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%A1%8C%E5%AE%B6%E8%8D%9F%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%85%B4%E4%B8%9A%E8%B7%AF123%E5%BC%846%E5%8F%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%97%B6%E5%B0%9A%E4%B8%80%E6%9C%9F2%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A1%8C%E5%AE%B6%E8%8D%9F%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%85%B4%E4%B8%9A%E8%B7%AF123%E5%BC%846%E5%8F%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%97%B6%E5%B0%9A%E4%B8%80%E6%9C%9F2%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A1%8C%E5%AE%B6%E8%8D%9F%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A1%8C%E5%AE%B6%E8%8D%9F%E7%81%AB%E9%94%85",
+    "reservation_required": true,
+    "reservation_note": "新天地高端海鲜火锅，建议提前预约"
   },
   {
     "entry_id": "BV1Xz421R7os_03",
@@ -435,7 +459,9 @@
     "overall_review_summary": "梅陇三杰之一，主打平价地道古法粤菜与点心，物美价廉。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%B0%8F%E7%B2%A4%E6%A5%BC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%A2%85%E9%99%87%E4%B8%87%E8%BE%89%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA%E5%86%85",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%B2%A4%E6%A5%BC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%A2%85%E9%99%87%E4%B8%87%E8%BE%89%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA%E5%86%85%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E7%B2%A4%E6%A5%BC"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E7%B2%A4%E6%A5%BC",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Xz421R7os_02",
@@ -469,7 +495,9 @@
     "overall_review_summary": "梅陇三杰代表店之一，市井环境却有大酒楼水准的广式点心与小炒，极度推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8C%A0%E5%BF%83%E5%B0%8F%E5%8E%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%95%87%E8%A5%BF%E8%B7%AF%E6%A2%85%E9%99%87%E4%BA%8C%E6%9D%9198%E5%8F%B7%E6%A2%85%E4%B8%9C%E5%B8%82%E5%9C%BA%E5%86%85",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8C%A0%E5%BF%83%E5%B0%8F%E5%8E%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%95%87%E8%A5%BF%E8%B7%AF%E6%A2%85%E9%99%87%E4%BA%8C%E6%9D%9198%E5%8F%B7%E6%A2%85%E4%B8%9C%E5%B8%82%E5%9C%BA%E5%86%85%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8C%A0%E5%BF%83%E5%B0%8F%E5%8E%A8"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8C%A0%E5%BF%83%E5%B0%8F%E5%8E%A8",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Xz421R7os_01",
@@ -503,7 +531,9 @@
     "overall_review_summary": "梅陇菜市场周边高性价比潮汕牛肉小店，分量足、汤鲜肉嫩，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%BB%8A%E7%89%9B%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%95%87%E8%A5%BF%E8%B7%AF%E6%A2%85%E9%99%87%E4%BA%8C%E6%9D%91%E6%A2%85%E4%B8%9C%E5%B8%82%E5%9C%BA59%E5%8F%B7%E9%97%A8%E9%9D%A2",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BB%8A%E7%89%9B%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%95%87%E8%A5%BF%E8%B7%AF%E6%A2%85%E9%99%87%E4%BA%8C%E6%9D%91%E6%A2%85%E4%B8%9C%E5%B8%82%E5%9C%BA59%E5%8F%B7%E9%97%A8%E9%9D%A2%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BB%8A%E7%89%9B%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BB%8A%E7%89%9B%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV18S421K7Yg_01",
@@ -537,7 +567,9 @@
     "overall_review_summary": "进贤路老牌生蚝专门店，品类丰富但单只生蚝价格高昂，普通食客性价比不高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Osteria%E7%94%9F%E8%9A%9D%E6%B5%B7%E9%B2%9C%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%BF%9B%E8%B4%A4%E8%B7%AF226%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Osteria%E7%94%9F%E8%9A%9D%E6%B5%B7%E9%B2%9C%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%BF%9B%E8%B4%A4%E8%B7%AF226%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Osteria%E7%94%9F%E8%9A%9D%E6%B5%B7%E9%B2%9C%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Osteria%E7%94%9F%E8%9A%9D%E6%B5%B7%E9%B2%9C%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1rp421d7vV_01",
@@ -572,7 +604,9 @@
     "overall_review_summary": "静安嘉里中心高端创意川菜，环境浪漫适合打卡，但558元水煮鱼等菜品溢价明显。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%9D%B6SPACE%E6%96%B0%E5%B7%9D%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1515%E5%8F%B7%E9%9D%99%E5%AE%89%E5%98%89%E9%87%8C%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BA4%E5%B1%8214%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%9D%B6SPACE%E6%96%B0%E5%B7%9D%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1515%E5%8F%B7%E9%9D%99%E5%AE%89%E5%98%89%E9%87%8C%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BA4%E5%B1%8214%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9D%B6SPACE%E6%96%B0%E5%B7%9D%E8%8F%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9D%B6SPACE%E6%96%B0%E5%B7%9D%E8%8F%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1eQ4y1w7CX_01",
@@ -607,7 +641,9 @@
     "overall_review_summary": "粤菜标准答案级老牌名店，虽定价较高但基本功扎实稳定，值得体验。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA3%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA3%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6",
+    "reservation_required": true,
+    "reservation_note": "米其林经典粤菜，晚市及招牌脆皮烧肉建议提前预约"
   },
   {
     "entry_id": "BV1DG411z7cr_01",
@@ -641,7 +677,9 @@
     "overall_review_summary": "上海高性价比肉食自助代表，约79元实现牛腩牛杂自由，适合肉食控。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%B0%8F%E9%98%BF%E7%85%B2%E7%89%9B%E8%85%A9%E7%89%9B%E6%9D%82%E7%BE%8A%E8%82%89%E8%87%AA%E5%8A%A9%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%9F%B3%E5%B7%9E%E8%B7%AF356%E5%8F%B7-3",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%98%BF%E7%85%B2%E7%89%9B%E8%85%A9%E7%89%9B%E6%9D%82%E7%BE%8A%E8%82%89%E8%87%AA%E5%8A%A9%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%9F%B3%E5%B7%9E%E8%B7%AF356%E5%8F%B7-3%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E9%98%BF%E7%85%B2%E7%89%9B%E8%85%A9%E7%89%9B%E6%9D%82%E7%BE%8A%E8%82%89%E8%87%AA%E5%8A%A9"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E9%98%BF%E7%85%B2%E7%89%9B%E8%85%A9%E7%89%9B%E6%9D%82%E7%BE%8A%E8%82%89%E8%87%AA%E5%8A%A9",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1hN4y1x7C5_01",
@@ -675,7 +713,9 @@
     "overall_review_summary": "疑似存在价格误导与过度加价的江景餐厅，服务费与单价极度离谱，强烈避雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%BB%9B%E5%A4%96%E6%BB%A9%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%8C%97%E8%8B%8F%E5%B7%9E%E8%B7%AF88%E5%8F%B7%E4%B8%AD%E7%BE%8E%E4%BF%A1%E6%89%98%E9%87%91%E8%9E%8D%E5%A4%A7%E5%8E%A6%E5%8D%97%E6%A5%BC3%E5%B1%82302%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%BB%9B%E5%A4%96%E6%BB%A9%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%8C%97%E8%8B%8F%E5%B7%9E%E8%B7%AF88%E5%8F%B7%E4%B8%AD%E7%BE%8E%E4%BF%A1%E6%89%98%E9%87%91%E8%9E%8D%E5%A4%A7%E5%8E%A6%E5%8D%97%E6%A5%BC3%E5%B1%82302%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%BB%9B%E5%A4%96%E6%BB%A9"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%BB%9B%E5%A4%96%E6%BB%A9",
+    "reservation_required": true,
+    "reservation_note": "北外滩江景露台私宴/包厢，需提前预约"
   },
   {
     "entry_id": "BV1gC4y1R7qo_01",
@@ -708,7 +748,9 @@
     "overall_review_summary": "韩国知名连锁炸鸡品牌上海店，获王师傅极高评价，炸鸡爱好者强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20BHC%E7%82%B8%E9%B8%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88/%E6%9D%A5%E7%A6%8F%E5%A3%AB%E6%88%96%E5%A4%A7%E4%B8%B8%E7%99%BE%E8%B4%A7%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=BHC%E7%82%B8%E9%B8%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88/%E6%9D%A5%E7%A6%8F%E5%A3%AB%E6%88%96%E5%A4%A7%E4%B8%B8%E7%99%BE%E8%B4%A7%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_BHC%E7%82%B8%E9%B8%A1"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_BHC%E7%82%B8%E9%B8%A1",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1kC4y1y7br_01",
@@ -741,7 +783,9 @@
     "overall_review_summary": "上海知名新淮扬菜代表，刀工考究、出品精致，口味略偏甜口，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%A3%9F%E5%BA%90%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF1%E5%8F%B7%E6%B8%AF%E6%B1%87%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA%E5%8D%97%E5%BA%A76%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E5%BA%90%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF1%E5%8F%B7%E6%B8%AF%E6%B1%87%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA%E5%8D%97%E5%BA%A76%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A3%9F%E5%BA%90"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A3%9F%E5%BA%90",
+    "reservation_required": true,
+    "reservation_note": "新淮扬菜名店，周末及包厢建议提前预约"
   },
   {
     "entry_id": "BV1jz4y1A7ST_01",
@@ -776,7 +820,9 @@
     "overall_review_summary": "外滩知名国际化高端中餐厅，格调与服务在线，但定价高昂、偏向西式审美的贵价堆料。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Hakkasan%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF18%E5%8F%B7%E5%A4%96%E6%BB%A918%E5%8F%B75%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Hakkasan%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF18%E5%8F%B7%E5%A4%96%E6%BB%A918%E5%8F%B75%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Hakkasan"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Hakkasan",
+    "reservation_required": true,
+    "reservation_note": "外滩18号米其林粤菜，建议提前预约"
   },
   {
     "entry_id": "BV1bM411R7S7_01",
@@ -810,7 +856,9 @@
     "overall_review_summary": "虹口人气咸蛋黄主题面馆，金沙咸蛋黄拌面与狮子头极其浓郁诱人，性价比极高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%A0%B7%E6%A0%B7%E4%BD%93%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%AE%9D%E5%AE%89%E6%94%AF%E8%B7%AF40%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A0%B7%E6%A0%B7%E4%BD%93%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%AE%9D%E5%AE%89%E6%94%AF%E8%B7%AF40%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A0%B7%E6%A0%B7%E4%BD%93%E9%9D%A2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A0%B7%E6%A0%B7%E4%BD%93%E9%9D%A2",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1xN411E7GG_01",
@@ -843,7 +891,9 @@
     "overall_review_summary": "全球知名的地心深坑水下餐厅，建筑与水族馆景观奇绝，餐食价格高、口味中规中矩。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%96%E8%8C%82%E6%B7%B1%E5%9D%91%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97%C2%B7%E6%B8%94%E7%81%AB%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E8%BE%B0%E8%8A%B1%E8%B7%AF5888%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%BD%98%E5%B1%B1%E4%B8%96%E8%8C%82%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97B15%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%96%E8%8C%82%E6%B7%B1%E5%9D%91%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97%C2%B7%E6%B8%94%E7%81%AB%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E8%BE%B0%E8%8A%B1%E8%B7%AF5888%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%BD%98%E5%B1%B1%E4%B8%96%E8%8C%82%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97B15%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E8%8C%82%E6%B7%B1%E5%9D%91%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97%C2%B7%E6%B8%94%E7%81%AB%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E8%8C%82%E6%B7%B1%E5%9D%91%E6%B4%B2%E9%99%85%E9%85%92%E5%BA%97%C2%B7%E6%B8%94%E7%81%AB%E9%A4%90%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "深坑酒店水下景观餐厅，席位紧俏需提前预约"
   },
   {
     "entry_id": "BV1Zz4y1T7v5_01",
@@ -878,7 +928,9 @@
     "overall_review_summary": "老北京铜锅涮肉标杆连锁，麻酱浓郁、羊肉品质稳，上海分店同样值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%93450%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%93450%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1WF41117sZ_01",
@@ -911,7 +963,9 @@
     "overall_review_summary": "上海顶级天妇罗Omakase，炸功细腻但熟客预约制门槛极高、人均2000元性价比偏低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%A4%A9%E5%A6%87%E7%BD%97%C2%B7%E5%A4%A9%E5%90%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B0%B8%E5%98%89%E8%B7%AF570%E5%8F%B7%E6%B0%B8%E5%98%89%E5%BA%AD2%E5%8F%B7%E6%A5%BC1%E6%A5%BC211-212%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A6%87%E7%BD%97%C2%B7%E5%A4%A9%E5%90%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B0%B8%E5%98%89%E8%B7%AF570%E5%8F%B7%E6%B0%B8%E5%98%89%E5%BA%AD2%E5%8F%B7%E6%A5%BC1%E6%A5%BC211-212%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A9%E5%A6%87%E7%BD%97%C2%B7%E5%A4%A9%E5%90%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A9%E5%A6%87%E7%BD%97%C2%B7%E5%A4%A9%E5%90%89",
+    "reservation_required": true,
+    "reservation_note": "熟客全预约制天妇罗Omakase，需提前很久预约"
   },
   {
     "entry_id": "BV1GP411s7qh_01",
@@ -944,7 +998,9 @@
     "overall_review_summary": "位于上海中心120层的世界最高餐厅，云端视野独步魔都，但菜品水准与高价相比中规中矩。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%A4%A9%E4%B9%8B%E9%94%A6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%B3%B0%E8%B7%AF126%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6J%E9%85%92%E5%BA%97120%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%B9%8B%E9%94%A6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%B3%B0%E8%B7%AF126%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6J%E9%85%92%E5%BA%97120%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A9%E4%B9%8B%E9%94%A6"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A9%E4%B9%8B%E9%94%A6",
+    "reservation_required": true,
+    "reservation_note": "上海中心120层世界最高餐厅，需提前预约（尤其靠窗位）"
   },
   {
     "entry_id": "BV1Xm4y1s7G3_01",
@@ -977,7 +1033,9 @@
     "overall_review_summary": "洞穴造景网红餐厅，装修出片但菜品（如点火烧焦猪手）翻车明显，重形式轻口味。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%90%8E%E5%B1%B1%C2%B7%E6%96%B0%E7%B2%A4%E5%91%B3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E7%A6%8F%E5%BB%BA%E5%8C%97%E8%B7%AF100%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%8B%8F%E6%B2%B3%E6%B9%BE%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%E8%B4%9F%E4%B8%80%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%8E%E5%B1%B1%C2%B7%E6%96%B0%E7%B2%A4%E5%91%B3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E7%A6%8F%E5%BB%BA%E5%8C%97%E8%B7%AF100%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%8B%8F%E6%B2%B3%E6%B9%BE%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%E8%B4%9F%E4%B8%80%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%90%8E%E5%B1%B1%C2%B7%E6%96%B0%E7%B2%A4%E5%91%B3"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%90%8E%E5%B1%B1%C2%B7%E6%96%B0%E7%B2%A4%E5%91%B3",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1mN411D7iV_01",
@@ -1011,7 +1069,9 @@
     "overall_review_summary": "淮海路老字号本帮菜标杆，浓油赤酱老味道正宗且价格实在，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%85%89%E6%98%8E%E9%82%A8%E5%A4%A7%E9%85%92%E5%AE%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF588%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%89%E6%98%8E%E9%82%A8%E5%A4%A7%E9%85%92%E5%AE%B6%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF588%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%89%E6%98%8E%E9%82%A8%E5%A4%A7%E9%85%92%E5%AE%B6"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%89%E6%98%8E%E9%82%A8%E5%A4%A7%E9%85%92%E5%AE%B6",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Dh4y1u7m1_01",
@@ -1046,7 +1106,9 @@
     "overall_review_summary": "上海高人气粥底火锅店，先涮海鲜肉类再喝一碗集百味之鲜的米粥，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%9B%88%E7%94%B0%E7%9B%88%E7%B2%A5%E5%BA%84%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%8A%E5%8D%97%E8%B7%AF3077%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9B%88%E7%94%B0%E7%9B%88%E7%B2%A5%E5%BA%84%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%8A%E5%8D%97%E8%B7%AF3077%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9B%88%E7%94%B0%E7%9B%88%E7%B2%A5%E5%BA%84"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9B%88%E7%94%B0%E7%9B%88%E7%B2%A5%E5%BA%84",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1NP411B7MQ_01",
@@ -1078,7 +1140,9 @@
     "overall_review_summary": "以直径80厘米巨无霸美式披萨闻名的聚会神店，分量惊人、性价比高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%AB%99%E7%82%B9%E6%8A%AB%E8%90%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%AF%BA%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%99%E7%82%B9%E6%8A%AB%E8%90%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%AF%BA%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%AB%99%E7%82%B9%E6%8A%AB%E8%90%A8"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%AB%99%E7%82%B9%E6%8A%AB%E8%90%A8",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1BM411G7hQ_01",
@@ -1113,7 +1177,9 @@
     "overall_review_summary": "新加坡国宝级海鲜名店上海ifc分店，蟹肉饱满调味正宗，虽价格高但商务宴请或尝鲜值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8F%8D%E5%AE%9D%E6%B5%B7%E9%B2%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA3%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8F%8D%E5%AE%9D%E6%B5%B7%E9%B2%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA3%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8F%8D%E5%AE%9D%E6%B5%B7%E9%B2%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8F%8D%E5%AE%9D%E6%B5%B7%E9%B2%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Ws4y1A7ha_01",
@@ -1147,7 +1213,9 @@
     "overall_review_summary": "高价海胆主题日料店，图文不符且海胆新鲜度与饱满度欠佳，严重踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%83%86%E9%81%93%C2%B7%E6%B5%B7%E8%83%86%E4%B8%93%E9%97%A8%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BE%90%E5%AE%B6%E6%B1%87%E8%B7%AF268%E5%8F%B7%E5%87%AF%E5%BE%B7%E6%99%B6%E8%90%83%E5%B9%BF%E5%9C%BA5%E5%B1%8223%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%83%86%E9%81%93%C2%B7%E6%B5%B7%E8%83%86%E4%B8%93%E9%97%A8%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BE%90%E5%AE%B6%E6%B1%87%E8%B7%AF268%E5%8F%B7%E5%87%AF%E5%BE%B7%E6%99%B6%E8%90%83%E5%B9%BF%E5%9C%BA5%E5%B1%8223%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%83%86%E9%81%93%C2%B7%E6%B5%B7%E8%83%86%E4%B8%93%E9%97%A8%E5%BA%97"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%83%86%E9%81%93%C2%B7%E6%B5%B7%E8%83%86%E4%B8%93%E9%97%A8%E5%BA%97",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV17o4y1j74i_01",
@@ -1180,7 +1248,9 @@
     "overall_review_summary": "新天地高端日法融合料理，3小时21道菜仪式感拉满，价格高昂适合特定纪念日。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20La%20Sc%C3%A8ne%20Ronde%20%E4%B9%8B%E8%88%9E%20by%20%E5%B1%B1%E8%92%99%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E9%99%82%E5%8D%97%E8%B7%AF838%E5%8F%B72%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=La%20Sc%C3%A8ne%20Ronde%20%E4%B9%8B%E8%88%9E%20by%20%E5%B1%B1%E8%92%99%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E9%99%82%E5%8D%97%E8%B7%AF838%E5%8F%B72%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_La%20Sc%C3%A8ne%20Ronde%20%E4%B9%8B%E8%88%9E%20by%20%E5%B1%B1%E8%92%99"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_La%20Sc%C3%A8ne%20Ronde%20%E4%B9%8B%E8%88%9E%20by%20%E5%B1%B1%E8%92%99",
+    "reservation_required": true,
+    "reservation_note": "全预约制日法创意Omakase，需提前预订座位"
   },
   {
     "entry_id": "BV1bh411g71n_01",
@@ -1216,7 +1286,9 @@
     "overall_review_summary": "静安寺高端超级餐酒馆与派对空间，适合夜生活体验，餐饮性价比一般。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20KOR%20Shanghai%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1717%E5%8F%B7%E4%BC%9A%E5%BE%B7%E4%B8%B0%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA%E5%8D%97%E8%8B%912%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=KOR%20Shanghai%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1717%E5%8F%B7%E4%BC%9A%E5%BE%B7%E4%B8%B0%E5%9B%BD%E9%99%85%E5%B9%BF%E5%9C%BA%E5%8D%97%E8%8B%912%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_KOR%20Shanghai"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_KOR%20Shanghai",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Ps4y1S7rt_01",
@@ -1250,7 +1322,9 @@
     "overall_review_summary": "魔都少见的高端现代印度料理，香料层次丰富、龙虾出品封神，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20KLAY%E7%8E%B0%E4%BB%A3%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8C%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1124%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=KLAY%E7%8E%B0%E4%BB%A3%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8C%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1124%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_KLAY%E7%8E%B0%E4%BB%A3%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_KLAY%E7%8E%B0%E4%BB%A3%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "现代印度Fine Dining，建议提前预约"
   },
   {
     "entry_id": "BV1B84y1M7Eh_01",
@@ -1286,7 +1360,9 @@
     "overall_review_summary": "坐拥浦东美术馆顶楼绝佳外滩江景，但正餐人均2000元溢价严重，仅适合看景打卡。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20ROOF%20P.M.%20Modern%20Dining%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86%E9%A1%B6%E6%A5%BC%E9%9C%B2%E5%8F%B0",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=ROOF%20P.M.%20Modern%20Dining%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86%E9%A1%B6%E6%A5%BC%E9%9C%B2%E5%8F%B0%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_ROOF%20P.M.%20Modern%20Dining"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_ROOF%20P.M.%20Modern%20Dining",
+    "reservation_required": true,
+    "reservation_note": "浦东美术馆顶楼江景晚餐，需提前预约"
   },
   {
     "entry_id": "BV1wL411S7Tp_01",
@@ -1320,7 +1396,9 @@
     "overall_review_summary": "必胜客限时168元自助活动测评，适合大胃王或多人聚餐尝鲜，普通食量中规中矩。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88168%E5%85%83%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%8F%82%E4%B8%8E%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88168%E5%85%83%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%8F%82%E4%B8%8E%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88168%E5%85%83%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%88168%E5%85%83%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1T54y1g7iK_01",
@@ -1354,7 +1432,9 @@
     "overall_review_summary": "上海人气网红韩式冷三肉烤肉小馆，氛围感与互动性拉满，口味在线。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%99%AE%E9%80%9A%E9%A3%9F%E5%A0%82%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%93%9C%E4%BB%81%E8%B7%AF88%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%99%AE%E9%80%9A%E9%A3%9F%E5%A0%82%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%93%9C%E4%BB%81%E8%B7%AF88%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%99%AE%E9%80%9A%E9%A3%9F%E5%A0%82"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%99%AE%E9%80%9A%E9%A3%9F%E5%A0%82",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1G84y1E7m6_01",
@@ -1387,7 +1467,9 @@
     "overall_review_summary": "上海常见美式汉堡餐吧连锁，价格略偏高，出品稳定但缺乏惊艳感。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%93%9D%E8%9B%99%20Blue%20Frog%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C20%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%93%9D%E8%9B%99%20Blue%20Frog%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C20%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%93%9D%E8%9B%99%20Blue%20Frog"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%93%9D%E8%9B%99%20Blue%20Frog",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV12d4y1n7Sr_01",
@@ -1421,7 +1503,9 @@
     "overall_review_summary": "上海顶级宁波菜标杆，海鲜品质与烹饪极佳，但定价极其高昂，性价比偏低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%94%AC%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF59%E5%8F%B7%E9%94%A6%E6%B1%9F%E9%A5%AD%E5%BA%97%E9%94%A6%E5%8C%97%E6%A5%BC12%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%94%AC%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF59%E5%8F%B7%E9%94%A6%E6%B1%9F%E9%A5%AD%E5%BA%97%E9%94%A6%E5%8C%97%E6%A5%BC12%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%94%AC%E5%BA%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%94%AC%E5%BA%9C",
+    "reservation_required": true,
+    "reservation_note": "锦江饭店黑珍珠三钻/米其林一星宁波菜，需提前预约"
   },
   {
     "entry_id": "BV19y4y1R7ry_01",
@@ -1453,7 +1537,9 @@
     "overall_review_summary": "外滩五号高价概念蟹宴，主打帝王蟹九吃与画作摆盘，重视觉仪式感。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%9F%B9%E4%BB%99%E7%94%BB%E5%AE%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E4%B8%9C%E8%B7%AF20%E5%8F%B7%E5%A4%96%E6%BB%A95%E5%8F%B72%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%9F%B9%E4%BB%99%E7%94%BB%E5%AE%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E4%B8%9C%E8%B7%AF20%E5%8F%B7%E5%A4%96%E6%BB%A95%E5%8F%B72%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E4%BB%99%E7%94%BB%E5%AE%B4"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E4%BB%99%E7%94%BB%E5%AE%B4",
+    "reservation_required": true,
+    "reservation_note": "外滩五号高端蟹宴，需提前预约"
   },
   {
     "entry_id": "BV1Ke411w71F_01",
@@ -1486,7 +1572,9 @@
     "overall_review_summary": "老牌知名台塑牛排连锁，服务细致、全熟牛排口感软嫩，但如今人均七百性价比一般。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8E%8B%E5%93%81%E7%89%9B%E6%8E%92%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF99%E5%8F%B7%E5%A4%A7%E4%B8%8A%E6%B5%B7%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA%E7%AD%89%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E5%93%81%E7%89%9B%E6%8E%92%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF99%E5%8F%B7%E5%A4%A7%E4%B8%8A%E6%B5%B7%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA%E7%AD%89%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%8B%E5%93%81%E7%89%9B%E6%8E%92"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%8B%E5%93%81%E7%89%9B%E6%8E%92",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1F44y1Z71q_01",
@@ -1518,7 +1606,9 @@
     "overall_review_summary": "沪上老牌阿根廷秘鲁餐厅，外国人多、风味地道，但与中国食客习惯的牛排口感差距较大。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20El%20Bodegon%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E7%86%9F%E8%B7%AF83%E5%8F%B74%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=El%20Bodegon%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E7%86%9F%E8%B7%AF83%E5%8F%B74%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_El%20Bodegon"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_El%20Bodegon",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1514y1K7tw_01",
@@ -1550,7 +1640,9 @@
     "overall_review_summary": "知名网红椰子鸡连锁，汤底清甜但溢价较高、技术门槛低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%A4%B0%E5%AD%90%E4%B8%8D%E8%AF%AD%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A4%B0%E5%AD%90%E4%B8%8D%E8%AF%AD%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A4%B0%E5%AD%90%E4%B8%8D%E8%AF%AD"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A4%B0%E5%AD%90%E4%B8%8D%E8%AF%AD",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Zd4y1x7MM_01",
@@ -1585,7 +1677,9 @@
     "overall_review_summary": "上海顶级高价海鲜自助火锅，龙虾帝王蟹等硬菜管饱且品质在线，预算充足值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%BA%AC%E5%BD%A9%E8%87%BB%E5%93%81%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1376%E5%8F%B7%E4%B8%8A%E6%B5%B7%E5%95%86%E5%9F%8E%E4%B8%9C%E5%B3%B0212%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E5%BD%A9%E8%87%BB%E5%93%81%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1376%E5%8F%B7%E4%B8%8A%E6%B5%B7%E5%95%86%E5%9F%8E%E4%B8%9C%E5%B3%B0212%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BA%AC%E5%BD%A9%E8%87%BB%E5%93%81%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BA%AC%E5%BD%A9%E8%87%BB%E5%93%81%E7%81%AB%E9%94%85",
+    "reservation_required": true,
+    "reservation_note": "高端海鲜自助火锅，需提前预约"
   },
   {
     "entry_id": "BV1Z24y117xf_01",
@@ -1618,7 +1712,9 @@
     "overall_review_summary": "美式炭烤汉堡性价比王者，肉饼现烤多汁、定价实在，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%93%88%E6%AF%94%E7%89%B9%E6%B1%89%E5%A0%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E7%BE%8E%E7%BD%97%E5%9F%8E/%E9%9D%99%E5%AE%89%E5%AF%BA%E7%AD%89%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%93%88%E6%AF%94%E7%89%B9%E6%B1%89%E5%A0%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E7%BE%8E%E7%BD%97%E5%9F%8E/%E9%9D%99%E5%AE%89%E5%AF%BA%E7%AD%89%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%88%E6%AF%94%E7%89%B9%E6%B1%89%E5%A0%A1"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%88%E6%AF%94%E7%89%B9%E6%B1%89%E5%A0%A1",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1ed4y1k7jE_01",
@@ -1651,7 +1747,9 @@
     "overall_review_summary": "正宗内蒙涮羊肉连锁，羊围脖分量惊人且肉质鲜嫩，聚餐值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%A2%9D%E5%B0%94%E6%95%A6%E4%BC%A0%E7%BB%9F%E6%B6%AE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E9%95%BF%E5%AE%81%E8%B7%AF/%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A2%9D%E5%B0%94%E6%95%A6%E4%BC%A0%E7%BB%9F%E6%B6%AE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E9%95%BF%E5%AE%81%E8%B7%AF/%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A2%9D%E5%B0%94%E6%95%A6%E4%BC%A0%E7%BB%9F%E6%B6%AE"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A2%9D%E5%B0%94%E6%95%A6%E4%BC%A0%E7%BB%9F%E6%B6%AE",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV11e4y177Re_01",
@@ -1684,7 +1782,9 @@
     "overall_review_summary": "上海高人气现炒湘菜盖码饭，人均30元左右香辣下饭、锅气十足，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%B2%AE%E4%BB%93%E9%A5%AD%E6%B9%98%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%87%AF%E6%97%8B%E8%B7%AF1728%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B2%AE%E4%BB%93%E9%A5%AD%E6%B9%98%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%87%AF%E6%97%8B%E8%B7%AF1728%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%B2%AE%E4%BB%93%E9%A5%AD%E6%B9%98"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%B2%AE%E4%BB%93%E9%A5%AD%E6%B9%98",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV16m4y1w7T8_01",
@@ -1718,7 +1818,9 @@
     "overall_review_summary": "知名连锁西餐啤酒坊，露天泳池度假风环境抢眼，适合氛围约会。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%85%B0%E5%B7%B4%E8%B5%AB%20Lenbach%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E8%82%B2%E8%B7%AF500%E5%8F%B7%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%E6%88%96%E9%99%86%E5%AE%B6%E5%98%B4%E6%BB%A8%E6%B1%9F%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%B0%E5%B7%B4%E8%B5%AB%20Lenbach%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E8%82%B2%E8%B7%AF500%E5%8F%B7%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%E6%88%96%E9%99%86%E5%AE%B6%E5%98%B4%E6%BB%A8%E6%B1%9F%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%B0%E5%B7%B4%E8%B5%AB%20Lenbach"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%B0%E5%B7%B4%E8%B5%AB%20Lenbach",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV16e4y1b7R9_01",
@@ -1752,7 +1854,9 @@
     "overall_review_summary": "上海人气超高的排队烧鸡公名店，麻辣入味、分量实在，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%9F%B3%E5%B0%8F%E8%B7%AF%E7%83%A7%E9%B8%A1%E5%85%AC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B1%9D%E5%8D%97%E8%A1%97124%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9F%B3%E5%B0%8F%E8%B7%AF%E7%83%A7%E9%B8%A1%E5%85%AC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B1%9D%E5%8D%97%E8%A1%97124%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9F%B3%E5%B0%8F%E8%B7%AF%E7%83%A7%E9%B8%A1%E5%85%AC"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9F%B3%E5%B0%8F%E8%B7%AF%E7%83%A7%E9%B8%A1%E5%85%AC",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV18B4y1n7w9_01",
@@ -1786,7 +1890,9 @@
     "overall_review_summary": "上海网红现炒浇头本帮面馆，虽客单价高于普通面馆但味道扎实，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%AF%92%E8%9B%87%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF140%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%AF%92%E8%9B%87%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF140%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%AF%92%E8%9B%87%E9%9D%A2%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%AF%92%E8%9B%87%E9%9D%A2%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1eN4y1G77y_01",
@@ -1820,7 +1926,9 @@
     "overall_review_summary": "兴业太古汇地标级星巴克烘焙工坊，空间体验宏大，咖啡烘焙水准稳但价格偏高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1ug411k7oR_01",
@@ -1853,7 +1961,9 @@
     "overall_review_summary": "沪上知名干式熟成牛排馆，老洋房氛围好、牛排风味浓郁，虽价格高但肉质出色。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Love%26Salt%20%E7%BD%97%E7%A6%8F%E7%B4%A2%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%95%BF%E4%B9%90%E8%B7%AF207%E5%8F%B7%E4%B8%80%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Love%26Salt%20%E7%BD%97%E7%A6%8F%E7%B4%A2%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%95%BF%E4%B9%90%E8%B7%AF207%E5%8F%B7%E4%B8%80%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Love%26Salt%20%E7%BD%97%E7%A6%8F%E7%B4%A2%E7%89%9B%E6%8E%92%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Love%26Salt%20%E7%BD%97%E7%A6%8F%E7%B4%A2%E7%89%9B%E6%8E%92%E9%A6%86",
+    "reservation_required": true,
+    "reservation_note": "洋房干式熟成牛排馆，晚市建议提前预约"
   },
   {
     "entry_id": "BV1dt4y137Rq_01",
@@ -1885,7 +1995,9 @@
     "overall_review_summary": "主打海参佛跳墙的高端粤菜馆，用料扎实但900元单价昂贵，性价比一般。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%BC%9A%E5%8F%82%E6%B1%87%E8%89%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BB%BA%E5%9B%BD%E4%B8%9C%E8%B7%AF455%E5%8F%B701%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%9A%E5%8F%82%E6%B1%87%E8%89%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BB%BA%E5%9B%BD%E4%B8%9C%E8%B7%AF455%E5%8F%B701%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BC%9A%E5%8F%82%E6%B1%87%E8%89%B2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BC%9A%E5%8F%82%E6%B1%87%E8%89%B2",
+    "reservation_required": true,
+    "reservation_note": "佛跳墙及包厢需提前预约备制"
   },
   {
     "entry_id": "BV1er4y1L7Ev_01",
@@ -1919,7 +2031,9 @@
     "overall_review_summary": "老字号京菜烤鸭店上海分店，名气大但价格偏高、菜品表现下滑。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%85%A8%E8%81%9A%E5%BE%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF780%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%A8%E8%81%9A%E5%BE%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF780%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%A8%E8%81%9A%E5%BE%B7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%85%A8%E8%81%9A%E5%BE%B7",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1bg411Z7co_01",
@@ -1954,7 +2068,9 @@
     "overall_review_summary": "上海公认正宗的高性价比西北菜馆，羊肉鲜嫩无膻味、价格实在，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%BC%8A%E7%A5%A5%C2%B7%E6%95%A6%E7%85%8C%E6%A5%BC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF2150%E5%8F%B7-8",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E7%A5%A5%C2%B7%E6%95%A6%E7%85%8C%E6%A5%BC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%B1%B1%E5%8C%97%E8%B7%AF2150%E5%8F%B7-8%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BC%8A%E7%A5%A5%C2%B7%E6%95%A6%E7%85%8C%E6%A5%BC"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BC%8A%E7%A5%A5%C2%B7%E6%95%A6%E7%85%8C%E6%A5%BC",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1nV4y1J79a_01",
@@ -1987,7 +2103,9 @@
     "overall_review_summary": "市中心极具性价比的35元自助煲仔饭，份量任加、锅巴香脆，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8F%97%E6%B0%94%E6%8E%8C%E9%97%A8%E7%85%B2%E4%BB%94%E9%A5%AD%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B9%9D%E6%B1%9F%E8%B7%AF279%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%97%E6%B0%94%E6%8E%8C%E9%97%A8%E7%85%B2%E4%BB%94%E9%A5%AD%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B9%9D%E6%B1%9F%E8%B7%AF279%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8F%97%E6%B0%94%E6%8E%8C%E9%97%A8%E7%85%B2%E4%BB%94%E9%A5%AD"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8F%97%E6%B0%94%E6%8E%8C%E9%97%A8%E7%85%B2%E4%BB%94%E9%A5%AD",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1MB4y1a7Ro_01",
@@ -2020,7 +2138,9 @@
     "overall_review_summary": "外滩源顶级高价怀石料理，形式精致但人均2000元吃不饱，性价比极低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%A9%BA%E8%9D%89%E6%80%80%E7%9F%B3%E6%96%99%E7%90%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8C%97%E4%BA%AC%E4%B8%9C%E8%B7%AF99%E5%8F%B7%E7%9B%8A%E4%B8%B0%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%903%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E8%9D%89%E6%80%80%E7%9F%B3%E6%96%99%E7%90%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8C%97%E4%BA%AC%E4%B8%9C%E8%B7%AF99%E5%8F%B7%E7%9B%8A%E4%B8%B0%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%903%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A9%BA%E8%9D%89%E6%80%80%E7%9F%B3%E6%96%99%E7%90%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A9%BA%E8%9D%89%E6%80%80%E7%9F%B3%E6%96%99%E7%90%86",
+    "reservation_required": true,
+    "reservation_note": "顶级怀石料理需按当日空运食材备餐，需提前电话预约"
   },
   {
     "entry_id": "BV1yW4y1U7Uk_01",
@@ -2055,7 +2175,9 @@
     "overall_review_summary": "主打现点现啫的广式啫啫煲专门店，锅气足、价格亲民，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%B2%A4%C2%B7%E5%95%AB%E5%95%AB%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BD%8D%E5%9D%8A%E8%A5%BF%E8%B7%AF/%E5%BC%A0%E6%9D%A8%E8%B7%AF%E9%99%84%E8%BF%91",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B2%A4%C2%B7%E5%95%AB%E5%95%AB%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BD%8D%E5%9D%8A%E8%A5%BF%E8%B7%AF/%E5%BC%A0%E6%9D%A8%E8%B7%AF%E9%99%84%E8%BF%91%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%B2%A4%C2%B7%E5%95%AB%E5%95%AB"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%B2%A4%C2%B7%E5%95%AB%E5%95%AB",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1yG411W7Vn_01",
@@ -2088,7 +2210,9 @@
     "overall_review_summary": "前滩太古里高端日式和牛烧肉，肉质油脂丰沛、全程代烤省心，预算够值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%83%A7%E8%82%89%E6%AD%A3%E5%A5%BD%20Yolo%20Yakiniku%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E8%82%B2%E8%B7%AF500%E5%8F%B7%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%E7%9F%B3%E5%8C%BA4%E6%A5%BCS-L4-02",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%83%A7%E8%82%89%E6%AD%A3%E5%A5%BD%20Yolo%20Yakiniku%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E8%82%B2%E8%B7%AF500%E5%8F%B7%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%E7%9F%B3%E5%8C%BA4%E6%A5%BCS-L4-02%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%83%A7%E8%82%89%E6%AD%A3%E5%A5%BD%20Yolo%20Yakiniku"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%83%A7%E8%82%89%E6%AD%A3%E5%A5%BD%20Yolo%20Yakiniku",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1RB4y1q7KZ_01",
@@ -2122,7 +2246,9 @@
     "overall_review_summary": "连锁火锅服务标杆，黑海会员生日仪式感极强，菜品稳定适合聚餐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B5%B7%E5%BA%95%E6%8D%9E%E7%81%AB%E9%94%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV133411u7Zg_01",
@@ -2157,7 +2283,9 @@
     "overall_review_summary": "上海超人气日式寿喜烧自助连锁，约200元即可畅吃和牛与海鲜，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%89%9BNew%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%9BNew%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%89%9BNew%E5%AF%BF%E5%96%9C%E7%83%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%89%9BNew%E5%AF%BF%E5%96%9C%E7%83%A7",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1oU4y1d7AN_01",
@@ -2190,7 +2318,9 @@
     "overall_review_summary": "官方授权少年JUMP主题餐厅，装潢与IP元素丰富，餐食属于标准主题餐厅水准。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20SHONEN%20JUMP%20CAFE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%82%87%E5%98%89%E6%B5%9C%E8%B7%AF1111%E5%8F%B7%E7%BE%8E%E7%BD%97%E5%9F%8E2%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=SHONEN%20JUMP%20CAFE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E8%82%87%E5%98%89%E6%B5%9C%E8%B7%AF1111%E5%8F%B7%E7%BE%8E%E7%BD%97%E5%9F%8E2%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_SHONEN%20JUMP%20CAFE"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_SHONEN%20JUMP%20CAFE",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1GL411A7b8_01",
@@ -2225,7 +2355,9 @@
     "overall_review_summary": "朋友力荐的重口味川渝火锅店，喷火牛肉辣度极高慎点，常规菜品值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%B2%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%EF%BC%88TESTV%E6%8E%A8%E8%8D%90%E4%B8%8A%E6%B5%B7%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B2%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%EF%BC%88TESTV%E6%8E%A8%E8%8D%90%E4%B8%8A%E6%B5%B7%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B2%9A%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B2%9A%E7%81%AB%E9%94%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1C3411573n_01",
@@ -2261,7 +2393,9 @@
     "overall_review_summary": "平价意式西餐天花板，价格极其亲民且出品稳定，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%90%A8%E8%8E%89%E4%BA%9A%E6%84%8F%E5%BC%8F%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%90%A8%E8%8E%89%E4%BA%9A%E6%84%8F%E5%BC%8F%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%90%A8%E8%8E%89%E4%BA%9A%E6%84%8F%E5%BC%8F%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%90%A8%E8%8E%89%E4%BA%9A%E6%84%8F%E5%BC%8F%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1rU4y1f7kr_01",
@@ -2297,7 +2431,9 @@
     "overall_review_summary": "口碑极佳的高性价比米其林福建菜，百秒黄花鱼与卤面水准极高，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%8E%86%E7%94%B0%E9%A4%90%E5%8E%85%20PUTIEN%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%873%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8E%86%E7%94%B0%E9%A4%90%E5%8E%85%20PUTIEN%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%873%E5%B1%82%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8E%86%E7%94%B0%E9%A4%90%E5%8E%85%20PUTIEN"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8E%86%E7%94%B0%E9%A4%90%E5%8E%85%20PUTIEN",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1fS4y1r7CN_01",
@@ -2330,7 +2466,9 @@
     "overall_review_summary": "南京东路网红打卡餐厅，重装修与猎奇菜名，口味表现较差，容易踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%89%E5%8F%B7%E4%BB%93%E5%BA%93%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF800%E5%8F%B7%E7%AC%AC%E4%B8%80%E7%99%BE%E8%B4%A7%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83C%E9%A6%864%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%8F%B7%E4%BB%93%E5%BA%93%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF800%E5%8F%B7%E7%AC%AC%E4%B8%80%E7%99%BE%E8%B4%A7%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83C%E9%A6%864%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%89%E5%8F%B7%E4%BB%93%E5%BA%93"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%89%E5%8F%B7%E4%BB%93%E5%BA%93",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1JT4y1X74Y_01",
@@ -2365,7 +2503,9 @@
     "overall_review_summary": "特色阿拉伯风情餐厅，带有肚皮舞表演，菜品异域风味浓但部分酸口菜品挑人。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%80%E4%BB%9F%E4%B8%80%E5%A4%9C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF/%E6%B7%AE%E6%B5%B7%E8%B7%AF%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E8%80%81%E7%89%8C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E4%BB%9F%E4%B8%80%E5%A4%9C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF/%E6%B7%AE%E6%B5%B7%E8%B7%AF%E5%91%A8%E8%BE%B9%EF%BC%88%E4%B8%8A%E6%B5%B7%E8%80%81%E7%89%8C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E4%BB%9F%E4%B8%80%E5%A4%9C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E4%BB%9F%E4%B8%80%E5%A4%9C%E9%98%BF%E6%8B%89%E4%BC%AF%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1AS4y1178p_01",
@@ -2398,7 +2538,9 @@
     "overall_review_summary": "游戏IP联名主题餐厅，造型神还原度满分，适合核心玩家打卡，餐食价格偏主题溢价。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20IPSTAR%E6%BD%AE%E7%8E%A9%E6%98%9F%E7%90%83%EF%BC%88%E6%80%AA%E7%89%A9%E7%8C%8E%E4%BA%BA%E4%B8%BB%E9%A2%98%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E8%A5%BF%E8%97%8F%E5%8C%97%E8%B7%AF166%E5%8F%B7%E9%9D%99%E5%AE%89%E5%A4%A7%E6%82%A6%E5%9F%8E%E5%8C%97%E5%BA%A7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=IPSTAR%E6%BD%AE%E7%8E%A9%E6%98%9F%E7%90%83%EF%BC%88%E6%80%AA%E7%89%A9%E7%8C%8E%E4%BA%BA%E4%B8%BB%E9%A2%98%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E8%A5%BF%E8%97%8F%E5%8C%97%E8%B7%AF166%E5%8F%B7%E9%9D%99%E5%AE%89%E5%A4%A7%E6%82%A6%E5%9F%8E%E5%8C%97%E5%BA%A7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_IPSTAR%E6%BD%AE%E7%8E%A9%E6%98%9F%E7%90%83%EF%BC%88%E6%80%AA%E7%89%A9%E7%8C%8E%E4%BA%BA%E4%B8%BB%E9%A2%98%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_IPSTAR%E6%BD%AE%E7%8E%A9%E6%98%9F%E7%90%83%EF%BC%88%E6%80%AA%E7%89%A9%E7%8C%8E%E4%BA%BA%E4%B8%BB%E9%A2%98%EF%BC%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1oa41117bs_01",
@@ -2431,7 +2573,9 @@
     "overall_review_summary": "高人气港式茶餐厅，招牌叉烧饭水准在线、性价比不错，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%9B%8D%E5%9B%8D%E6%B8%AF%E5%BC%8F%E8%8C%B6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%AF%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%8D%E5%9B%8D%E6%B8%AF%E5%BC%8F%E8%8C%B6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%AF%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%8D%E5%9B%8D%E6%B8%AF%E5%BC%8F%E8%8C%B6%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%8D%E5%9B%8D%E6%B8%AF%E5%BC%8F%E8%8C%B6%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Zm4y1U7JK_01",
@@ -2464,7 +2608,9 @@
     "overall_review_summary": "上海性价比极高的斑鱼火锅连锁，12元/碟现切斑鱼片鲜脆弹牙，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%BA%AF%E5%91%B3%E6%96%91%E9%B1%BC%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%AD%A6%E5%AE%81%E5%8D%97%E8%B7%AF381%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%BA%AF%E5%91%B3%E6%96%91%E9%B1%BC%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%AD%A6%E5%AE%81%E5%8D%97%E8%B7%AF381%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A6%E6%9C%89%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%BA%AF%E5%91%B3%E6%96%91%E9%B1%BC%E5%BA%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%BA%AF%E5%91%B3%E6%96%91%E9%B1%BC%E5%BA%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1m3411a7ES_01",
@@ -2496,7 +2642,9 @@
     "overall_review_summary": "名不副实的高价海鲜火锅，体验远低于预期，严重踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%AB%98%E5%85%B4%E4%B8%80%E9%94%85%C2%B7%E6%BD%AE%E6%B1%95%E8%80%81%E5%AD%97%E5%8F%B7%E6%B5%B7%E9%B2%9C%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%AD%E5%85%B4%E8%B7%AF1066%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%85%B4%E4%B8%80%E9%94%85%C2%B7%E6%BD%AE%E6%B1%95%E8%80%81%E5%AD%97%E5%8F%B7%E6%B5%B7%E9%B2%9C%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%AD%E5%85%B4%E8%B7%AF1066%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%AB%98%E5%85%B4%E4%B8%80%E9%94%85%C2%B7%E6%BD%AE%E6%B1%95%E8%80%81%E5%AD%97%E5%8F%B7%E6%B5%B7%E9%B2%9C%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%AB%98%E5%85%B4%E4%B8%80%E9%94%85%C2%B7%E6%BD%AE%E6%B1%95%E8%80%81%E5%AD%97%E5%8F%B7%E6%B5%B7%E9%B2%9C%E7%81%AB%E9%94%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Nq4y1A7Bv_01",
@@ -2529,7 +2677,9 @@
     "overall_review_summary": "新天地知名西班牙餐厅，招牌烤乳猪虽然价格高昂但出品惊艳，多人分享值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Estado%20Puro%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C22-23%E5%8F%B71%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Estado%20Puro%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C22-23%E5%8F%B71%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Estado%20Puro"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Estado%20Puro",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1wP4y1E7WA_01",
@@ -2562,7 +2712,9 @@
     "overall_review_summary": "上海知名烤全羊聚餐圣地，分量极大、外焦里嫩，多人团建聚餐值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%A6%99%E6%9C%A8%E9%A6%99%E7%BE%8A%E7%83%A4%E5%85%A8%E7%BE%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E5%90%B4%E4%B8%AD%E8%B7%AF/%E8%99%B9%E6%A2%85%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%9C%A8%E9%A6%99%E7%BE%8A%E7%83%A4%E5%85%A8%E7%BE%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E5%90%B4%E4%B8%AD%E8%B7%AF/%E8%99%B9%E6%A2%85%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A6%99%E6%9C%A8%E9%A6%99%E7%BE%8A%E7%83%A4%E5%85%A8%E7%BE%8A"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A6%99%E6%9C%A8%E9%A6%99%E7%BE%8A%E7%83%A4%E5%85%A8%E7%BE%8A",
+    "reservation_required": true,
+    "reservation_note": "烤全羊需现烤数小时，到店前务必提前预约"
   },
   {
     "entry_id": "BV11L4y1E7hd_01",
@@ -2596,7 +2748,9 @@
     "overall_review_summary": "上海老牌正宗印度餐厅，香料调味地道，性价比尚可，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Kebabs%20On%20The%20Grille%20%E5%85%8B%E6%AF%94%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Kebabs%20On%20The%20Grille%20%E5%85%8B%E6%AF%94%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF/%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Kebabs%20On%20The%20Grille%20%E5%85%8B%E6%AF%94%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Kebabs%20On%20The%20Grille%20%E5%85%8B%E6%AF%94%E5%8D%B0%E5%BA%A6%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1RP4y1H7pd_01",
@@ -2631,7 +2785,9 @@
     "overall_review_summary": "淮海路知名大型夜店，音响灯光震撼，酒水消费高昂非餐饮向。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20MASTER%E5%85%89%E5%BD%B1%E5%A4%9C%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF282%E5%8F%B7%E9%A6%99%E6%B8%AF%E5%B9%BF%E5%9C%BA%E5%8C%97%E5%BA%A7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=MASTER%E5%85%89%E5%BD%B1%E5%A4%9C%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF282%E5%8F%B7%E9%A6%99%E6%B8%AF%E5%B9%BF%E5%9C%BA%E5%8C%97%E5%BA%A7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_MASTER%E5%85%89%E5%BD%B1%E5%A4%9C%E5%BA%97"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_MASTER%E5%85%89%E5%BD%B1%E5%A4%9C%E5%BA%97",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1BS4y1Q7jV_01",
@@ -2664,7 +2820,9 @@
     "overall_review_summary": "国民平价炸鸡汉堡连锁，价格极低、分量大，不同门店品控差异较大。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8D%8E%E8%8E%B1%E5%A3%AB%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%A1%97%E5%A4%B4%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%8E%E8%8E%B1%E5%A3%AB%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%A1%97%E5%A4%B4%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%8E%E8%8E%B1%E5%A3%AB"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%8E%E8%8E%B1%E5%A3%AB",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1eZ4y1Q7qJ_01",
@@ -2698,7 +2856,9 @@
     "overall_review_summary": "上海高人气川味夜宵小酒馆，重口味江湖菜锅气十足、辣得过瘾，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%A0%B4%E5%BA%97%E5%B0%8F%E9%85%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E9%95%BF%E5%AF%BF%E8%B7%AF408%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A0%B4%E5%BA%97%E5%B0%8F%E9%85%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E9%95%BF%E5%AF%BF%E8%B7%AF408%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A0%B4%E5%BA%97%E5%B0%8F%E9%85%92%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A0%B4%E5%BA%97%E5%B0%8F%E9%85%92%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Eg411P7eZ_01",
@@ -2730,7 +2890,9 @@
     "overall_review_summary": "夜宵铜锅涮肉店，UP主置顶评论警示粉丝反馈吃出蟑螂，食安问题严重踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8D%97%E9%97%A8%E5%A4%A9%E4%B8%8B%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA/%E9%9D%99%E5%AE%89%E5%8C%BA%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E9%97%A8%E5%A4%A9%E4%B8%8B%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA/%E9%9D%99%E5%AE%89%E5%8C%BA%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E9%97%A8%E5%A4%A9%E4%B8%8B"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E9%97%A8%E5%A4%A9%E4%B8%8B",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV14g411A7pa_01",
@@ -2764,7 +2926,9 @@
     "overall_review_summary": "主打超大肉串的夜宵烧烤店，肉串扎实过瘾，猎奇饮料慎点。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%87%8E%E8%9B%AE%E4%BA%BA%E7%83%A4%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA/%E9%95%BF%E5%AE%81%E5%8C%BA%E7%83%A7%E7%83%A4%E5%A4%9C%E5%AE%B5%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E8%9B%AE%E4%BA%BA%E7%83%A4%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA/%E9%95%BF%E5%AE%81%E5%8C%BA%E7%83%A7%E7%83%A4%E5%A4%9C%E5%AE%B5%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%87%8E%E8%9B%AE%E4%BA%BA%E7%83%A4%E8%82%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%87%8E%E8%9B%AE%E4%BA%BA%E7%83%A4%E8%82%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1JS4y1X7YL_01",
@@ -2798,7 +2962,9 @@
     "overall_review_summary": "上海超火的网红港式大排档，夜宵烟火气足、出品整体在线，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%BB%86%E8%AE%B0%E6%B8%AF%E4%B9%9D%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA/%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B8%AF%E5%BC%8F%E5%A4%A7%E6%8E%92%E6%A1%A3%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%BB%86%E8%AE%B0%E6%B8%AF%E4%B9%9D%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA/%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B8%AF%E5%BC%8F%E5%A4%A7%E6%8E%92%E6%A1%A3%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%BB%86%E8%AE%B0%E6%B8%AF%E4%B9%9D"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%BB%86%E8%AE%B0%E6%B8%AF%E4%B9%9D",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1d3411t7rM_01",
@@ -2831,7 +2997,9 @@
     "overall_review_summary": "主打极致鲜活海鲜烧烤的网红宵夜店，新鲜度拉满、口味不错。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%99%BD%E4%BB%81%E4%BB%94%C2%B7%E6%B4%BB%E7%83%A4%E6%B5%B7%E9%B2%9C%E5%AE%B5%E5%A4%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E8%B7%AF837%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E4%BB%81%E4%BB%94%C2%B7%E6%B4%BB%E7%83%A4%E6%B5%B7%E9%B2%9C%E5%AE%B5%E5%A4%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E8%B7%AF837%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%99%BD%E4%BB%81%E4%BB%94%C2%B7%E6%B4%BB%E7%83%A4%E6%B5%B7%E9%B2%9C%E5%AE%B5%E5%A4%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%99%BD%E4%BB%81%E4%BB%94%C2%B7%E6%B4%BB%E7%83%A4%E6%B5%B7%E9%B2%9C%E5%AE%B5%E5%A4%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1844y1Y7Li_01",
@@ -2863,7 +3031,9 @@
     "overall_review_summary": "性价比极高的炭火烤羊腿夜宵店，六斤大羊腿三百多元管饱，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8B%BC%E6%9D%A5%E4%BA%86%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA/%E9%95%BF%E5%AE%81%E5%8C%BA%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8B%BC%E6%9D%A5%E4%BA%86%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA/%E9%95%BF%E5%AE%81%E5%8C%BA%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8B%BC%E6%9D%A5%E4%BA%86%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8B%BC%E6%9D%A5%E4%BA%86%E7%82%AD%E7%81%AB%E7%83%A4%E7%BE%8A%E8%85%BF",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1d34y1d7MP_01",
@@ -2898,7 +3068,9 @@
     "overall_review_summary": "主打年轻潮流互动的网红重庆火锅，食材新鲜且有免费雪糕，社恐慎入跳舞时段。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%80%82%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E5%8E%82%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E6%9D%A5%E7%A6%8F%E5%A3%AB/%E6%97%A5%E6%9C%88%E5%85%89%E7%AD%89%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%80%82%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E5%8E%82%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E6%9D%A5%E7%A6%8F%E5%A3%AB/%E6%97%A5%E6%9C%88%E5%85%89%E7%AD%89%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%80%82%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E5%8E%82"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%80%82%E9%87%8D%E5%BA%86%E7%81%AB%E9%94%85%E5%8E%82",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1fT4y197kJ_01",
@@ -2932,7 +3104,9 @@
     "overall_review_summary": "沪上传奇夜宵馄饨名店，物美价廉、花生酱冷馄饨与炸猪排绝配，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%80%B3%E5%85%89%E9%A6%84%E9%A5%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E5%AE%B6%E9%98%99%E8%B7%AF109%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%80%B3%E5%85%89%E9%A6%84%E9%A5%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E5%AE%B6%E9%98%99%E8%B7%AF109%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%80%B3%E5%85%89%E9%A6%84%E9%A5%A8"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%80%B3%E5%85%89%E9%A6%84%E9%A5%A8",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1gr4y117cs_01",
@@ -2967,7 +3141,9 @@
     "overall_review_summary": "上海超人气大型运动主题美式餐吧，集棒球打击笼与美食于一体，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20CAGES%E5%87%AF%E5%90%89%E6%80%9D%E8%A5%BF%E9%A4%90%E8%BF%90%E5%8A%A8%E5%90%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%B1%9F%E5%AE%81%E8%B7%AF428%E5%8F%B7%E9%9D%99%E5%AE%89%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%833%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=CAGES%E5%87%AF%E5%90%89%E6%80%9D%E8%A5%BF%E9%A4%90%E8%BF%90%E5%8A%A8%E5%90%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E6%B1%9F%E5%AE%81%E8%B7%AF428%E5%8F%B7%E9%9D%99%E5%AE%89%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%833%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_CAGES%E5%87%AF%E5%90%89%E6%80%9D%E8%A5%BF%E9%A4%90%E8%BF%90%E5%8A%A8%E5%90%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_CAGES%E5%87%AF%E5%90%89%E6%80%9D%E8%A5%BF%E9%A4%90%E8%BF%90%E5%8A%A8%E5%90%A7",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1QL411G7eq_01",
@@ -3000,7 +3176,9 @@
     "overall_review_summary": "前IG选手Rookie所开韩料店，口味合格但无太大惊艳（现已停业）。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%B4%AA%E9%A3%9F%E4%B8%BB%E4%B9%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%E5%95%86%E5%9C%88",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B4%AA%E9%A3%9F%E4%B8%BB%E4%B9%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%E5%95%86%E5%9C%88%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%B4%AA%E9%A3%9F%E4%B8%BB%E4%B9%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%B4%AA%E9%A3%9F%E4%B8%BB%E4%B9%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1qr4y1278D_01",
@@ -3035,7 +3213,9 @@
     "overall_review_summary": "上海百年非遗素食名店，素菜荤做技艺精湛且价格适中，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8A%9F%E5%BE%B7%E6%9E%97%E7%B4%A0%E9%A3%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF441%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8A%9F%E5%BE%B7%E6%9E%97%E7%B4%A0%E9%A3%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF441%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8A%9F%E5%BE%B7%E6%9E%97%E7%B4%A0%E9%A3%9F"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8A%9F%E5%BE%B7%E6%9E%97%E7%B4%A0%E9%A3%9F",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Yg411F79N_01",
@@ -3069,7 +3249,9 @@
     "overall_review_summary": "知名连锁商场兰州牛肉面品牌，免费续面且小吃丰富，日常快餐值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%99%88%E9%A6%99%E8%B4%B5%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF/%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%99%88%E9%A6%99%E8%B4%B5%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF/%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%88%E9%A6%99%E8%B4%B5%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%88%E9%A6%99%E8%B4%B5%E5%85%B0%E5%B7%9E%E7%89%9B%E8%82%89%E9%9D%A2",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Df4y1F74Y_01",
@@ -3103,7 +3285,9 @@
     "overall_review_summary": "碧云老牌美式牛排馆，巨无霸汉堡分量惊人，人均约350元适合多人分享。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Yasmine%27s%20%E8%8C%89%E8%8E%89%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E7%A2%A7%E4%BA%91%E8%B7%AF178%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Yasmine%27s%20%E8%8C%89%E8%8E%89%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E7%A2%A7%E4%BA%91%E8%B7%AF178%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Yasmine%27s%20%E8%8C%89%E8%8E%89%E7%89%9B%E6%8E%92%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Yasmine%27s%20%E8%8C%89%E8%8E%89%E7%89%9B%E6%8E%92%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Sb4y1y74Q_01",
@@ -3135,7 +3319,9 @@
     "overall_review_summary": "市中心29元平价一人食寿喜烧，实惠管饱且味道合格，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%B0%8F%E4%B9%9F%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%99%84%E8%BF%91",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E4%B9%9F%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%99%84%E8%BF%91%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E4%B9%9F%E5%AF%BF%E5%96%9C%E7%83%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E4%B9%9F%E5%AF%BF%E5%96%9C%E7%83%A7",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV13A411F7Lo_01",
@@ -3170,7 +3356,9 @@
     "overall_review_summary": "陆家嘴老牌顶级美式牛排馆，价格高达四位数但牛排火候与肉质出色。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%8E%AB%E5%B0%94%E9%A1%BF%E7%89%9B%E6%8E%92%E5%9D%8A%20Morton%27s%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA4%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%B0%94%E9%A1%BF%E7%89%9B%E6%8E%92%E5%9D%8A%20Morton%27s%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%95%86%E5%9C%BA4%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8E%AB%E5%B0%94%E9%A1%BF%E7%89%9B%E6%8E%92%E5%9D%8A%20Morton%27s"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8E%AB%E5%B0%94%E9%A1%BF%E7%89%9B%E6%8E%92%E5%9D%8A%20Morton%27s",
+    "reservation_required": true,
+    "reservation_note": "国金中心高端美式牛排馆，晚市建议提前预约"
   },
   {
     "entry_id": "BV19h411W7LR_01",
@@ -3203,7 +3391,9 @@
     "overall_review_summary": "松江人气韩式烤肉店，招牌一米长五花肉极具噱头且烤出来香脆过瘾。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%B1%9A%E7%88%B1%E9%A5%AD%E5%8E%9A%E5%88%87%E4%BA%94%E8%8A%B1%E8%82%89%E7%83%A4%E8%82%89%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E6%96%B0%E6%9D%BE%E6%B1%9F%E8%B7%AF927%E5%BC%84%E5%BC%80%E5%85%83%E5%9C%B0%E4%B8%AD%E6%B5%B7%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA3%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%9A%E7%88%B1%E9%A5%AD%E5%8E%9A%E5%88%87%E4%BA%94%E8%8A%B1%E8%82%89%E7%83%A4%E8%82%89%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E6%96%B0%E6%9D%BE%E6%B1%9F%E8%B7%AF927%E5%BC%84%E5%BC%80%E5%85%83%E5%9C%B0%E4%B8%AD%E6%B5%B7%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA3%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%B1%9A%E7%88%B1%E9%A5%AD%E5%8E%9A%E5%88%87%E4%BA%94%E8%8A%B1%E8%82%89%E7%83%A4%E8%82%89%E5%BA%97"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%B1%9A%E7%88%B1%E9%A5%AD%E5%8E%9A%E5%88%87%E4%BA%94%E8%8A%B1%E8%82%89%E7%83%A4%E8%82%89%E5%BA%97",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Fh411s7LE_01",
@@ -3236,7 +3426,9 @@
     "overall_review_summary": "巨富长商圈意式小馆，创意营销与地道意餐兼具，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20SOLO%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF/%E5%B8%B8%E7%86%9F%E8%B7%AF%E5%91%A8%E8%BE%B9",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=SOLO%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF/%E5%B8%B8%E7%86%9F%E8%B7%AF%E5%91%A8%E8%BE%B9%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_SOLO%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_SOLO%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV12b4y1m74d_01",
@@ -3271,7 +3463,9 @@
     "overall_review_summary": "上海超人气炭火烤串连锁，自动烤架省心、羊肉品质稳、服务极佳，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%BE%8A%E8%82%89%E4%B8%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA/%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%BE%8A%E8%82%89%E4%B8%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA/%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%BE%8A%E8%82%89%E4%B8%B2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%BE%8A%E8%82%89%E4%B8%B2",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1tf4y1N78J_01",
@@ -3303,7 +3497,9 @@
     "overall_review_summary": "频道史上著名踩雷名场面，人均400元星巴克高端餐酒自助性价比与口味双双翻车。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%EF%BC%88Aperitivo%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%EF%BC%88Aperitivo%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%EF%BC%88Aperitivo%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%EF%BC%88Aperitivo%E8%87%AA%E5%8A%A9%E9%A4%90%EF%BC%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1iL411b7xV_01",
@@ -3335,7 +3531,9 @@
     "overall_review_summary": "知名网红排队湘菜连锁，小炒黄牛肉口味不错但排队过久性价比下降。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%82%8A%E7%83%9F%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF/%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%82%8A%E7%83%9F%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF/%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%82%8A%E7%83%9F%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%82%8A%E7%83%9F%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1vy4y1V7VS_01",
@@ -3367,7 +3565,9 @@
     "overall_review_summary": "典型高颜值网红打卡店，出片属性极强但正餐口味与价格不匹配。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%AC%A8%E9%B8%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%9D%99%E5%AE%89%E5%AF%BA/%E5%B7%A8%E5%AF%8C%E9%95%BF%E5%91%A8%E8%BE%B9%E7%BD%91%E7%BA%A2%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%AC%A8%E9%B8%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%9D%99%E5%AE%89%E5%AF%BA/%E5%B7%A8%E5%AF%8C%E9%95%BF%E5%91%A8%E8%BE%B9%E7%BD%91%E7%BA%A2%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%AC%A8%E9%B8%9F"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%AC%A8%E9%B8%9F",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Yg411L7Xf_01",
@@ -3401,7 +3601,9 @@
     "overall_review_summary": "以脆毛肚闻名的连锁火锅店，常规菜品合格，猎奇螺蛳粉锅底谨慎尝试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1co4y1D7bh_01",
@@ -3435,7 +3637,9 @@
     "overall_review_summary": "沪上知名主厨Ling打造的高端牛排馆，牛排与招牌牛油炒饭俱佳，预算充足值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Stone%20Sal%20%E8%A8%80%E7%9B%90%E8%A5%BF%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%9C%E6%B9%96%E8%B7%AF9%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Stone%20Sal%20%E8%A8%80%E7%9B%90%E8%A5%BF%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%9C%E6%B9%96%E8%B7%AF9%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Stone%20Sal%20%E8%A8%80%E7%9B%90%E8%A5%BF%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Stone%20Sal%20%E8%A8%80%E7%9B%90%E8%A5%BF%E9%A4%90%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "东湖路高端干式熟成牛排馆，需提前预约"
   },
   {
     "entry_id": "BV1f44y1273U_01",
@@ -3469,7 +3673,9 @@
     "overall_review_summary": "浦东宝藏内蒙牛肉烧烤酒场，牛肉串品质极高、人均150吃肉吃到爽，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%91%BC%E4%BC%A6%E4%B8%80%E5%8F%AA%E7%89%9B%C2%B7%E7%83%A7%E4%B8%B2%E9%85%92%E5%9C%BA%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E5%95%86%E5%9F%8E%E8%B7%AF518%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E4%B8%80%E5%8F%AA%E7%89%9B%C2%B7%E7%83%A7%E4%B8%B2%E9%85%92%E5%9C%BA%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E5%95%86%E5%9F%8E%E8%B7%AF518%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%91%BC%E4%BC%A6%E4%B8%80%E5%8F%AA%E7%89%9B%C2%B7%E7%83%A7%E4%B8%B2%E9%85%92%E5%9C%BA"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%91%BC%E4%BC%A6%E4%B8%80%E5%8F%AA%E7%89%9B%C2%B7%E7%83%A7%E4%B8%B2%E9%85%92%E5%9C%BA",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1nB4y1K7Tm_01",
@@ -3503,7 +3709,9 @@
     "overall_review_summary": "普陀区知名老字号小吃店，以创制上海冷面闻名，价格实惠值得怀旧打卡。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%9B%9B%E5%A6%82%E6%98%A5%E9%A3%9F%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E7%9F%B3%E6%B3%89%E8%B7%AF72%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%A6%82%E6%98%A5%E9%A3%9F%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E7%9F%B3%E6%B3%89%E8%B7%AF72%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E5%A6%82%E6%98%A5%E9%A3%9F%E5%BA%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E5%A6%82%E6%98%A5%E9%A3%9F%E5%BA%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1jL411H7b4_01",
@@ -3536,7 +3744,9 @@
     "overall_review_summary": "长宁西郊顶级私房创意菜馆，环境清幽服务周到，高端宴请值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%A5%BF%E9%83%8A5%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E5%8F%A4%E8%B7%AF669%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%83%8A5%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E5%8F%A4%E8%B7%AF669%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E9%83%8A5%E5%8F%B7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E9%83%8A5%E5%8F%B7",
+    "reservation_required": true,
+    "reservation_note": "西郊黑珍珠顶级私房菜，需提前预约"
   },
   {
     "entry_id": "BV1dU4y1g7MH_01",
@@ -3570,7 +3780,9 @@
     "overall_review_summary": "知名澳门葡式蛋挞上海店，蛋挞酥皮与蛋奶馅水准极高，建议专程买蛋挞。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8E%9B%E5%98%89%E7%83%88%E8%9B%8B%E6%8C%9E%C2%B7%E8%8C%B6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF/%E5%BE%90%E5%AE%B6%E6%B1%87%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8E%9B%E5%98%89%E7%83%88%E8%9B%8B%E6%8C%9E%C2%B7%E8%8C%B6%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF/%E5%BE%90%E5%AE%B6%E6%B1%87%E8%B7%AF%E5%91%A8%E8%BE%B9%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%9B%E5%98%89%E7%83%88%E8%9B%8B%E6%8C%9E%C2%B7%E8%8C%B6%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%9B%E5%98%89%E7%83%88%E8%9B%8B%E6%8C%9E%C2%B7%E8%8C%B6%E9%A4%90%E5%8E%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV17q4y1x7nu_01",
@@ -3604,7 +3816,9 @@
     "overall_review_summary": "上海公认顶尖的美式德州烟熏烤肉店，牛胸肉与猪肋排极其惊艳，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Garlic%20Barbecue%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BB%BA%E5%9B%BD%E4%B8%9C%E8%B7%AF285%E5%8F%B7%E4%B8%AD%E6%B5%B7%E7%8E%AF%E5%AE%87%E8%8D%9F1%E6%A5%BCL107-108%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Garlic%20Barbecue%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%BB%BA%E5%9B%BD%E4%B8%9C%E8%B7%AF285%E5%8F%B7%E4%B8%AD%E6%B5%B7%E7%8E%AF%E5%AE%87%E8%8D%9F1%E6%A5%BCL107-108%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Garlic%20Barbecue"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Garlic%20Barbecue",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1tX4y1P73B_01",
@@ -3638,7 +3852,9 @@
     "overall_review_summary": "外滩米其林二星意大利餐厅，服务环境顶级，本期联名菜单表现中餐更胜一筹。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20DA%20VITTORIO%20SHANGHAI%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BAN3%E5%B9%A23%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=DA%20VITTORIO%20SHANGHAI%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BAN3%E5%B9%A23%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_DA%20VITTORIO%20SHANGHAI"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_DA%20VITTORIO%20SHANGHAI",
+    "reservation_required": true,
+    "reservation_note": "外滩BFC米其林二星意大利餐厅，需提前预约"
   },
   {
     "entry_id": "BV1tL411p7sC_01",
@@ -3673,7 +3889,9 @@
     "overall_review_summary": "知名日式豚骨拉面连锁，常规拉面稳定，限定漫画肉口感偏淀粉慎点。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%80%E9%A3%8E%E5%A0%82%E6%8B%89%E9%9D%A2%20IPPUDO%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7%E7%8E%AF%E8%B4%B8iapm%E5%95%86%E5%9C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E9%A3%8E%E5%A0%82%E6%8B%89%E9%9D%A2%20IPPUDO%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7%E7%8E%AF%E8%B4%B8iapm%E5%95%86%E5%9C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E9%A3%8E%E5%A0%82%E6%8B%89%E9%9D%A2%20IPPUDO"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E9%A3%8E%E5%A0%82%E6%8B%89%E9%9D%A2%20IPPUDO",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Hh411Y7Ui_01",
@@ -3705,7 +3923,9 @@
     "overall_review_summary": "曾热门的寿喜烧自助连锁，因以次充好及重大食安卫生问题被公开点名避雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%80%E7%BB%AA%E3%81%AB%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%85%B1%E5%92%8C%E6%96%B0%E8%B7%AF1998%E5%8F%B7%E5%A4%A7%E5%AE%81%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E7%BB%AA%E3%81%AB%E5%AF%BF%E5%96%9C%E7%83%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%85%B1%E5%92%8C%E6%96%B0%E8%B7%AF1998%E5%8F%B7%E5%A4%A7%E5%AE%81%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E7%BB%AA%E3%81%AB%E5%AF%BF%E5%96%9C%E7%83%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%80%E7%BB%AA%E3%81%AB%E5%AF%BF%E5%96%9C%E7%83%A7",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1664y167U5_01",
@@ -3740,7 +3960,9 @@
     "overall_review_summary": "淮海路弄堂传奇米其林推荐本帮面馆，炸猪排与黄鱼煨面口碑极佳，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%A1%B6%E7%89%B9%E5%8B%92%E7%B2%A5%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF494%E5%BC%8422%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%A1%B6%E7%89%B9%E5%8B%92%E7%B2%A5%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF494%E5%BC%8422%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A1%B6%E7%89%B9%E5%8B%92%E7%B2%A5%E9%9D%A2%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%A1%B6%E7%89%B9%E5%8B%92%E7%B2%A5%E9%9D%A2%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1m44y1r7b5_01",
@@ -3774,7 +3996,9 @@
     "overall_review_summary": "虹桥枢纽米其林粤菜名店，服务细致但部分昂贵海味处理出现腥味，性价比一般。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%98%8E%E9%98%81%20Ming%20Court%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E8%99%B9%E8%B7%AF333%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%BA%B7%E5%BE%97%E6%80%9D%E9%85%92%E5%BA%97B1%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E9%98%81%20Ming%20Court%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E8%99%B9%E8%B7%AF333%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%BA%B7%E5%BE%97%E6%80%9D%E9%85%92%E5%BA%97B1%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%8E%E9%98%81%20Ming%20Court"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%8E%E9%98%81%20Ming%20Court",
+    "reservation_required": true,
+    "reservation_note": "虹桥米其林粤菜，建议提前预约"
   },
   {
     "entry_id": "BV1664y1d7ph_01",
@@ -3807,7 +4031,9 @@
     "overall_review_summary": "愚园路老洋房顶级本帮菜，红烧肉水准极高、宴请排面十足，预算够值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%A6%8F1015%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1015%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F1015%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1015%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A6%8F1015"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A6%8F1015",
+    "reservation_required": true,
+    "reservation_note": "老洋房全包厢/私房菜制，需提前预约"
   },
   {
     "entry_id": "BV17U4y1b7dJ_01",
@@ -3841,7 +4067,9 @@
     "overall_review_summary": "沪上知名电竞选手打卡夜宵圣地，小龙虾品质新鲜饱满、入味过瘾，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%98%BF%E7%81%B5%E9%BE%99%E8%99%BE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8C%97%E5%AE%9D%E5%85%B4%E8%B7%AF",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%81%B5%E9%BE%99%E8%99%BE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8C%97%E5%AE%9D%E5%85%B4%E8%B7%AF%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%98%BF%E7%81%B5%E9%BE%99%E8%99%BE"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%98%BF%E7%81%B5%E9%BE%99%E8%99%BE",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1oy4y1p7fV_01",
@@ -3875,7 +4103,9 @@
     "overall_review_summary": "上海顶级黑珍珠三钻新潮州菜，贵但绝对物有所值，频道封神级高端餐厅。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%8F%81%E7%A6%A7%E8%8D%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8D%97%E5%8C%BA4%E5%B1%82S401%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8F%81%E7%A6%A7%E8%8D%9F%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8D%97%E5%8C%BA4%E5%B1%82S401%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8F%81%E7%A6%A7%E8%8D%9F"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%8F%81%E7%A6%A7%E8%8D%9F",
+    "reservation_required": true,
+    "reservation_note": "黑珍珠三钻新潮州菜，需提前预约"
   },
   {
     "entry_id": "BV1x64y11728_01",
@@ -3908,7 +4138,9 @@
     "overall_review_summary": "新天地高端精致鲁菜代表，稀缺渤海湾海鲜与顶级服务俱佳，预算充足值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%B2%81%E9%87%87%20LU%20STYLE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E9%99%82%E5%8D%97%E8%B7%AF838%E5%BC%84%E4%B8%AD%E6%B5%B7%E7%8E%AF%E5%AE%87%E8%8D%9F2%E5%B1%82207%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B2%81%E9%87%87%20LU%20STYLE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E9%99%82%E5%8D%97%E8%B7%AF838%E5%BC%84%E4%B8%AD%E6%B5%B7%E7%8E%AF%E5%AE%87%E8%8D%9F2%E5%B1%82207%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%B2%81%E9%87%87%20LU%20STYLE"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%B2%81%E9%87%87%20LU%20STYLE",
+    "reservation_required": true,
+    "reservation_note": "新天地米其林指南高端鲁菜，建议提前预约"
   },
   {
     "entry_id": "BV1UQ4y1Z78y_01",
@@ -3943,7 +4175,9 @@
     "overall_review_summary": "亚洲50佳斯里兰卡蟹名店上海分店，巨型青蟹肉质饱满调味惊艳，螃蟹控强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Ministry%20of%20Crab%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF231%E5%8F%B7%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%85Barbarossa%201%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Ministry%20of%20Crab%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF231%E5%8F%B7%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%86%85Barbarossa%201%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Ministry%20of%20Crab"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Ministry%20of%20Crab",
+    "reservation_required": true,
+    "reservation_note": "人民公园斯里兰卡螃蟹专门店，大规格螃蟹及晚市建议提前预约"
   },
   {
     "entry_id": "BV1W54y1j7cM_01",
@@ -3978,7 +4212,9 @@
     "overall_review_summary": "上海高性价比东北菜馆，份量扎实管饱、口味地道，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%80%81%E4%BA%8E%E5%AE%B6%E4%B8%9C%E5%8C%97%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A3%E7%A2%91%E4%B8%9C%E5%8C%97%E8%8F%9C%E9%A6%86%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E4%BA%8E%E5%AE%B6%E4%B8%9C%E5%8C%97%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%8F%A3%E7%A2%91%E4%B8%9C%E5%8C%97%E8%8F%9C%E9%A6%86%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%80%81%E4%BA%8E%E5%AE%B6%E4%B8%9C%E5%8C%97%E8%8F%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%80%81%E4%BA%8E%E5%AE%B6%E4%B8%9C%E5%8C%97%E8%8F%9C",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV12K4y1o7eh_01",
@@ -4012,7 +4248,9 @@
     "overall_review_summary": "梅赛德斯奔驰体验店内的新派川菜馆，环境高级且川味正宗不敷衍，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%9B%9B%E6%96%B9%E4%B8%89%E5%B7%9D%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BAN3%E6%A0%8B2%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E6%96%B9%E4%B8%89%E5%B7%9D%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF600%E5%8F%B7BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%8C%97%E5%8C%BAN3%E6%A0%8B2%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E6%96%B9%E4%B8%89%E5%B7%9D"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E6%96%B9%E4%B8%89%E5%B7%9D",
+    "reservation_required": true,
+    "reservation_note": "外滩BFC精致川菜，晚市建议提前预约"
   },
   {
     "entry_id": "BV19K4y1m7qB_01",
@@ -4046,7 +4284,9 @@
     "overall_review_summary": "环球金融中心91层老牌云端景观餐厅，风景绝佳、可乐60元，适合打卡夜景。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%96%E7%BA%AA100%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%93100%E5%8F%B7%E4%B8%8A%E6%B5%B7%E7%8E%AF%E7%90%83%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%8391%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%96%E7%BA%AA100%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%93100%E5%8F%B7%E4%B8%8A%E6%B5%B7%E7%8E%AF%E7%90%83%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%8391%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E7%BA%AA100%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E7%BA%AA100%E9%A4%90%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "环球金融中心91层柏悦景观餐厅，需提前预约靠窗位"
   },
   {
     "entry_id": "BV1KK4y1K7rt_01",
@@ -4079,7 +4319,9 @@
     "overall_review_summary": "外滩三号高价粤菜名店，本期干鲍出现严重异味问题且后厨态度傲慢，严重踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%A4%96%E6%BB%A9%E9%BB%84%E6%B5%A6%E4%BC%9A%20Canton%20Table%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF3%E5%8F%B7%E5%A4%96%E6%BB%A9%E4%B8%89%E5%8F%B75%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%96%E6%BB%A9%E9%BB%84%E6%B5%A6%E4%BC%9A%20Canton%20Table%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF3%E5%8F%B7%E5%A4%96%E6%BB%A9%E4%B8%89%E5%8F%B75%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%96%E6%BB%A9%E9%BB%84%E6%B5%A6%E4%BC%9A%20Canton%20Table"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%96%E6%BB%A9%E9%BB%84%E6%B5%A6%E4%BC%9A%20Canton%20Table",
+    "reservation_required": true,
+    "reservation_note": "外滩三号米其林粤菜，建议提前预约"
   },
   {
     "entry_id": "BV1oV411n7RX_01",
@@ -4114,7 +4356,9 @@
     "overall_review_summary": "田子坊高性价比必吃榜新加坡菜小馆，口味正宗、价格亲民，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%98%9F%E6%B4%B2%E5%B0%8F%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B3%B0%E5%BA%B7%E8%B7%AF210%E5%BC%84%E7%94%B0%E5%AD%90%E5%9D%8A%E5%86%85%EF%BC%88%E6%89%93%E6%B5%A6%E6%A1%A5%E5%95%86%E5%9C%88%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E6%B4%B2%E5%B0%8F%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B3%B0%E5%BA%B7%E8%B7%AF210%E5%BC%84%E7%94%B0%E5%AD%90%E5%9D%8A%E5%86%85%EF%BC%88%E6%89%93%E6%B5%A6%E6%A1%A5%E5%95%86%E5%9C%88%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E6%B4%B2%E5%B0%8F%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%98%9F%E6%B4%B2%E5%B0%8F%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1cv41177s5_01",
@@ -4149,7 +4393,9 @@
     "overall_review_summary": "新天地朗廷酒店内米其林粤菜名店，王师傅多次复刷的心头好，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%94%90%E9%98%81%20T%27ang%20Court%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF99%E5%8F%B7%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%9C%97%E5%BB%B7%E9%85%92%E5%BA%975%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E9%98%81%20T%27ang%20Court%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%A9%AC%E5%BD%93%E8%B7%AF99%E5%8F%B7%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%9C%97%E5%BB%B7%E9%85%92%E5%BA%975%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%94%90%E9%98%81%20T%27ang%20Court"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%94%90%E9%98%81%20T%27ang%20Court",
+    "reservation_required": true,
+    "reservation_note": "新天地朗廷酒店米其林粤菜，需提前预约"
   },
   {
     "entry_id": "BV1UK411c7eZ_01",
@@ -4182,7 +4428,9 @@
     "overall_review_summary": "太古汇人气粤式烧腊名店，招牌烧鹅稳定，鲍汁凤爪意外封神，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%89%E6%B8%85%E6%BD%AD%E7%83%A7%E9%B9%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E7%9F%B3%E9%97%A8%E4%B8%80%E8%B7%AF288%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87%E5%8D%97%E5%8C%BAL3%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B8%85%E6%BD%AD%E7%83%A7%E9%B9%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E7%9F%B3%E9%97%A8%E4%B8%80%E8%B7%AF288%E5%8F%B7%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87%E5%8D%97%E5%8C%BAL3%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%89%E6%B8%85%E6%BD%AD%E7%83%A7%E9%B9%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%89%E6%B8%85%E6%BD%AD%E7%83%A7%E9%B9%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV19K4y1T7kw_01",
@@ -4215,7 +4463,9 @@
     "overall_review_summary": "以脆毛肚为主打的高人气川味火锅，毛肚品类丰富口感爽脆，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B9%9D%E9%BC%8E%E8%BD%A9%E8%84%86%E6%AF%9B%E8%82%9A%E7%81%AB%E9%94%85",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1fy4y187a7_01",
@@ -4249,7 +4499,9 @@
     "overall_review_summary": "陆家嘴知名富豪游艇俱乐部，场地与社交属性极强，餐饮本身性价比很低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%AF%BA%E8%8E%B1%E4%BB%95%E6%B8%B8%E8%89%87%E4%BC%9A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%933510%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%AF%BA%E8%8E%B1%E4%BB%95%E6%B8%B8%E8%89%87%E4%BC%9A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%933510%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%AF%BA%E8%8E%B1%E4%BB%95%E6%B8%B8%E8%89%87%E4%BC%9A"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%AF%BA%E8%8E%B1%E4%BB%95%E6%B8%B8%E8%89%87%E4%BC%9A",
+    "reservation_required": true,
+    "reservation_note": "游艇俱乐部会所餐饮，需提前预约或会员携同"
   },
   {
     "entry_id": "BV1Sf4y1s7S9_01",
@@ -4284,7 +4536,9 @@
     "overall_review_summary": "国民连锁金陵风味餐厅，小吃品种多、价格亲民、甜咸口味适合大众，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8D%97%E4%BA%AC%E5%A4%A7%E7%89%8C%E6%A1%A3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E4%BA%AC%E5%A4%A7%E7%89%8C%E6%A1%A3%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E4%BA%AC%E5%A4%A7%E7%89%8C%E6%A1%A3"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E4%BA%AC%E5%A4%A7%E7%89%8C%E6%A1%A3",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1F64y1D7UB_01",
@@ -4318,7 +4572,9 @@
     "overall_review_summary": "上海中心68层顶级米其林法餐，环境视野与法餐出品俱佳，属顶奢预算之选。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Maison%20Lameloise%20%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%93%B6%E5%9F%8E%E4%B8%AD%E8%B7%AF501%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A668%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Maison%20Lameloise%20%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%93%B6%E5%9F%8E%E4%B8%AD%E8%B7%AF501%E5%8F%B7%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A668%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Maison%20Lameloise%20%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Maison%20Lameloise%20%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B",
+    "reservation_required": true,
+    "reservation_note": "上海中心68楼米其林法餐，需提前预约座位"
   },
   {
     "entry_id": "BV1WV411v7x7_01",
@@ -4350,7 +4606,9 @@
     "overall_review_summary": "陆家嘴文华东方米其林一星江南菜馆，出品优雅精致、价格高昂，宴请值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%9B%8D%E9%A2%90%E5%BA%AD%20Yong%20Yi%20Ting%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%A6%E4%B8%9C%E5%8D%97%E8%B7%AF111%E5%8F%B7%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E6%96%87%E5%8D%8E%E4%B8%9C%E6%96%B9%E9%85%92%E5%BA%97LG%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9B%8D%E9%A2%90%E5%BA%AD%20Yong%20Yi%20Ting%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%A6%E4%B8%9C%E5%8D%97%E8%B7%AF111%E5%8F%B7%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E6%96%87%E5%8D%8E%E4%B8%9C%E6%96%B9%E9%85%92%E5%BA%97LG%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%9B%8D%E9%A2%90%E5%BA%AD%20Yong%20Yi%20Ting"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%9B%8D%E9%A2%90%E5%BA%AD%20Yong%20Yi%20Ting",
+    "reservation_required": true,
+    "reservation_note": "浦东文华东方米其林一星江南菜，需提前预约"
   },
   {
     "entry_id": "BV1Xy4y1E7Zc_01",
@@ -4382,7 +4640,9 @@
     "overall_review_summary": "洋房高端素食餐厅，环境清幽但菜品口味连素食者都难以接受，严重踩雷。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%A4%AA%E5%8E%9F%E8%B7%AF160%E5%8F%B7%E5%A4%AA%E5%8E%9F%E5%88%AB%E5%A2%856%E5%8F%B7%E6%A5%BC1%E5%B1%82",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%A4%AA%E5%8E%9F%E8%B7%AF160%E5%8F%B7%E5%A4%AA%E5%8E%9F%E5%88%AB%E5%A2%856%E5%8F%B7%E6%A5%BC1%E5%B1%82%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90",
+    "reservation_required": true,
+    "reservation_note": "太原别墅高端素食，需提前预约"
   },
   {
     "entry_id": "BV14N411o7Po_01",
@@ -4414,7 +4674,9 @@
     "overall_review_summary": "世博板块大型宴请公馆菜，包厢气派私密，菜品口味中规中矩。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%96%E5%8D%9A%E6%BA%90%E5%85%AC%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%931368%E5%8F%B7%E4%B8%96%E5%8D%9A%E6%BA%901%E5%8C%BA2%E6%A5%BCL2-201",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%96%E5%8D%9A%E6%BA%90%E5%85%AC%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%931368%E5%8F%B7%E4%B8%96%E5%8D%9A%E6%BA%901%E5%8C%BA2%E6%A5%BCL2-201%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E5%8D%9A%E6%BA%90%E5%85%AC%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%96%E5%8D%9A%E6%BA%90%E5%85%AC%E9%A6%86",
+    "reservation_required": true,
+    "reservation_note": "大型商务宴请公馆菜，包厢需提前预约"
   },
   {
     "entry_id": "BV1Wp4y1W7tx_01",
@@ -4447,7 +4709,9 @@
     "overall_review_summary": "国民西式快餐连锁新春限定新品测评，常规发挥中规中矩。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%82%AF%E5%BE%B7%E5%9F%BA%20KFC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E8%BF%9E%E9%94%81%E9%97%A8%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%82%AF%E5%BE%B7%E5%9F%BA%20KFC%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E8%BF%9E%E9%94%81%E9%97%A8%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%82%AF%E5%BE%B7%E5%9F%BA%20KFC"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%82%AF%E5%BE%B7%E5%9F%BA%20KFC",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1DA411H7Ac_01",
@@ -4479,7 +4743,9 @@
     "overall_review_summary": "浦东96广场特色室内钓虾主题馆，可玩性高、现烤大头虾新鲜美味，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%92%B3%E7%9C%9F%E5%A4%9A%E5%85%A8%E6%B0%91%E9%92%93%E8%99%BE%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B796%E5%B9%BF%E5%9C%BAB1%E6%A5%BC114%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%92%B3%E7%9C%9F%E5%A4%9A%E5%85%A8%E6%B0%91%E9%92%93%E8%99%BE%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B796%E5%B9%BF%E5%9C%BAB1%E6%A5%BC114%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%92%B3%E7%9C%9F%E5%A4%9A%E5%85%A8%E6%B0%91%E9%92%93%E8%99%BE%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%92%B3%E7%9C%9F%E5%A4%9A%E5%85%A8%E6%B0%91%E9%92%93%E8%99%BE%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV12v411W798_01",
@@ -4514,7 +4780,9 @@
     "overall_review_summary": "上海国民级平价白斩鸡连锁，几十元吃饱吃好且极其地道，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%8C%AF%E9%BC%8E%E9%B8%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%8C%AF%E9%BC%8E%E9%B8%A1%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%8C%AF%E9%BC%8E%E9%B8%A1"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%8C%AF%E9%BC%8E%E9%B8%A1",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1f54y1x7xq_01",
@@ -4548,7 +4816,9 @@
     "overall_review_summary": "上海顶级高端徽菜代表，米其林指南推荐，老洋房环境华丽且菜品正宗，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%9A%96%E5%AE%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF2419%E5%8F%B78%E6%A0%8B%E9%BE%99%E6%9F%8F%E9%A5%AD%E5%BA%97%E5%86%85",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%9A%96%E5%AE%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF2419%E5%8F%B78%E6%A0%8B%E9%BE%99%E6%9F%8F%E9%A5%AD%E5%BA%97%E5%86%85%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9A%96%E5%AE%B4"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%9A%96%E5%AE%B4",
+    "reservation_required": true,
+    "reservation_note": "龙柏饭店米其林指南徽菜，建议提前预约"
   },
   {
     "entry_id": "BV1Tp4y1x7HZ_01",
@@ -4582,7 +4852,9 @@
     "overall_review_summary": "上海超人气宝藏牛肉面馆，牛肉与卤猪蹄水准极高且性价比好，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%90%89%E4%BA%A8%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%BE%99%E8%8C%97%E8%B7%AF999%E5%8F%B7511-514%E5%AE%A4",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E4%BA%A8%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E9%BE%99%E8%8C%97%E8%B7%AF999%E5%8F%B7511-514%E5%AE%A4%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%90%89%E4%BA%A8%E9%9D%A2%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%90%89%E4%BA%A8%E9%9D%A2%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1RK4y1V7oa_01",
@@ -4618,7 +4890,9 @@
     "overall_review_summary": "打浦桥开了十余年的社区口碑意面馆，性价比与口味双优，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Me%26Joe%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%B2%81%E7%8F%AD%E8%B7%AF100-6%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Me%26Joe%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%B2%81%E7%8F%AD%E8%B7%AF100-6%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Me%26Joe%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Me%26Joe%20%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1rA411s78W_01",
@@ -4651,7 +4925,9 @@
     "overall_review_summary": "上海顶级高价日式和牛烧鸟店，食材稀有但人均1500元溢价极高。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%97%A0%E5%8F%8C%C2%B7%E7%83%A7%E9%B8%9F%E5%92%8C%E7%89%9B%E4%B8%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%9D%99%E5%AE%89%E5%AF%BA/%E5%B7%A8%E5%AF%8C%E9%95%BF%E5%91%A8%E8%BE%B9",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A0%E5%8F%8C%C2%B7%E7%83%A7%E9%B8%9F%E5%92%8C%E7%89%9B%E4%B8%B2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E9%9D%99%E5%AE%89%E5%AF%BA/%E5%B7%A8%E5%AF%8C%E9%95%BF%E5%91%A8%E8%BE%B9%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%97%A0%E5%8F%8C%C2%B7%E7%83%A7%E9%B8%9F%E5%92%8C%E7%89%9B%E4%B8%B2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%97%A0%E5%8F%8C%C2%B7%E7%83%A7%E9%B8%9F%E5%92%8C%E7%89%9B%E4%B8%B2",
+    "reservation_required": true,
+    "reservation_note": "高端板前烧鸟和牛烤串，席位较少需提前预约"
   },
   {
     "entry_id": "BV19f4y1e7En_01",
@@ -4685,7 +4961,9 @@
     "overall_review_summary": "外滩九江路老牌米其林蟹宴名店，全蟹宴制作考究、环境奢华，爱蟹人士值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%88%90%E9%9A%86%E8%A1%8C%E8%9F%B9%E7%8E%8B%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B9%9D%E6%B1%9F%E8%B7%AF216%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%88%90%E9%9A%86%E8%A1%8C%E8%9F%B9%E7%8E%8B%E5%BA%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B9%9D%E6%B1%9F%E8%B7%AF216%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%88%90%E9%9A%86%E8%A1%8C%E8%9F%B9%E7%8E%8B%E5%BA%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%88%90%E9%9A%86%E8%A1%8C%E8%9F%B9%E7%8E%8B%E5%BA%9C",
+    "reservation_required": true,
+    "reservation_note": "外滩米其林蟹宴，蟹季晚市建议提前预约"
   },
   {
     "entry_id": "BV1nT4y1M7wV_01",
@@ -4718,7 +4996,9 @@
     "overall_review_summary": "怎么这么值系列首期封神店，冬夜铁锅炖氛围与性价比双双拉满，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%96%9B%E8%AE%B0%C2%B7%E4%BC%A0%E5%A5%87%E5%A4%A7%E9%94%85%E5%8F%B0%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%AD%E5%85%B4%E8%B7%AF1029%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%96%9B%E8%AE%B0%C2%B7%E4%BC%A0%E5%A5%87%E5%A4%A7%E9%94%85%E5%8F%B0%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%AD%E5%85%B4%E8%B7%AF1029%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%96%9B%E8%AE%B0%C2%B7%E4%BC%A0%E5%A5%87%E5%A4%A7%E9%94%85%E5%8F%B0"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%96%9B%E8%AE%B0%C2%B7%E4%BC%A0%E5%A5%87%E5%A4%A7%E9%94%85%E5%8F%B0",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1Vy4y1B7cP_01",
@@ -4752,7 +5032,9 @@
     "overall_review_summary": "上海知名名厨高端中餐厅，油炸M9和牛出品封神，虽价格高昂但绝对值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%AD%90%E7%A6%8F%E6%85%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF1665%E5%8F%B7%E6%98%9F%E7%A9%BA%E5%B9%BF%E5%9C%BA/%E6%B0%B4%E5%9F%8E%E8%B7%AF%E5%91%A8%E8%BE%B9",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AD%90%E7%A6%8F%E6%85%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E6%A1%A5%E8%B7%AF1665%E5%8F%B7%E6%98%9F%E7%A9%BA%E5%B9%BF%E5%9C%BA/%E6%B0%B4%E5%9F%8E%E8%B7%AF%E5%91%A8%E8%BE%B9%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%AD%90%E7%A6%8F%E6%85%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%AD%90%E7%A6%8F%E6%85%A7",
+    "reservation_required": true,
+    "reservation_note": "名厨主理高端融合中餐，需提前预约"
   },
   {
     "entry_id": "BV1zf4y1v7Ta_01",
@@ -4785,7 +5067,9 @@
     "overall_review_summary": "凭啥这么贵系列开山之作，高端牛排控温出色、肉香十足，预算够值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20JSTONE%20%E5%A4%A7%E7%88%B5%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%96%B9%E8%B7%AF778%E5%8F%B7%E4%B8%8A%E6%B5%B7%E9%87%91%E9%99%B5%E7%B4%AB%E9%87%91%E5%B1%B1%E5%A4%A7%E9%85%92%E5%BA%972%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=JSTONE%20%E5%A4%A7%E7%88%B5%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%9C%E6%96%B9%E8%B7%AF778%E5%8F%B7%E4%B8%8A%E6%B5%B7%E9%87%91%E9%99%B5%E7%B4%AB%E9%87%91%E5%B1%B1%E5%A4%A7%E9%85%92%E5%BA%972%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_JSTONE%20%E5%A4%A7%E7%88%B5%E7%89%9B%E6%8E%92%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_JSTONE%20%E5%A4%A7%E7%88%B5%E7%89%9B%E6%8E%92%E9%A6%86",
+    "reservation_required": true,
+    "reservation_note": "陆家嘴高端牛排馆，建议提前预约"
   },
   {
     "entry_id": "BV1PZ4y157rW_01",
@@ -4820,7 +5104,9 @@
     "overall_review_summary": "国内顶级米其林中餐名店，虽老鹅头白松露等高价单品昂贵，但整体菜品与服务顶级。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%96%B0%E8%8D%A3%E8%AE%B0%EF%BC%88%E8%8D%A3%E5%BA%9C%E5%AE%B4%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E9%98%B3%E8%B7%AF170%E5%8F%B7%E8%B4%9D%E8%BD%A9%E5%A4%A7%E5%85%AC%E9%A6%86%E5%86%85",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E8%8D%A3%E8%AE%B0%EF%BC%88%E8%8D%A3%E5%BA%9C%E5%AE%B4%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E9%98%B3%E8%B7%AF170%E5%8F%B7%E8%B4%9D%E8%BD%A9%E5%A4%A7%E5%85%AC%E9%A6%86%E5%86%85%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%96%B0%E8%8D%A3%E8%AE%B0%EF%BC%88%E8%8D%A3%E5%BA%9C%E5%AE%B4%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%96%B0%E8%8D%A3%E8%AE%B0%EF%BC%88%E8%8D%A3%E5%BA%9C%E5%AE%B4%EF%BC%89",
+    "reservation_required": true,
+    "reservation_note": "贝轩大公馆私房宴请（荣府宴），以包厢为主需提前预约"
   },
   {
     "entry_id": "BV1Jy4y167sW_01",
@@ -4854,7 +5140,9 @@
     "overall_review_summary": "浦东人气精致闽南私房菜，融合传统风味与高端摆盘，喜欢尝鲜值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20CHIC1699%20%E8%BF%9C%E6%B4%8B%E7%A7%81%E5%8E%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E5%BC%A0%E6%9D%A8%E8%B7%AF500%E5%8F%B7%E5%8D%8E%E6%B6%A6%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA8%E5%B1%82L807%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=CHIC1699%20%E8%BF%9C%E6%B4%8B%E7%A7%81%E5%8E%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E5%BC%A0%E6%9D%A8%E8%B7%AF500%E5%8F%B7%E5%8D%8E%E6%B6%A6%E6%97%B6%E4%BB%A3%E5%B9%BF%E5%9C%BA8%E5%B1%82L807%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_CHIC1699%20%E8%BF%9C%E6%B4%8B%E7%A7%81%E5%8E%A8"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_CHIC1699%20%E8%BF%9C%E6%B4%8B%E7%A7%81%E5%8E%A8",
+    "reservation_required": true,
+    "reservation_note": "私房闽南菜及每日限量鸡汤需提前预订"
   },
   {
     "entry_id": "BV1Mi4y1L7YK_01",
@@ -4887,7 +5175,9 @@
     "overall_review_summary": "沪上知名顶级私房菜馆，野生大黄鱼鲜美无比，名场面频出。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%A5%BF%E9%83%8A5%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E5%8F%A4%E8%B7%AF669%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%83%8A5%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E8%99%B9%E5%8F%A4%E8%B7%AF669%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E9%83%8A5%E5%8F%B7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E9%83%8A5%E5%8F%B7",
+    "reservation_required": true,
+    "reservation_note": "西郊黑珍珠顶级私房菜，需提前预约"
   },
   {
     "entry_id": "BV1cK411P7DT_01",
@@ -4921,7 +5211,9 @@
     "overall_review_summary": "知名高端意境烤鸭巨头，酥不腻烤鸭水准在线，宴请值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%A4%A7%E8%91%A3%E7%83%A4%E9%B8%AD%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7%E7%8E%AF%E8%B4%B8iapm%E5%95%86%E5%9C%BA6%E6%A5%BC%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%91%A3%E7%83%A4%E9%B8%AD%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7%E7%8E%AF%E8%B4%B8iapm%E5%95%86%E5%9C%BA6%E6%A5%BC%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A7%E8%91%A3%E7%83%A4%E9%B8%AD%E5%BA%97"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A7%E8%91%A3%E7%83%A4%E9%B8%AD%E5%BA%97",
+    "reservation_required": true,
+    "reservation_note": "高端烤鸭名店，烤鸭及晚市座位建议提前预约"
   },
   {
     "entry_id": "BV1Vy4y1r78q_01",
@@ -4955,7 +5247,9 @@
     "overall_review_summary": "上海城市名片级国民生煎连锁，二十多元吃得满足又地道，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%B0%8F%E6%9D%A8%E7%94%9F%E7%85%8E%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E6%B2%B3%E8%B7%AF97%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%85%A8%E5%9F%8E%E8%BF%9E%E9%94%81%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%9D%A8%E7%94%9F%E7%85%8E%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%BB%84%E6%B2%B3%E8%B7%AF97%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%85%A8%E5%9F%8E%E8%BF%9E%E9%94%81%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E6%9D%A8%E7%94%9F%E7%85%8E"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E6%9D%A8%E7%94%9F%E7%85%8E",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1154y1R7z5_01",
@@ -4989,7 +5283,9 @@
     "overall_review_summary": "沪上老牌高端港式打边炉名店，隐藏在二楼的豪奢火锅，汤底与海鲜品质俱佳。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%A5%BC%E4%B8%8A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF46%E5%8F%B72%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A5%BC%E4%B8%8A%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF46%E5%8F%B72%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A5%BC%E4%B8%8A%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%A5%BC%E4%B8%8A%E7%81%AB%E9%94%85",
+    "reservation_required": true,
+    "reservation_note": "茂名南路老牌港式打边炉，花胶鸡汤底及晚市建议提前预约"
   },
   {
     "entry_id": "BV1pf4y1B7sN_01",
@@ -5022,7 +5318,9 @@
     "overall_review_summary": "川菜大师兰桂均主理的米其林高端川菜，清鲜雅致不重辣，体验独特（注：该门店后续已歇业）。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%8E%89%E8%8A%9D%E5%85%B0%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%BA%97%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF851%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E8%8A%9D%E5%85%B0%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%BA%97%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF851%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%89%E8%8A%9D%E5%85%B0%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%BA%97%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%8E%89%E8%8A%9D%E5%85%B0%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%BA%97%EF%BC%89",
+    "reservation_required": true,
+    "reservation_note": "预约制米其林私房川菜（注：该门店后续已歇业）"
   },
   {
     "entry_id": "BV1kK4y1873h_01",
@@ -5055,7 +5353,9 @@
     "overall_review_summary": "上海最贵的顶级怀石料理之一，空间与食材极致奢华，但人均三千余元极挑口味与预算。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E3%81%8F%E3%82%8D%E3%81%8E%20%E9%BB%91%E6%9C%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%8C%97%E8%8B%8F%E5%B7%9E%E8%B7%AF188%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%8B%8F%E5%AE%81%E5%AE%9D%E4%B8%BD%E5%98%89%E9%85%92%E5%BA%971%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%8D%E3%81%8E%20%E9%BB%91%E6%9C%A8%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%8C%97%E8%8B%8F%E5%B7%9E%E8%B7%AF188%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%8B%8F%E5%AE%81%E5%AE%9D%E4%B8%BD%E5%98%89%E9%85%92%E5%BA%971%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E3%81%8F%E3%82%8D%E3%81%8E%20%E9%BB%91%E6%9C%A8"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E3%81%8F%E3%82%8D%E3%81%8E%20%E9%BB%91%E6%9C%A8",
+    "reservation_required": true,
+    "reservation_note": "顶级怀石料理，席位有限需提前预约"
   },
   {
     "entry_id": "BV1x5411b76p_01",
@@ -5090,7 +5390,9 @@
     "overall_review_summary": "外滩18号传奇米其林二星法餐，土豆泥等招牌菜封神，体验正统法餐值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20L%27Atelier%20de%20Jo%C3%ABl%20Robuchon%20%E4%B9%94%E5%B0%94%C2%B7%E5%8D%A2%E5%B8%83%E6%9D%BE%E7%BE%8E%E9%A3%9F%E5%9D%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF18%E5%8F%B7%E5%A4%96%E6%BB%A918%E5%8F%B73%E6%A5%BC",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=L%27Atelier%20de%20Jo%C3%ABl%20Robuchon%20%E4%B9%94%E5%B0%94%C2%B7%E5%8D%A2%E5%B8%83%E6%9D%BE%E7%BE%8E%E9%A3%9F%E5%9D%8A%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF18%E5%8F%B7%E5%A4%96%E6%BB%A918%E5%8F%B73%E6%A5%BC%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_L%27Atelier%20de%20Jo%C3%ABl%20Robuchon%20%E4%B9%94%E5%B0%94%C2%B7%E5%8D%A2%E5%B8%83%E6%9D%BE%E7%BE%8E%E9%A3%9F%E5%9D%8A"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_L%27Atelier%20de%20Jo%C3%ABl%20Robuchon%20%E4%B9%94%E5%B0%94%C2%B7%E5%8D%A2%E5%B8%83%E6%9D%BE%E7%BE%8E%E9%A3%9F%E5%9D%8A",
+    "reservation_required": true,
+    "reservation_note": "外滩18号米其林二星法餐，需提前预约"
   },
   {
     "entry_id": "BV17K4y1e7pA_01",
@@ -5124,7 +5426,9 @@
     "overall_review_summary": "纽约传奇牛排馆上海店，干式熟成红屋牛排香气浓郁、分量扎实，牛排爱好者值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20Wolfgang%27s%20Steakhouse%20%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E4%B8%9C%E5%A4%A7%E5%90%8D%E8%B7%AF501%E5%8F%B7%E7%99%BD%E7%8E%89%E5%85%B0%E5%B9%BF%E5%9C%BA%EF%BC%88%E6%88%96%E5%A4%AA%E4%BB%93%E8%B7%AF%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=Wolfgang%27s%20Steakhouse%20%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%99%B9%E5%8F%A3%E5%8C%BA%E4%B8%9C%E5%A4%A7%E5%90%8D%E8%B7%AF501%E5%8F%B7%E7%99%BD%E7%8E%89%E5%85%B0%E5%B9%BF%E5%9C%BA%EF%BC%88%E6%88%96%E5%A4%AA%E4%BB%93%E8%B7%AF%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Wolfgang%27s%20Steakhouse%20%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_Wolfgang%27s%20Steakhouse%20%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86",
+    "reservation_required": true,
+    "reservation_note": "干式熟成牛排馆，晚市及周末建议提前预约"
   },
   {
     "entry_id": "BV1pa4y177A5_01",
@@ -5156,7 +5460,9 @@
     "overall_review_summary": "上海顶级米其林素食餐厅，菌菇与时蔬烹饪极具禅意巧思，适合素食爱好者。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E7%A6%8F%E5%92%8C%E6%85%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1037%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%92%8C%E6%85%A7%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%95%BF%E5%AE%81%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1037%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A6%8F%E5%92%8C%E6%85%A7"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%A6%8F%E5%92%8C%E6%85%A7",
+    "reservation_required": true,
+    "reservation_note": "米其林二星素食套餐制，需提前预约"
   },
   {
     "entry_id": "BV1X541187hQ_01",
@@ -5188,7 +5494,9 @@
     "overall_review_summary": "衡山坊知名高价全预约私房菜，主打稀缺私密感与时令定制，普通食客性价比偏低。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%BB%84%E5%85%AC%E5%AD%90%E7%A7%81%E6%88%BF%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%A4%A9%E5%B9%B3%E8%B7%AF320%E5%BC%8421%E5%8F%B71-2%E5%B1%82%E8%A1%A1%E5%B1%B1%E5%9D%8A%E5%86%85",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%BB%84%E5%85%AC%E5%AD%90%E7%A7%81%E6%88%BF%E8%8F%9C%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E5%A4%A9%E5%B9%B3%E8%B7%AF320%E5%BC%8421%E5%8F%B71-2%E5%B1%82%E8%A1%A1%E5%B1%B1%E5%9D%8A%E5%86%85%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%BB%84%E5%85%AC%E5%AD%90%E7%A7%81%E6%88%BF%E8%8F%9C"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%BB%84%E5%85%AC%E5%AD%90%E7%A7%81%E6%88%BF%E8%8F%9C",
+    "reservation_required": true,
+    "reservation_note": "完全预约制花园洋房私房菜，通常需提前数天预约"
   },
   {
     "entry_id": "BV1ak4y1q77J_01",
@@ -5223,7 +5531,9 @@
     "overall_review_summary": "上海超人气美蛙鱼头火锅连锁，牛蛙肥美、甜品丰富，排队时间略长。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%93%A5%E8%80%81%E5%AE%98%E9%87%8D%E5%BA%86%E7%BE%8E%E8%9B%99%E9%B1%BC%E5%A4%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%93%A5%E8%80%81%E5%AE%98%E9%87%8D%E5%BA%86%E7%BE%8E%E8%9B%99%E9%B1%BC%E5%A4%B4%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%A5%E8%80%81%E5%AE%98%E9%87%8D%E5%BA%86%E7%BE%8E%E8%9B%99%E9%B1%BC%E5%A4%B4"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%A5%E8%80%81%E5%AE%98%E9%87%8D%E5%BA%86%E7%BE%8E%E8%9B%99%E9%B1%BC%E5%A4%B4",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1VV411k7Uo_01",
@@ -5257,7 +5567,9 @@
     "overall_review_summary": "上海老牌知名小龙虾连锁，个大干净、口味齐全，夜宵值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%B2%AA%E5%B0%8F%E8%83%96%E5%B0%8F%E9%BE%99%E8%99%BE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF/%E5%AF%BF%E5%AE%81%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B2%AA%E5%B0%8F%E8%83%96%E5%B0%8F%E9%BE%99%E8%99%BE%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF/%E5%AF%BF%E5%AE%81%E8%B7%AF%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%AA%E5%B0%8F%E8%83%96%E5%B0%8F%E9%BE%99%E8%99%BE"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%AA%E5%B0%8F%E8%83%96%E5%B0%8F%E9%BE%99%E8%99%BE",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1hz411e7cE_01",
@@ -5291,7 +5603,9 @@
     "overall_review_summary": "2020年必胜客自助活动实测，多人狂点牛排轻松回本，性价比不错。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%882020%E8%87%AA%E5%8A%A9%E9%A4%90%E6%B4%BB%E5%8A%A8%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%882020%E8%87%AA%E5%8A%A9%E9%A4%90%E6%B4%BB%E5%8A%A8%EF%BC%89%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%E5%95%86%E5%9C%88%E9%97%A8%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%882020%E8%87%AA%E5%8A%A9%E9%A4%90%E6%B4%BB%E5%8A%A8%EF%BC%89"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BF%85%E8%83%9C%E5%AE%A2%EF%BC%882020%E8%87%AA%E5%8A%A9%E9%A4%90%E6%B4%BB%E5%8A%A8%EF%BC%89",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1xE411h74d_01",
@@ -5324,7 +5638,9 @@
     "overall_review_summary": "巨鹿路知名吃蟹名店，888元巨无霸蟹宴套餐分量豪横、蟹黄饱满，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%9F%B9%E5%B0%8A%E8%8B%91%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF889%E5%BC%8421%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%9F%B9%E5%B0%8A%E8%8B%91%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B7%A8%E9%B9%BF%E8%B7%AF889%E5%BC%8421%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E5%B0%8A%E8%8B%91"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E5%B0%8A%E8%8B%91",
+    "reservation_required": true,
+    "reservation_note": "巨鹿路吃蟹名店，晚市建议提前预约"
   },
   {
     "entry_id": "BV18E41117o6_01",
@@ -5357,7 +5673,9 @@
     "overall_review_summary": "上海知名网红牛蛙面连锁，牛蛙量多实在但调味偏咸，适合重口味面食爱好者。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E5%93%88%E7%81%B5%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E8%A5%BF%E5%8C%97%E8%B7%AF445%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%E5%88%86%E5%BA%97%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E5%93%88%E7%81%B5%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E8%A5%BF%E5%8C%97%E8%B7%AF445%E5%8F%B7%EF%BC%88%E4%B8%8A%E6%B5%B7%E5%A4%9A%E5%AE%B6%E8%BF%9E%E9%94%81%E5%88%86%E5%BA%97%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%88%E7%81%B5%E9%9D%A2%E9%A6%86"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%93%88%E7%81%B5%E9%9D%A2%E9%A6%86",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1nE411r7ND_01",
@@ -5390,7 +5708,9 @@
     "overall_review_summary": "上海地标级高空旋转自助餐厅，兼具观光与餐饮，出品超出游客餐厅预期，值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E7%A9%BA%E4%B8%AD%E6%97%8B%E8%BD%AC%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%931%E5%8F%B7%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%A1%94267%E7%B1%B3",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E7%A9%BA%E4%B8%AD%E6%97%8B%E8%BD%AC%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%931%E5%8F%B7%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%A1%94267%E7%B1%B3%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E7%A9%BA%E4%B8%AD%E6%97%8B%E8%BD%AC%E9%A4%90%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E7%A9%BA%E4%B8%AD%E6%97%8B%E8%BD%AC%E9%A4%90%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "东方明珠267米旋转餐厅，需提前预订餐位及观光票"
   },
   {
     "entry_id": "BV1zE411r797_01",
@@ -5424,7 +5744,9 @@
     "overall_review_summary": "上海百年非遗名小吃，排骨年糕搭配辣酱油风味一绝，性价比极高，强烈推荐。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E9%B2%9C%E5%BE%97%E6%9D%A5%E6%8E%92%E9%AA%A8%E5%B9%B4%E7%B3%95%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%AE%81%E6%B5%B7%E4%B8%9C%E8%B7%AF290-292%E5%8F%B7%EF%BC%88%E5%8E%9F%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF36-46%E5%8F%B7%EF%BC%89",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B2%9C%E5%BE%97%E6%9D%A5%E6%8E%92%E9%AA%A8%E5%B9%B4%E7%B3%95%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%AE%81%E6%B5%B7%E4%B8%9C%E8%B7%AF290-292%E5%8F%B7%EF%BC%88%E5%8E%9F%E4%BA%91%E5%8D%97%E5%8D%97%E8%B7%AF36-46%E5%8F%B7%EF%BC%89%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%B2%9C%E5%BE%97%E6%9D%A5%E6%8E%92%E9%AA%A8%E5%B9%B4%E7%B3%95"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%B2%9C%E5%BE%97%E6%9D%A5%E6%8E%92%E9%AA%A8%E5%B9%B4%E7%B3%95",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1UE411o7my_01",
@@ -5458,7 +5780,9 @@
     "overall_review_summary": "新天地传奇黑珍珠高端港式火锅，虽定价高昂但食材与汤底顶级，预算充足值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E6%B4%8B%E6%88%BF%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%85%B4%E4%B8%9A%E8%B7%AF123%E5%BC%842-3%E5%8F%B7%E6%A5%BC%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8D%97%E9%87%8C07%E5%8D%95%E5%85%83",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B4%8B%E6%88%BF%E7%81%AB%E9%94%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%85%B4%E4%B8%9A%E8%B7%AF123%E5%BC%842-3%E5%8F%B7%E6%A5%BC%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8D%97%E9%87%8C07%E5%8D%95%E5%85%83%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B4%8B%E6%88%BF%E7%81%AB%E9%94%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B4%8B%E6%88%BF%E7%81%AB%E9%94%85",
+    "reservation_required": true,
+    "reservation_note": "新天地黑珍珠高端港式火锅，需提前预约"
   },
   {
     "entry_id": "BV19E411X7rN_01",
@@ -5490,7 +5814,9 @@
     "overall_review_summary": "外滩著名天价蟹黄面名店，单碗360元用料极狠、鲜香浓郁，猎奇尝鲜值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E8%9F%B9%E5%AE%B6%E5%A4%A7%E9%99%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E4%B8%9C%E8%B7%AF59%E5%8F%B7",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E8%9F%B9%E5%AE%B6%E5%A4%A7%E9%99%A2%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%B9%BF%E4%B8%9C%E8%B7%AF59%E5%8F%B7%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E5%AE%B6%E5%A4%A7%E9%99%A2"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%9F%B9%E5%AE%B6%E5%A4%A7%E9%99%A2",
+    "reservation_required": false,
+    "reservation_note": ""
   },
   {
     "entry_id": "BV1GJ411w7Xz_01",
@@ -5524,6 +5850,8 @@
     "overall_review_summary": "外滩百年地标和平饭店餐厅，历史底蕴与江景无可替代，纪念日打卡值得一试。",
     "amap_url": "https://www.amap.com/search?query=%E4%B8%8A%E6%B5%B7%20%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%C2%B7%E5%8D%8E%E6%87%8B%E9%98%81/%E9%BE%99%E5%87%A4%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF20%E5%8F%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97",
     "gmaps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%C2%B7%E5%8D%8E%E6%87%8B%E9%98%81/%E9%BE%99%E5%87%A4%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF20%E5%8F%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%20Shanghai",
-    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%C2%B7%E5%8D%8E%E6%87%8B%E9%98%81/%E9%BE%99%E5%87%A4%E5%8E%85"
+    "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%8A%E6%B5%B7%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%C2%B7%E5%8D%8E%E6%87%8B%E9%98%81/%E9%BE%99%E5%87%A4%E5%8E%85",
+    "reservation_required": true,
+    "reservation_note": "外滩和平饭店正餐厅（华懋阁/龙凤厅），需提前预约"
   }
 ]

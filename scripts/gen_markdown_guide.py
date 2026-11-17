@@ -26,10 +26,12 @@ def fmt_entry_block(r: dict) -> str:
     rec = "、".join(r.get("recommended_dishes") or []) or "—"
     avoid = "、".join(r.get("avoid_dishes") or [])
     avoid_line = f"\n- **⚠️ 避雷菜品**：{avoid}" if avoid else ""
+    res_tag = " ｜ 📅 **需预约**" if r.get("reservation_required") else ""
+    res_line = f"\n- **📅 预约提示**：{r['reservation_note']}" if r.get("reservation_required") and r.get("reservation_note") else ""
     return (
-        f"#### {r['name']}{branch} ｜ {tier} ｜ {fmt_price(r)}\n"
+        f"#### {r['name']}{branch} ｜ {tier}{res_tag} ｜ {fmt_price(r)}\n"
         f"- **位置**：{r['district']} · {r['commercial_area']}（`{r['address']}`）\n"
-        f"- **菜系 / 系列**：{r['cuisine_category']} ｜ `{r['series_name']}`\n"
+        f"- **菜系 / 系列**：{r['cuisine_category']} ｜ `{r['series_name']}`{res_line}\n"
         f"- **👍 推荐菜**：{rec}{avoid_line}\n"
         f"- **🧔 王师傅**：{r.get('wang_shifu_review') or '—'}\n"
         f"- **👩 小毛毛**：{r.get('xiao_maomao_review') or '—'}\n"

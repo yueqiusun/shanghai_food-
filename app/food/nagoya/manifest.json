@@ -1,0 +1,26 @@
+{
+  "name": "名古屋全景美食地图 Nagoya Food Map",
+  "short_name": "名古屋美食",
+  "description": "小红书共识 × Tabelog百名店 | 名古屋10大区域150家实测美食雷达、避坑指南与日文点单卡",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF9F2",
+  "theme_color": "#B91C1C",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
